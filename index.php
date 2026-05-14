@@ -412,7 +412,7 @@
       <div>
         <button class="nav-logo" onclick="navigate('home')">
           <div class="logo-icon-container">
-            <img src="Assets/SDI LOGO WHITE.png" alt="SDI Group Logo" class="logo-svg">
+            <img src="Assets/SDI LOGO BLACK.png" alt="SDI Group Logo" class="logo-svg">
           </div>
           <div class="logo-text-container">
             <div class="logo-text-main">SDI GROUP</div>
