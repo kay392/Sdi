@@ -4030,6 +4030,10 @@
   }
 }
 
+nav .logo-text-sub {
+  font-weight: 900 !important;
+}
+
 @media (max-width: 480px) {
   .cta-advisor-left {
     flex-direction: column;

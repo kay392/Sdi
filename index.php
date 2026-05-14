@@ -21,7 +21,7 @@
         <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
       </div>
       <div class="logo-text-container">
-        <div class="logo-text-sub">Synergy Data Investments</div>
+        <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
       </div>
     </button>
 
@@ -73,7 +73,7 @@
     <div class="hero-content">
       <div class="hero-inner">
         <h1 class="hero-title">
-          <span class="hero-title-line">ETHICALLY ALIGNED.</span><br/>
+          <span class="hero-title-line">SYNERGY DATA INVESTMENTS.</span><br/>
           <span>DATA DRIVEN.</span>
         </h1>
         <p class="hero-sub">
