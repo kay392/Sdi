@@ -327,8 +327,7 @@
               <div class="stars" id="stars"></div>
                 <blockquote id="testimonial-text"></blockquote>
                   <div class="reviewer">
-                    <div class="reviewer-avatar">
-                    <img id="reviewer-image" />
+                    <div class="reviewer-avatar" id="reviewer-avatar">
                     </div>
                     <div>
                       <div class="reviewer-name" id="reviewer-name"></div>
@@ -558,7 +557,9 @@ function showTestimonial(index) {
 
   document.getElementById("reviewer-role").innerText = t.role;
 
-  document.getElementById("reviewer-image").src = t.image;
+  // Use first letter as avatar placeholder
+  const firstLetter = t.name.charAt(0).toUpperCase();
+  document.getElementById("reviewer-avatar").innerHTML = `<div class="avatar-placeholder">${firstLetter}</div>`;
 
   document.getElementById("stars").innerHTML =
     "★".repeat(t.rating);
