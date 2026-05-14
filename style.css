@@ -894,53 +894,91 @@
   /* Start */
 
   /* Main layout container */
+/* The Grid Container */
+/* 1. The Grid Layout - Controls spacing between logos */
+/* --- DESKTOP VIEW (3 Columns) --- */
+/* Container for the two columns */
 .testimonial-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5rem; /* Increased gap for a high-end, clean look */
+  gap: 4rem; /* Gap between the two main sections */
   align-items: start;
 }
 
+/* Centers the labels above each section */
+.partner-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #555;
+  text-align: center; /* Centers the heading text */
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+/* The Grid Layout - Reduced gap for tighter grouping */
 .logo-flex-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem 1.5rem; /* Vertical gap is 2rem, horizontal is 1.5rem */
-  align-items: center; /* Vertically centers logos relative to each other */
-}
-
-.logo-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px; /* Forces all logo areas to be the same height for alignment */
+  gap: 1.5rem 0.5rem; /* Reduced horizontal gap from 1.5rem to 0.5rem */
+  align-items: center; 
+  justify-items: center;
   width: 100%;
 }
 
+/* Individual Logo Items */
+.logo-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+/* The Logos - Maximized size and visibility */
 .clean-logo {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  /* Clarity Boost: No grayscale, full color/sharpness */
-  filter: none; 
-  opacity: 1;
-  transition: transform 0.3s ease;
+  height: 95px !important;      /* Increased height */
+  width: auto !important;
+  max-width: 100% !important;   /* Let it fill the column width */
+  object-fit: contain !important; 
+  filter: brightness(0.6) contrast(1.5) grayscale(100%); /* Sharper look */
+  opacity: 1 !important;
+  transition: all 0.3s ease-in-out;
 }
 
 .clean-logo:hover {
-  transform: scale(1.1); /* Subtle pop on hover since there is no box */
+  filter: brightness(1) contrast(1) grayscale(0%);
+  transform: scale(1.1);
 }
 
-.partner-label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #9ca3af;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #f1f5f9; /* Optional: tiny line under label for structure */
-  padding-bottom: 0.5rem;
+/* --- MOBILE & TABLET RESPONSIVE --- */
+@media (max-width: 1024px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr; /* Stack the two sections on top of each other */
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-flex-grid {
+    grid-template-columns: repeat(3, 1fr); /* Keep 3 columns unless very small */
+    gap: 1rem 0.5rem;
+  }
+
+  .clean-logo {
+    height: 70px !important; /* Scale down for mobile tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-flex-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small phones */
+  }
+  
+  .clean-logo {
+    height: 60px !important;
+  }
 }
 /* End */
 

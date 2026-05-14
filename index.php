@@ -334,33 +334,31 @@
   </section>
 
 </div>
-
-<!==================== Our Standard ==================== -->
- <section class="testimonial-section">
+<section class="testimonial-section">
   <div class="container">
     <div class="testimonial-grid">
       
       <div class="standard-column">
-        <p class="partner-label">Our Standard</p>
+        <p class="partner-label">Trusted By Partners</p>
         <div class="logo-flex-grid">
-          <div class="logo-item"><img src="Assets/Logo_1.png" alt="Logo 1" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_2.png" alt="Logo 2" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_3.png" alt="Logo 3" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_4.png" alt="Logo 4" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_5.png" alt="Logo 5" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_6.png" alt="Logo 6" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/SALFORD-1.webp" alt="Salford" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/REALYSE-1.webp" alt="Realyse" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/Ministry-of-Justice.webp" alt="MoJ" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/MANCHESTER-1.webp" alt="Manchester" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/LIVERPOOL-1.webp" alt="Liverpool" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/DNA-1.webp" alt="DNA" class="clean-logo"></div>
         </div>
       </div>
 
       <div class="partners-column">
-        <p class="partner-label">Trusted By Partners</p>
+        <p class="partner-label">Our Standard</p>
         <div class="logo-flex-grid">
-          <div class="logo-item"><img src="Assets/Logo_1.png" alt="Logo 1" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_2.png" alt="Logo 2" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_3.png" alt="Logo 3" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_4.png" alt="Logo 4" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_5.png" alt="Logo 5" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Logo_6.png" alt="Logo 6" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/NAPSA-2.webp" alt="NAPSA" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/PRS-2.webp" alt="PRS" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/ICO-2.webp" alt="ICO" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/HMRC-2.webp" alt="HMRC" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/PSC-2.webp" alt="PSC" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/QBE-2.webp" alt="QBE" class="clean-logo"></div>
         </div>
       </div>
 
