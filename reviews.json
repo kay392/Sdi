@@ -1,0 +1,60 @@
+{
+  "testimonials": [
+    {
+      "rating": 5,
+      "text": "Outstanding professionalism and reliability Working with Synergy Data Investments (SDI Group) in Bolton has been an excellent experience from start to finish. The team is highly professional, transparent, and clearly knows their field inside out. Communication was always clear and timely, and every step was handled with precision and care.",
+      "name": "Gresa Obertinca",
+      "role": "Investor",
+      "image": "img1.jpg"
+    },
+    {
+      "rating": 4,
+      "text": "We really liked the new buffet concept at the table! You could order as much as you wanted, so you always got more food as needed. The food always arrived fresh and hot. Everything you ordered was eaten, so there was no waste, which is unfortunately often the case with many buffets.",
+      "name": "Kaiser Garten",
+      "role": "Entrepreneur",
+      "image": "img2.jpg"
+    },
+     {
+      "rating": 5,
+      "text": "After years of unsuccessful attempts to refinance and move forward with a property development, Ben and the team at Synergy achieved what I genuinely believed was impossible. From start to finish, they were proactive, highly professional, and exceptionally prompt. Their communication was clear, their approach strategic, and their ability to move quickly toward a resolution was truly impressive. Thanks to their expertise and commitment, I was able to achieve a long-held goal and secure my family’s future.",
+      "name": "Gareth Williams",
+      "role": "Investor",
+      "image": "img1.jpg"
+    },
+    {
+      "rating": 4,
+      "text": "As a portfolio landlord, SDI Group have helped me massively. What I love most is they’re nothing to do with typical estate agent hype, they are and truly operate like a proper investment management house. They took the time to understand my 5YR picture, then supported step by step for finance structuring, adaptations, architecture, and even long-term healthcare tenancy routes. Better property strategy, less noise, and real outcomes, including guaranteed rent, stronger security, and uplift in property value, while also being able to use my portfolio for social good. Brilliant team, proper people. Highly recommend.",
+      "name": "Zachary Barlow",
+      "role": "Entrepreneur",
+      "image": "img2.jpg"
+    },
+     {
+      "rating": 5,
+      "text": "We are just starting on our property investment journey with Ben and the Synergy Data Investment team.This has only been after 6 months of endless meetings and strategic planning to find a solution to what is a very complex situation.",
+      "name": "Debbie Brabbing",
+      "role": "Investor",
+      "image": "img1.jpg"
+    },
+    {
+      "rating": 4,
+      "text": "I’ve worked with Ben and the SDI Group team for a few years now and I’ve always been impressed. Their macro and microeconomic insight is genuinely top level, and they operate like a proper investment house — structured, careful, and clear. Most importantly, I feel my capital is safe, ethically deployed, and managed with real accountability. Looking forward to doing more together.",
+      "name": "Dilan Wadhia",
+      "role": "Entrepreneur",
+      "image": "img2.jpg"
+    },
+     {
+      "rating": 5,
+      "text": "I've known Ben for many years. I went to him for some advice he was a more than just a great help. Ben went above and beyond in any way he could to help me out. Providing me with a exceptional service. I will definitely be using Ben  and synergy data investments again in the near future.",
+      "name": "Curtis Booth",
+      "role": "Investor",
+      "image": "img1.jpg"
+    },
+    {
+      "rating": 4,
+      "text": "I have been working with Ben and his team for some time now and working with them is a great experience. They have helped us finding tenants for one of our properties and we're in the process to find some for all other properties. From the beginning we received a thorough breakthrough of what the services are and what we could expect. SDI has quite a unique approach to property investing, trying to de-risk all steps of the investment journey. With their great understanding of the property market and of which strategies to use, they find solutions for all major problems you (can) come across.",
+      "name": "Arnaud Rijkeboer",
+      "role": "Entrepreneur",
+      "image": "img2.jpg"
+    }
+  ]
+}
