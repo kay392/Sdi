@@ -21,7 +21,7 @@
         <img src="Assets/SDI LOGO WHITE.png" alt="SDI Group Logo" class="logo-svg">
       </div>
       <div class="logo-text-container">
-        <div class="logo-text-sub">Synergy Data Investments</div>
+        <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
       </div>
     </button>
 
@@ -73,7 +73,7 @@
     <div class="hero-content">
       <div class="hero-inner">
         <h1 class="hero-title">
-          <span class="hero-title-line">ETHICALLY ALIGNED.</span><br/>
+          <span class="hero-title-line">SYNERGY DATA INVESTMENTS.</span><br/>
           <span>DATA DRIVEN.</span>
         </h1>
         <p class="hero-sub">
@@ -156,13 +156,13 @@
     </div>
     <div class="who-photos">
       <div class="photo-main">
-        <img src="Assets/Our_Approch.jpeg" alt="Property"/>
+        <img src="Assets/Grid.png" alt="Property"/>
       </div>
       <div class="photo-sm">
-        <img src="Assets/Our_Approch_2.jpeg" alt="Interior" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"/>
+        <img src="Assets/Grid1.png" alt="Interior" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"/>
       </div>
       <div class="photo-sm photo-bottom">
-        <img src="Assets/Our_Approch_3.jpg" alt="Residential property"/>
+        <img src="Assets/Grid2.jpg" alt="Residential property"/>
       </div>
     </div>
   </section>
