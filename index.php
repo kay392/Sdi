@@ -320,7 +320,8 @@
   <!-- Testimonials & Partners -->
  <section class="testimonial-section">
     <div class="container">
-      <div class="testimonial-grid">
+      <!-- <div class="testimonial-grid">  -->
+      <div>
         <div id="testimonial-container">
           <div class="testimonial-slider">
             <p class="partner-label">WHAT OUR CLIENTS SAY</p>
@@ -344,6 +345,29 @@
                   &#10095;
                 </button>
               </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+      
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!==================== Our Standard ==================== -->
+ <section class="testimonial-section">
+    <div class="container">
+      <div class="testimonial-grid">
+        <div id="testimonial-container">
+          <div class="testimonial-slider">
+            <p class="partner-label">Use this section Abel</p>
+              
+      
           </div>
         </div>
         
