@@ -891,58 +891,59 @@
   .partner-name { font-size: 0.8rem; font-weight: 900; color: var(--navy); font-family: 'Poppins', sans-serif; } */
 
   /* Start */
-.partner-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: #9ca3af;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
+  /* Start */
 
-.partner-grid {
+  /* Main layout container */
+.testimonial-grid {
   display: grid;
-  /* Strictly forces exactly 3 equal-width columns */
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem; /* Increased gap for a high-end, clean look */
+  align-items: start;
 }
 
-.partner-card {
-  /* Increased height to create a more prominent rectangle for the logos */
-  height: 120px; 
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
+.logo-flex-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 1.5rem; /* Vertical gap is 2rem, horizontal is 1.5rem */
+  align-items: center; /* Vertically centers logos relative to each other */
+}
+
+.logo-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
-  /* Keeps a small safety padding so the logos don't touch the borders */
-  padding: 6px; 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  height: 60px; /* Forces all logo areas to be the same height for alignment */
+  width: 100%;
 }
 
-.partner-logo {
-  /* Allows the logo to scale up and fill the inner rectangular space completely */
-  width: 90%;
-  height: 90%;
+.clean-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain;
-  
-  /* Reduced the harshness of the grayscale so tiny text details are visible */
-  filter: grayscale(40%);
-  opacity: 0.85;
-  transition: all 0.3s ease;
-}
-
-/* Hover Effects */
-.partner-card:hover {
-  border-color: #cbd5e1;
-}
-
-.partner-card:hover .partner-logo {
-  filter: grayscale(0%);
+  /* Clarity Boost: No grayscale, full color/sharpness */
+  filter: none; 
   opacity: 1;
-  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
+
+.clean-logo:hover {
+  transform: scale(1.1); /* Subtle pop on hover since there is no box */
+}
+
+.partner-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #9ca3af;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #f1f5f9; /* Optional: tiny line under label for structure */
+  padding-bottom: 0.5rem;
+}
+/* End */
+
 /* End */
 
 /* ==========================================

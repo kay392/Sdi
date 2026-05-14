@@ -178,22 +178,16 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
           </div>
           <h3 class="service-title">Strategy</h3>
-          <p class="service-sub">At SDI Group, strategy comes before capital deployment. We help investors, developers,
-             and property owners build clear, data-led plans aligned with their goals, risk profile, and time horizon.</p>
-             <p class="service-sub">
-                From acquisition criteria and portfolio roadmaps to asset repositioning, value optimisation, and exit planning, we bring structure to every stage.
-                Every move is guided by underwriting, market intelligence, feasibility, and long-term performance planning.
-            </p> 
+          <p class="service-sub">At SDI Group, strategy comes before capital. We help investors, developers, and property owners build clear, data-led plans aligned with their goals, risk profile, and time horizon.</p>
+             <p class="service-sub">Whether the focus is growth, income, restructuring, or legacy planning, we create strategies that reduce guesswork, protect downside, and provide a clearer route forward
             <p class="service-sub">
-
-                Whether the focus is growth, income, restructuring, or legacy preservation, we create strategies that reduce guesswork, protect downside, and provide a more resilient route forward..</p>
           <ul class="service-items">
             <li class="service-item"><span class="check-icon">✓</span> Portfolio Health Assessments</li>
             <li class="service-item"><span class="check-icon">✓</span> Investment Roadmaps</li>
             <li class="service-item"><span class="check-icon">✓</span> Acquisition & Structuring</li>
             <li class="service-item"><span class="check-icon">✓</span> Risk Management & Oversight</li>
             <li class="service-item"><span class="check-icon">✓</span> Asset Enhancement Planning</li>
-            <li class="service-item"><span class="check-icon">✓</span> Equity & Liquidity Strategy</li>
+            <li class="service-item"><span class="check-icon">✓</span> Exit Planning</li>
           </ul>
           <!-- <button class="btn-primary" style="width:100%;justify-content:center;" onclick="navigate('about')">Learn More →</button> -->
         </div>
@@ -202,25 +196,15 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
           </div>
           <h3 class="service-title">Investments</h3>
-          <p class="service-sub">Our investment approach is built for those who want more than speculation.
-            Whether you are seeking a passive fixed-return solution, a strategic joint venture, or a pathway
-            that combines returns with real market education, every opportunity is carefully selected,
-            stress-tested, and managed end to end.
+          <p class="service-sub">Our investment approach is built for those who want more than speculation. We support fixed-return opportunities, strategic joint ventures, and investment routes backed by real market analysis.
         </p>
-        <p class="service-sub">We focus on protecting capital, improving performance, and deploying
-             funds into real assets that create both financial value and wider social impact. 
-             The result is a more secure, transparent, and professionally managed investment experience.
+        <p class="service-sub">Each opportunity is carefully selected, stress-tested, and end-to-end managed. We focus on protecting capital, improving performance, and deploying funds into real assets that create financial value and wider social impact.
         </p>
-          <p class="service-sub">From acquisition criteria and portfolio roadmaps to asset repositioning,
-             value optimisation, and exit planning, we bring structure to every stage.
-              Every move is guided by underwriting, market intelligence, feasibility,
-               and long-term performance planning.</p>
-          <p class="service-sub">Whether the focus is growth, income, restructuring, or legacy preservation, 
-            we create strategies that reduce guesswork, protect downside, and provide a more resilient route forward.
-        </p>
+      
           <ul class="service-items">
             <li class="service-item"><span class="check-icon">✓</span> Fixed-Return Opportunities</li>
             <li class="service-item"><span class="check-icon">✓</span> Joint Venture Partnerships</li>
+            <li class="service-item"><span class="check-icon">✓</span> Asset-Backed Investments</li>
             <li class="service-item"><span class="check-icon">✓</span> Earn & Learn Solutions</li>
           </ul>
           <!-- <button class="btn-primary" style="width:100%;justify-content:center;" onclick="navigate('investments')">View Opportunities →</button> -->
@@ -230,26 +214,18 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
           </div>
           <h3 class="service-title">Succession & Exit Planning</h3>
-          <p class="service-sub">Succession and exit planning should never be reactive. At SDI Group, we help investors, 
-            landlords, and multi-generational property owners assess whether the right path is to hold, restructure, 
-            refinance, transfer, or exit. In many cases, the issue is not the asset itself, but the strategy around it.
+          <p class="service-sub">Succession and exit planning should never be reactive. We help investors, landlords, and multi-generational property owners assess whether to hold, restructure, refinance, transfer, or exit.
         </p>
-          <p class="service-sub">Our approach is client-led and evidence-based. We identify pressure points 
-            such as liquidity needs, yield compression, operational burden, valuation gaps, or legacy planning concerns, 
-            then structure the most suitable route forward. For many clients, that means staying in the market with a stronger, 
-            more secure position. Where an exit is required, we manage the process professionally to reduce disruption, 
-            improve speed, and protect value.
+          <p class="service-sub">Our approach is client-led and evidence-based. We identify pressure points such as liquidity needs, yield compression, operational burden, valuation gaps, and legacy planning concerns.
         </p>
-          <p class="service-sub">From valuation analysis and strategic repositioning to managed disposals
-             and reinvestment planning, we help clients move forward with greater clarity, confidence, and control.
-            </p>
+  
           <ul class="service-items">
             <li class="service-item"><span class="check-icon">✓</span> Succession & Legacy Planning</li>
             <li class="service-item"><span class="check-icon">✓</span> Portfolio Restructuring</li>
             <li class="service-item"><span class="check-icon">✓</span> Liquidity & Capital Release</li>
             <li class="service-item"><span class="check-icon">✓</span> Evidence-Based Valuations</li>
             <li class="service-item"><span class="check-icon">✓</span> Managed Asset Disposals</li>
-            <li class="service-item"><span class="check-icon">✓</span> Reinvestment & Transition Strategy</li>
+            <li class="service-item"><span class="check-icon">✓</span> Reinvestment Strategy</li>
           </ul>
           <!-- <button class="btn-primary" style="width:100%;justify-content:center;" onclick="navigate('succession')">Explore Options →</button> -->
         </div>
@@ -361,54 +337,36 @@
 
 <!==================== Our Standard ==================== -->
  <section class="testimonial-section">
-    <div class="container">
-      <div class="testimonial-grid">
-        <div id="testimonial-container">
-          <div class="testimonial-slider">
-            <p class="partner-label">Use this section Abel</p>
-              
+  <div class="container">
+    <div class="testimonial-grid">
       
-          </div>
-        </div>
-        
-
-        
-
-        
-        <div>
-          <p class="partner-label">TRUSTED BY PARTNERS</p>
-        <div class="partner-grid">
-            <div class="partner-card">
-                <img src="Assets/Logo_1.png" alt="Partner 1 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_2.png" alt="Partner 2 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_3.png" alt="Partner 3 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_4.png" alt="Partner 4 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_5.png" alt="Partner 5 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_6.png" alt="Partner 6 logo" class="partner-logo">
-            </div>
-            </div>
+      <div class="standard-column">
+        <p class="partner-label">Our Standard</p>
+        <div class="logo-flex-grid">
+          <div class="logo-item"><img src="Assets/Logo_1.png" alt="Logo 1" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_2.png" alt="Logo 2" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_3.png" alt="Logo 3" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_4.png" alt="Logo 4" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_5.png" alt="Logo 5" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_6.png" alt="Logo 6" class="clean-logo"></div>
         </div>
       </div>
+
+      <div class="partners-column">
+        <p class="partner-label">Trusted By Partners</p>
+        <div class="logo-flex-grid">
+          <div class="logo-item"><img src="Assets/Logo_1.png" alt="Logo 1" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_2.png" alt="Logo 2" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_3.png" alt="Logo 3" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_4.png" alt="Logo 4" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_5.png" alt="Logo 5" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_6.png" alt="Logo 6" class="clean-logo"></div>
+        </div>
+      </div>
+
     </div>
-  </section>
-
-</div>
-
+  </div>
+</section>
 
 
 
@@ -516,17 +474,13 @@
         <h4 class="footer-heading">Contact Us</h4>
         <ul class="footer-contact-items">
           <li class="footer-contact-item">
-            <span class="contact-icon">☎</span>
-            <a href="tel:+447551935869">+447551935869</a>
-          </li>
-          <li class="footer-contact-item">
             <span class="contact-icon">✉</span>
             <a href="mailto:hello@sdigroup.co.uk">hello@sdigroup.co.uk</a>
           </li>
           <li class="footer-contact-item">
             <span class="contact-icon">⊕</span>
             <a href="https://maps.app.goo.gl/p5NSSyDjDc6p8G9QA" target="_blank" rel="noopener noreferrer">
-              7-17 S Shelton Street, Covent Garden, London WC2H 9JQ, UK
+              1 Moorlane, Bolton, BL1 4TA
             </a>
           </li>
         </ul>
