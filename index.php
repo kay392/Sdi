@@ -73,7 +73,7 @@
     <div class="hero-content">
       <div class="hero-inner">
         <h1 class="hero-title">
-          <span class="hero-title-line">SYNERGY DATA INVESTMENTS.</span><br/>
+          <span class="hero-title-line">ETHICALLY ALIGNED.</span><br/>
           <span>DATA DRIVEN.</span>
         </h1>
         <p class="hero-sub">

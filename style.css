@@ -4034,6 +4034,23 @@ nav .logo-text-sub {
   font-weight: 900 !important;
 }
 
+.hero-btns .btn-primary {
+  background: white;
+  color: var(--green);
+  border: 2px solid var(--green);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.15);
+}
+.hero-btns .btn-primary:hover {
+  background: var(--green);
+  color: white;
+  border-color: var(--green);
+  transform: translateY(-1px);
+  box-shadow: 0 20px 36px rgba(0, 0, 0, 0.18);
+}
+.hero-btns .btn-primary svg {
+  stroke: currentColor;
+}
+
 @media (max-width: 480px) {
   .cta-advisor-left {
     flex-direction: column;
