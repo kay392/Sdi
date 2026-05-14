@@ -492,17 +492,13 @@
         <h4 class="footer-heading">Contact Us</h4>
         <ul class="footer-contact-items">
           <li class="footer-contact-item">
-            <span class="contact-icon">☎</span>
-            <a href="tel:+447551935869">+447551935869</a>
-          </li>
-          <li class="footer-contact-item">
             <span class="contact-icon">✉</span>
             <a href="mailto:hello@sdigroup.co.uk">hello@sdigroup.co.uk</a>
           </li>
           <li class="footer-contact-item">
             <span class="contact-icon">⊕</span>
             <a href="https://maps.app.goo.gl/p5NSSyDjDc6p8G9QA" target="_blank" rel="noopener noreferrer">
-              7-17 S Shelton Street, Covent Garden, London WC2H 9JQ, UK
+              1 Moorlane, Bolton, BL1 4TA
             </a>
           </li>
         </ul>
