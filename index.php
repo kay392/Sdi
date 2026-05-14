@@ -156,13 +156,13 @@
     </div>
     <div class="who-photos">
       <div class="photo-main">
-        <img src="Assets/Our_Approch.jpeg" alt="Property"/>
+        <img src="Assets/Grid.png" alt="Property"/>
       </div>
       <div class="photo-sm">
-        <img src="Assets/Our_Approch_2.jpeg" alt="Interior" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"/>
+        <img src="Assets/Grid1.png" alt="Interior" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"/>
       </div>
       <div class="photo-sm photo-bottom">
-        <img src="Assets/Our_Approch_3.jpg" alt="Residential property"/>
+        <img src="Assets/Grid2.jpg" alt="Residential property"/>
       </div>
     </div>
   </section>
