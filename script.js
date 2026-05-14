@@ -236,40 +236,40 @@ let currentPage = 'home';
     window.addEventListener('resize', revealIfInView);
   }
 
-  function initHeroYouTubeVideo() {
-    const heroBg = document.querySelector('.hero-bg[data-youtube-id]');
-    if (!heroBg) return;
+  // function initHeroYouTubeVideo() {
+  //   const heroBg = document.querySelector('.hero-bg[data-youtube-id]');
+  //   if (!heroBg) return;
 
-    const videoId = heroBg.dataset.youtubeId;
-    const canUseYouTubeEmbed = window.location.protocol === 'http:' || window.location.protocol === 'https:';
+  //   const videoId = heroBg.dataset.youtubeId;
+  //   const canUseYouTubeEmbed = window.location.protocol === 'http:' || window.location.protocol === 'https:';
 
-    if (!videoId || !canUseYouTubeEmbed) return;
+  //   if (!videoId || !canUseYouTubeEmbed) return;
 
-    const iframe = document.createElement('iframe');
-    const params = new URLSearchParams({
-      autoplay: '1',
-      mute: '1',
-      loop: '1',
-      playlist: videoId,
-      controls: '0',
-      rel: '0',
-      modestbranding: '1',
-      playsinline: '1',
-      origin: window.location.origin
-    });
+  //   const iframe = document.createElement('iframe');
+  //   const params = new URLSearchParams({
+  //     autoplay: '1',
+  //     mute: '1',
+  //     loop: '1',
+  //     playlist: videoId,
+  //     controls: '0',
+  //     rel: '0',
+  //     modestbranding: '1',
+  //     playsinline: '1',
+  //     origin: window.location.origin
+  //   });
 
-    iframe.src = `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
-    iframe.title = 'SDI Group hero video';
-    iframe.allow = 'autoplay; encrypted-media; picture-in-picture';
-    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-    iframe.setAttribute('allowfullscreen', '');
+  //   iframe.src = `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
+  //   iframe.title = 'SDI Group hero video';
+  //   iframe.allow = 'autoplay; encrypted-media; picture-in-picture';
+  //   iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+  //   iframe.setAttribute('allowfullscreen', '');
 
-    iframe.addEventListener('load', () => {
-      heroBg.classList.add('has-youtube');
-    });
+  //   iframe.addEventListener('load', () => {
+  //     heroBg.classList.add('has-youtube');
+  //   });
 
-    heroBg.appendChild(iframe);
-  }
+  //   heroBg.appendChild(iframe);
+  // }
  
   function setActivePage(page) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));

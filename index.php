@@ -64,7 +64,7 @@
 
   <!-- Hero -->
   <section class="home-hero">
-    <div class="hero-bg" data-youtube-id="TD_oZy26Sek">
+    <div class="hero-bg" >
         <video autoplay muted loop playsinline>
             <source src="Assets/Hero_vid_2.mp4" type="video/mp4">
         </video>
