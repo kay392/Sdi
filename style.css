@@ -2931,11 +2931,12 @@
   }
 
   /* The dark navy square box behind the logo */
+  
   .logo-icon-container {
-    background: var(--dark);  /* Uses your pre-defined dark navy variable (#1a2332) */
+    background: transparent;  /* Uses your pre-defined dark navy variable (#1a2332) */
     width: 48px;              /* Perfectly matches the height limits of your nav (68px) */
     height: 48px;
-    border-radius: 8px;       /* Sleek, modern rounded corners */
+    border-radius: 0;       /* Sleek, modern rounded corners */
     display: flex; 
     align-items: center; 
     justify-content: center;
