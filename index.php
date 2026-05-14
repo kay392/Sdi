@@ -361,54 +361,36 @@
 
 <!==================== Our Standard ==================== -->
  <section class="testimonial-section">
-    <div class="container">
-      <div class="testimonial-grid">
-        <div id="testimonial-container">
-          <div class="testimonial-slider">
-            <p class="partner-label">Use this section Abel</p>
-              
+  <div class="container">
+    <div class="testimonial-grid">
       
-          </div>
-        </div>
-        
-
-        
-
-        
-        <div>
-          <p class="partner-label">TRUSTED BY PARTNERS</p>
-        <div class="partner-grid">
-            <div class="partner-card">
-                <img src="Assets/Logo_1.png" alt="Partner 1 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_2.png" alt="Partner 2 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_3.png" alt="Partner 3 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_4.png" alt="Partner 4 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_5.png" alt="Partner 5 logo" class="partner-logo">
-            </div>
-    
-            <div class="partner-card">
-                <img src="Assets/Logo_6.png" alt="Partner 6 logo" class="partner-logo">
-            </div>
-            </div>
+      <div class="standard-column">
+        <p class="partner-label">Our Standard</p>
+        <div class="logo-flex-grid">
+          <div class="logo-item"><img src="Assets/Logo_1.png" alt="Logo 1" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_2.png" alt="Logo 2" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_3.png" alt="Logo 3" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_4.png" alt="Logo 4" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_5.png" alt="Logo 5" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_6.png" alt="Logo 6" class="clean-logo"></div>
         </div>
       </div>
+
+      <div class="partners-column">
+        <p class="partner-label">Trusted By Partners</p>
+        <div class="logo-flex-grid">
+          <div class="logo-item"><img src="Assets/Logo_1.png" alt="Logo 1" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_2.png" alt="Logo 2" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_3.png" alt="Logo 3" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_4.png" alt="Logo 4" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_5.png" alt="Logo 5" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Logo_6.png" alt="Logo 6" class="clean-logo"></div>
+        </div>
+      </div>
+
     </div>
-  </section>
-
-</div>
-
+  </div>
+</section>
 
 
 
