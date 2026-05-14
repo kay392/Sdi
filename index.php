@@ -64,7 +64,7 @@
 
   <!-- Hero -->
   <section class="home-hero">
-    <div class="hero-bg" data-youtube-id="TD_oZy26Sek">
+    <div class="hero-bg" >
         <video autoplay muted loop playsinline>
             <source src="Assets/Hero_vid_2.mp4" type="video/mp4">
         </video>
@@ -115,7 +115,7 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
           </div>
           <div>
-            <div class="stat-value">£23.4M</div>
+            <div class="stat-value">£24M</div>
             <div class="stat-label">Capital Deployed</div>
             <div class="stat-sub">To date</div>
           </div>
@@ -151,7 +151,7 @@
       <h2 class="who-title">Our Approch</h2>
       <div class="accent-bar"></div>
       <p class="who-text">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
-      <p class="who-text">With 18 years' experience and up to £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery—from purchase and refurbishment to long-term asset management.</p>
+      <p class="who-text">With 18 years' experience and up to £24M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery—from purchase and refurbishment to long-term asset management.</p>
       <p class="who-text">Our mission is simple: protect and grow wealth with real data, while regenerating unloved properties into safe, compliant homes that support specialist supported housing and Ofsted/CQC-aligned welfare provision.</p>
     </div>
     <div class="who-photos">
