@@ -399,7 +399,7 @@
       </div>
       <div class="cta-advisor-text">
         <h2 class="cta-advisor-title">Speak With Our Investment Advisors</h2>
-        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high performing property portfolio through ethical and data-driven investment opportunities.</p>
+        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high-performing investment portfolio through ethical, data-led opportunities across essential real assets and necessity-led sectors.</p>
       </div>
     </div>
     <a class="cta-advisor-btn" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Make an enquiry with SDI Group on WhatsApp">Make An Enquiry</a>
