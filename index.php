@@ -150,9 +150,10 @@
       <p class="section-label">WHO WE ARE</p>
       <h2 class="who-title">Our Approch</h2>
       <div class="accent-bar"></div>
-      <p class="who-text">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
-      <p class="who-text">With 18 years' experience and up to £24M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery—from purchase and refurbishment to long-term asset management.</p>
-      <p class="who-text">Our mission is simple: protect and grow wealth with real data, while regenerating unloved properties into safe, compliant homes that support specialist supported housing and Ofsted/CQC-aligned welfare provision.</p>
+      <p class="who-text">Our approach is built around three clear principles: Strategic. Data-Led. Impactful.</p>
+      <p class="who-text">With 18 years’ experience and up to £24M deployed, we help investors access structured, resilient investment strategies across sectors connected to life’s essential needs.</p>
+      <p class="who-text">Through careful analysis, ethical acquisition, compliance-focused delivery, and active asset oversight, we create portfolios designed for stability, purpose, and long-term value.</p>
+      <p class="who-text">Our objective is to help investors protect and grow wealth through informed decision-making, while supporting necessity-led sectors such as housing, healthcare, energy, food, and essential infrastructure — creating better outcomes for investors, providers, communities, and end users.</p>
     </div>
     <div class="who-photos">
       <div class="photo-main">
