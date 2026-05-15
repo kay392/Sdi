@@ -66,7 +66,13 @@
 
   <!-- Hero -->
   <section class="about-hero">
-    <div class="about-hero-bg"></div>
+    <div class="about-hero-bg">
+
+    <video autoplay muted loop playsinline>
+      <source src="Assets/About_Page/SDI_intro_hero.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    </div>
     <div class="about-hero-overlay"></div>
     <div class="about-hero-content">
       <div>
