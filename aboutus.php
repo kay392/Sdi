@@ -66,29 +66,36 @@
 
   <!-- Hero -->
   <section class="about-hero">
-    <div class="about-hero-bg"></div>
-    <div class="about-hero-overlay"></div>
-    <div class="about-hero-content">
-      <div>
-        <h1 class="hero-title-about" style="font-family:'Poppins',sans-serif;font-size:clamp(1.75rem,4vw,2.5rem);color:white;line-height:1.2;  ">
-          <span class="green-letter">S</span>TRATEGIC.<br>
-          <span class="green-letter">D</span>ATA-LED.<br>
-          <span class="green-letter">I</span>MPACTFUL.
-        </h1>
-        <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
-        <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p>
-      </div>
-      <div class="about-founder-card">
-        <img src="Assets/About_Page/About_Ben.jpg" alt="Ben, Founder and Managing Director of SDI Group"/>
-        <div class="founder-highlight">Founder-led expertise</div>
-        <div class="founder-caption">
-          <div class="name">Ben</div>
-          <div class="role">Founder & Managing Director</div>
-          <div class="org">SDI Group</div>
-        </div>
+  <div class="about-hero-bg">
+    <video autoplay muted loop playsinline>
+      <source src="Assets/About_Page/SDI_intro_hero.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  
+  <div class="about-hero-overlay"></div>
+  
+  <div class="about-hero-content">
+    <div>
+      <h1 class="hero-title-about" style="font-family:'Poppins',sans-serif;font-size:clamp(1.75rem,4vw,2.5rem);color:white;line-height:1.2;">
+        <span class="green-letter">S</span>TRATEGIC.<br>
+        <span class="green-letter">D</span>ATA-LED.<br>
+        <span class="green-letter">I</span>MPACTFUL.
+      </h1>
+      <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
+      <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p>
+    </div>
+    <div class="about-founder-card">
+      <img src="Assets/About_Page/About_Ben.jpg" alt="Ben, Founder and Managing Director of SDI Group"/>
+      <div class="founder-highlight">Founder-led expertise</div>
+      <div class="founder-caption">
+        <div class="name">Ben</div>
+        <div class="role">Founder & Managing Director</div>
+        <div class="org">SDI Group</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Stats Bar -->
   <section class="stats-bar">
