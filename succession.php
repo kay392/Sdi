@@ -250,8 +250,7 @@ In reality, nine out of ten clients we work with do not need to sell. They simpl
             <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
           </div>
         </button>
-        <p class="footer-desc">At SDI Group, we build and protect generational wealth through data-driven property investment, 
-            creating safe, compliant homes for supported housing.</p>
+        <p class="footer-desc">At SDI Group, we protect and grow wealth through ethical, data-led investment in essential assets that create lasting value and meaningful impact. </p>
         <!-- <div class="social-links">
           <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
           <a class="social-btn" href="#" aria-label="Instagram">ig</a>
