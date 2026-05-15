@@ -22,7 +22,7 @@
         <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
       </div>
       <div class="logo-text-container">
-        <div class="logo-text-sub">Synergy Data Investments</div>
+        <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
       </div>
     </button>
 
