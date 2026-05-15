@@ -105,9 +105,9 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
           <div>
-            <div class="stat-value">246+</div>
+            <div class="stat-value">246</div>
             <div class="stat-label">Projects Completed</div>
-            <div class="stat-sub">Across the UK</div>
+  
           </div>
         </div>
         <div class="stat-card">
@@ -115,9 +115,8 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
           </div>
           <div>
-            <div class="stat-value">£24M</div>
+            <div class="stat-value">£24.6M</div>
             <div class="stat-label">Capital Deployed</div>
-            <div class="stat-sub">To date</div>
           </div>
         </div>
         <div class="stat-card">
@@ -125,9 +124,9 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
           </div>
           <div>
-            <div class="stat-value">584+</div>
+            <div class="stat-value">1384+</div>
             <div class="stat-label">Beds Created</div>
-            <div class="stat-sub">Transforming lives</div>
+      
           </div>
         </div>
         <div class="stat-card">
@@ -137,7 +136,6 @@
           <div>
             <div class="stat-value">18</div>
             <div class="stat-label">Years Experience</div>
-            <div class="stat-sub">Industry expertise</div>
           </div>
         </div>
       </div>
