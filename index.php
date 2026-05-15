@@ -77,7 +77,7 @@
           <span>DATA DRIVEN.</span>
         </h1>
         <p class="hero-sub">
-          At SDI Group, we deploy capital as a force for good—using data-driven strategy to regenerate unloved properties into safe, compliant homes for specialist supported housing and Ofsted/CQC-aligned welfare provision.
+          At SDI Group, we deploy capital with strategic discipline, data-led insight, and impactful purpose — directing private investment into essential assets that protect long-term value, support real-world needs, and create measurable impact for every stakeholder involved.
         </p>
         <div class="hero-btns">
           <button class="btn-primary" onclick="navigate('investments')">
