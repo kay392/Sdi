@@ -70,13 +70,26 @@
     <div class="about-hero-overlay"></div>
     <div class="about-hero-content">
       <div>
-        <h1 class="hero-title-about" style="font-family:'Poppins',sans-serif;font-size:clamp(1.75rem,4vw,2.5rem);color:white;line-height:1.2;  ">
-          <span class="green-letter">S</span>TRATEGIC.<br>
-          <span class="green-letter">D</span>ATA-LED.<br>
-          <span class="green-letter">I</span>MPACTFUL.
+        <h1 class="hero-title">
+          <span class="green-letter" style="color:green !important; margin-right:6px;">S</span>TRATEGIC<br>
+
+          <span class="green-letter" style="color:green !important; margin-right:6px;">D</span>ATA-LED<br>
+
+          <span class="green-letter" style="color:green !important; margin-right:6px;">I</span>MPACTFUL
         </h1>
-        <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
-        <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p>
+        <!-- <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
+        <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p> -->
+        <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">
+          At <strong>SDI Group</strong> — Synergy Data Investments — we align capital, intelligence, and social impact through structured investment in essential real assets.
+        </p>
+
+        <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">
+          We focus on necessity-led sectors including housing, healthcare, energy, food, and social infrastructure — markets where long-term demand is driven by real-world need rather than speculation.
+        </p>
+
+        <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">
+          Through disciplined underwriting, ethical acquisition, and strategic execution, we help preserve investor wealth while directing private capital into assets that deliver meaningful outcomes for communities, providers, stakeholders, and future generations.
+        </p>
       </div>
       <div class="about-founder-card">
         <img src="Assets/About_Page/About_Ben.jpg" alt="Ben, Founder and Managing Director of SDI Group"/>
@@ -134,7 +147,7 @@
   <section class="mission-section">
     <div>
       <p class="section-label">OUR MISSION</p>
-      <h2 class="mission-title">Protect wealth.<br/>Create impact.<br/><span>Build legacies.</span></h2>
+      <h2 class="mission-title">STRUCTURED CAPITAL.<br/>DATA-LED STRATEGY.<br/><span>IMPACTFUL CHANGE.</span></h2>
       <div class="accent-bar"></div>
       <p class="who-text">At SDI Group, we recognise that the global financial system is undergoing significant change. From central banks and international institutions to broader geopolitical forces, today’s economy is increasingly shaped by debt cycles, currency devaluation and rising instability factors that continue to challenge individuals’ ability to achieve financial freedom and build generational security.</p>
       <p class="who-text">In this environment, taking control of your financial future is no longer optional, it is essential. That is why we have built a firm dedicated to helping people achieve long-term financial independence through resilient, data-led investment strategies. With up to 18 years of experience in financial analysis, compliance and strategic capital deployment, our approach is grounded in integrity, transparency and a commitment to sustainable value.</p>
