@@ -19,7 +19,7 @@
   <div class="nav-inner">
     <button class="nav-logo" onclick="navigate('home')">
       <div class="logo-icon-container">
-        <img src="Assets/SDI LOGO WHITE.png" alt="SDI Group Logo" class="logo-svg">
+        <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
       </div>
       <div class="logo-text-container">
         <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
@@ -70,9 +70,10 @@
     <div class="about-hero-overlay"></div>
     <div class="about-hero-content">
       <div>
-        <h1 style="font-family:'Poppins',sans-serif;font-size:clamp(2rem,4vw,2.8rem);font-weight:900;color:white;line-height:1.15;margin-bottom:0.5rem;">
-          Your Trusted .<br/>
-          <span style="color:var(--green);">Property Partner.</span>
+        <h1 class="hero-title-about" style="font-family:'Poppins',sans-serif;font-size:clamp(1.75rem,4vw,2.5rem);color:white;line-height:1.2;  ">
+          <span class="green-letter">S</span>TRATEGIC.<br>
+          <span class="green-letter">D</span>ATA-LED.<br>
+          <span class="green-letter">I</span>MPACTFUL.
         </h1>
         <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
         <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p>
@@ -256,13 +257,13 @@
       <div style="display:grid;margin-bottom:2.5rem;">
         <div>
           <h2 style="font-family:'Poppins',sans-serif;font-size:clamp(1.5rem,3vw,2rem);color:var(--navy);line-height:1.2;">Experience. Expertise. Execution.</h2>
-          <p style="color:#4b5563;font-size:0.875rem;line-height:1.7;margin-top:1rem;">We are a family-run investment group supported by a core team of 10, with access to a wider professional network of over 50 skilled delivery and advisory partners. This includes RICS surveyors, valuers, M&A specialists, forensic accountants, legal advisors, tax and succession planning experts, compliance specialists, and other technical partners — allowing us to assess, structure, and deliver investment opportunities with the right expertise at every stage.</p>
+          <p style="color:#4b5563;font-size:0.875rem;line-height:1.7;margin-top:1rem;">We are a family run team of 10, with a wider team of 50 skilled trades, whilst also having on hand a full range of technical services such as RICS surveyors, engineers and legals to hand.</p>
         </div>
       </div>
        <div class="team-grid">
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/bEN.jpg" alt="Ben"/></div><div class="team-name">Ben </div><div class="team-role">Managing Director</div></div>
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/jAKE.jpg" alt="Jake Rawlinson"/></div><div class="team-name">Jake </div><div class="team-role">Head of Architecture</div></div>
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/cLARA.jpg" alt="Clara Fielding"/></div><div class="team-name">Clara </div><div class="team-role"> head of operations</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/bEN.jpg" alt="Ben"/></div><div class="team-name">Ben Read</div><div class="team-role">Managing Director</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/jAKE.jpg" alt="Jake Rawlinson"/></div><div class="team-name">Jake Rawlinson</div><div class="team-role">Head of Service Architecture</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/cLARA.jpg" alt="Clara Fielding"/></div><div class="team-name">Clara Fielding</div><div class="team-role">Head of Customer Success</div></div>
       
        
       
@@ -278,7 +279,7 @@
       </div>
       <div class="cta-advisor-text">
         <h2 class="cta-advisor-title">Speak With Our Investment Advisors</h2>
-        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high-performing investment portfolio through ethical, data-led opportunities across essential real assets and necessity-led sectors.</p>
+        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high performing property portfolio through ethical and data-driven investment opportunities.</p>
       </div>
     </div>
     <a class="cta-advisor-btn" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Make an enquiry with SDI Group on WhatsApp">Make An Enquiry</a>
@@ -299,14 +300,15 @@
       <div>
         <button class="nav-logo" onclick="navigate('home')">
           <div class="logo-icon-container">
-            <img src="Assets/SDI LOGO BLACK.png" alt="SDI Group Logo" class="logo-svg">
+            <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
           </div>
           <div class="logo-text-container">
             <div class="logo-text-main">SDI GROUP</div>
             <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
           </div>
         </button>
-        <p class="footer-desc">At SDI Group, we protect and grow wealth through ethical, data-led investment in essential assets that create lasting value and meaningful impact. </p>
+        <p class="footer-desc">At SDI Group, we build and protect generational wealth through data-driven property investment, 
+            creating safe, compliant homes for supported housing.</p>
         <!-- <div class="social-links">
           <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
           <a class="social-btn" href="#" aria-label="Instagram">ig</a>
