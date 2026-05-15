@@ -19,10 +19,10 @@
   <div class="nav-inner">
     <button class="nav-logo" onclick="navigate('home')">
       <div class="logo-icon-container">
-        <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
+        <img src="Assets/SDI LOGO WHITE.png" alt="SDI Group Logo" class="logo-svg">
       </div>
       <div class="logo-text-container">
-        <div class="logo-text-sub">Synergy Data Investments</div>
+        <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
       </div>
     </button>
 
@@ -256,13 +256,13 @@
       <div style="display:grid;margin-bottom:2.5rem;">
         <div>
           <h2 style="font-family:'Poppins',sans-serif;font-size:clamp(1.5rem,3vw,2rem);color:var(--navy);line-height:1.2;">Experience. Expertise. Execution.</h2>
-          <p style="color:#4b5563;font-size:0.875rem;line-height:1.7;margin-top:1rem;">We are a family run team of 10, with a wider team of 50 skilled trades, whilst also having on hand a full range of technical services such as RICS surveyors, engineers and legals to hand.</p>
+          <p style="color:#4b5563;font-size:0.875rem;line-height:1.7;margin-top:1rem;">We are a family-run investment group supported by a core team of 10, with access to a wider professional network of over 50 skilled delivery and advisory partners. This includes RICS surveyors, valuers, M&A specialists, forensic accountants, legal advisors, tax and succession planning experts, compliance specialists, and other technical partners — allowing us to assess, structure, and deliver investment opportunities with the right expertise at every stage.</p>
         </div>
       </div>
        <div class="team-grid">
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/bEN.jpg" alt="Ben"/></div><div class="team-name">Ben Read</div><div class="team-role">Managing Director</div></div>
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/jAKE.jpg" alt="Jake Rawlinson"/></div><div class="team-name">Jake Rawlinson</div><div class="team-role">Head of Service Architecture</div></div>
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/cLARA.jpg" alt="Clara Fielding"/></div><div class="team-name">Clara Fielding</div><div class="team-role">Head of Customer Success</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/bEN.jpg" alt="Ben"/></div><div class="team-name">Ben </div><div class="team-role">Managing Director</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/jAKE.jpg" alt="Jake Rawlinson"/></div><div class="team-name">Jake </div><div class="team-role">Head of Architecture</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/cLARA.jpg" alt="Clara Fielding"/></div><div class="team-name">Clara </div><div class="team-role"> head of operations</div></div>
       
        
       
@@ -299,7 +299,7 @@
       <div>
         <button class="nav-logo" onclick="navigate('home')">
           <div class="logo-icon-container">
-            <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
+            <img src="Assets/SDI LOGO BLACK.png" alt="SDI Group Logo" class="logo-svg">
           </div>
           <div class="logo-text-container">
             <div class="logo-text-main">SDI GROUP</div>
