@@ -225,7 +225,7 @@
       <div class="promises-grid">
         <div class="promise-box promise-box-green">
           <p class="section-label">OUR BRAND PROMISES</p>
-          <h2 class="promise-box-title">It takes years to build trust and moments to lose it. That’s why we’ve built our business on 11 key promises. These principles underpin everything we do, ensuring you can rely on us as your long-term property investment partner, wherever you are in the world.</h2>
+          <h2 class="promise-box-title">It takes years to build trust and moments to lose it. That’s why we’ve built our business on 12 key promises. These principles underpin everything we do, ensuring you can rely on us as your long-term investment partner, wherever you are in the world.</h2>
           <!-- <p class="promise-box-sub">Trust is earned, and we protect it every day.</p> -->
           <div class="brand-promise-item"><div class="promise-num">01</div><div>
             <div class="promise-item-title">Serving, Not Selling</div>
@@ -242,34 +242,33 @@
           <h2 class="promise-box-title">Excellence in every commitment.</h2>
           <p class="promise-box-sub">Our 8 service promises keep your capital protected.</p>
           <div class="service-promise-item"><div class="sp-num">1</div>
-          <div class="sp-text">Off Market Projects — All of our opportunities are off- market and directly negotiated		
+          <div class="sp-text"><b>Off Market Projects —</b> All of our opportunities are off- market and directly negotiated		
                 with stakeholders, allowing us to provide tailored portfolio assessments and exit strategies.
                 This streamlined approach minimises risks, costs, and delays, ensuring efficient acquisitions with minimal disruption.
                 </div></div>
           <div class="service-promise-item"><div class="sp-num">2</div>
-          <div class="sp-text">Below Market Value — Exclusive below-market investment opportunities that maximise returns through
+          <div class="sp-text"><b>Below Market Value —</b> Exclusive below-market investment opportunities that maximise returns through
             high-yield assets in prime sectors. Our expertise lies in securing undervalued opportunities, ensuring compliance, and delivering strong cash flow for sustainable portfolio growth.
             </div></div>
           <div class="service-promise-item"><div class="sp-num">3</div>
-          <div class="sp-text">Full Risk Mitigation & Due Diligence — We thoroughly review every investment opportunity with a detailed 42-point checklist, covering financial metrics, compliance, historical performance, and economic factors. This ensures each asset is optimised for current conditions and safeguarded for long-term stability in a dynamic market.
+          <div class="sp-text"><b>Full Risk Mitigation & Due Diligence —</b> We thoroughly review every investment opportunity with a detailed 42-point checklist, covering financial metrics, compliance, historical performance, and economic factors. This ensures each asset is optimised for current conditions and safeguarded for long-term stability in a dynamic market.
         </div></div>
           <div class="service-promise-item"><div class="sp-num">4</div>
           
-          <div class="sp-text">Minimum Four Exits — Every investment is structured with multiple exit strategies to safeguard your
+          <div class="sp-text"><b>Minimum Four Exits —</b> Every investment is structured with multiple exit strategies to safeguard your
             capital. Leveraging our extensive expertise, we create diversified options, ranging from high-yield assets to government partnerships, ensuring flexibility and long-term security.
             </div></div>
           <div class="service-promise-item"><div class="sp-num">5</div>
-          <div class="sp-text">Safe Entry & Exits — Building a trusted brand takes years, but losing it takes moments—so we never compromise for short-term gains. Every investment undergoes a final stress test with our FCA-regulated partners, ensuring optimal entry and exit strategies. If it doesn’t meet our criteria, it doesn’t proceed.
-        .</div></div>
+          <div class="sp-text"><b>Safe Entry & Exits —</b> Building a trusted brand takes years, but losing it takes moments—so we never compromise for short-term gains. Every investment undergoes a final stress test with our FCA-regulated partners, ensuring optimal entry and exit strategies. If it doesn’t meet our criteria, it doesn’t proceed.
+        </div></div>
           <div class="service-promise-item"><div class="sp-num">6</div>
-          <div class="sp-text">5-Year Market Pulse — We base our investments on present conditions and future forecasts, using Tier 1 bank-approved methodologies to analyse historical data, CAGR, volatility, and growth for robust 3-5 year projections and sustainable success.</div></div>
+          <div class="sp-text"><b>5-Year Market Pulse —</b> We base our investments on present conditions and future forecasts, using Tier 1 bank-approved methodologies to analyse historical data, CAGR, volatility, and growth for robust 3-5 year projections and sustainable success.</div></div>
           <div class="service-promise-item">
             <div class="sp-num">7</div>
-            <div class="sp-text">We oversee every stage of each investment, ensuring seamless management from start to finish. From initial analysis and regulatory compliance to strategic execution and ongoing monitoring, we handle every detail. This provides you with peace of mind, allowing you to
-            focus on what matters most.
+            <div class="sp-text"><b>Investment Oversight -</b> We oversee every stage of each investment, providing seamless management from start to finish. From initial analysis and regulatory compliance to strategic execution and ongoing monitoring, we handle the detail with structure, discipline, and accountability. This gives you clarity, confidence, and peace of mind throughout the process.
             </div></div>
           <div class="service-promise-item"><div class="sp-num">8</div>
-          <div class="sp-text">Full Disclosure & Learning — Partnering with us is a transformative experience. Learn at your own pace through a comprehensive program covering key principles, safeguards, and legal methods. Save on costly training by accessing our 17 years of expertise and benefiting from up to £30K in market-leading investments. 
+          <div class="sp-text"><b>Full Disclosure & Learning —</b> Partnering with us is designed to be transparent, practical, and transformational. You learn at your own pace through a structured process covering key principles, safeguards, legal methods, and investment strategy. Most importantly, our experience is not hidden behind paywalls, coaching fees, or training academies. It is shared through a simple principle: learn by doing. 
             </div>
         </div>
           <!-- <button class="btn-primary mt-4" style="background:transparent;color:var(--green);border:2px solid var(--green);" onmouseover="this.style.background='var(--green)';this.style.color='white';" onmouseout="this.style.background='transparent';this.style.color='var(--green)';">View All Service Promises →</button> -->
