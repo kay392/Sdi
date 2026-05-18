@@ -71,7 +71,7 @@
         <h1 class="succ-hero-title">SUCCESSION<br/><span>& EXIT PLANNING</span></h1>
         <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-bottom:0.75rem;">We understand that navigating today’s financial landscape can feel complex particularly when considering whether to restructure, release, transfer or fully exit part of your investment portfolio. 
 </p>
-        <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
+        <div class="hero-btns" style="display:flex;flex-wrap:wrap;gap:0.75rem;">
           <button class="btn-primary" onclick="scrollToSection('valuationSection')">Request Free Valuation →</button>
           <button class="btn-outline" onclick="navigate('home')">Book a Consultation</button>
         </div>
