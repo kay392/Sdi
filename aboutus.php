@@ -166,7 +166,12 @@
       <div class="accent-bar"></div>
       <p class="who-text">At SDI Group, we recognise that the global financial system is undergoing significant change. From central banks and international institutions to broader geopolitical forces, today’s economy is increasingly shaped by debt cycles, currency devaluation, rising instability, and a growing need for individuals to take greater control of their financial future.</p>
       <p class="who-text">As governments and institutions face increasing pressure in a volatile and evolving landscape, private capital has a greater role to play. The demand for essential services continues to rise, while public-sector capacity remains stretched. Through structured, data-led investment strategies, we help direct capital into assets and services that support real-world need, improve delivery, and create measurable impact.</p>
-      <p class="who-text">Our core mission is defined by three principles: Structured Capital. Data-Led Strategy. Impactful Change.</p>
+      <p class="who-text">
+        Our core mission is defined by three principles:
+        <strong>Structured Capital.</strong>
+        <strong>Data-Led Strategy.</strong>
+        <strong>Impactful Change.</strong>
+      </p>
       <p class="who-text">We focus on the intrinsic value of investments connected to the necessities and staples of life — including housing, healthcare, energy, food, and essential infrastructure. These are sectors where demand is real, long-term, and socially meaningful. They are not driven by speculation alone, but by fundamental human need, making them powerful foundations for resilient investment and purposeful capital deployment.</p>
       <p class="who-text">Our belief is that ethical equity should do more than generate financial return. Capital should improve outcomes, strengthen communities, support essential providers, and create better access to the assets and services people rely on every day. Every investment should be structured around a genuine win-win outcome, where investors, providers, communities, and end users all benefit from sustainable long-term value.</p>
       <p class="who-text">Our approach combines our service and brand promises with disciplined underwriting, ethical acquisition, strategic asset improvement, compliance-led delivery, and long-term value creation. With up to 18 years of experience across financial analysis, compliance, property strategy, and strategic capital deployment, we assess every opportunity through data, risk, demand, social use, and stakeholder benefit — ensuring capital is deployed with clarity, responsibility, and purpose.</p>
