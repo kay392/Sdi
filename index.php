@@ -339,20 +339,10 @@
   <div class="container">
     <div class="testimonial-grid">
       
-      <div class="standard-column">
-        <p class="partner-label">Trusted By Partners</p>
-        <div class="logo-flex-grid">
-          <div class="logo-item"><img src="Assets/Our_partner/SALFORD-1.webp" alt="Salford" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Our_partner/REALYSE-1.webp" alt="Realyse" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Our_partner/Ministry-of-Justice.webp" alt="MoJ" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Our_partner/MANCHESTER-1.webp" alt="Manchester" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Our_partner/LIVERPOOL-1.webp" alt="Liverpool" class="clean-logo"></div>
-          <div class="logo-item"><img src="Assets/Our_partner/DNA-1.webp" alt="DNA" class="clean-logo"></div>
-        </div>
-      </div>
+
 
       <div class="partners-column">
-        <p class="partner-label">Our Standard</p>
+        <h3 class="partner-label">Our Standard</h3>
         <div class="logo-flex-grid">
           <div class="logo-item"><img src="Assets/Our_partner/NAPSA-2.webp" alt="NAPSA" class="clean-logo"></div>
           <div class="logo-item"><img src="Assets/Our_partner/PRS-2.webp" alt="PRS" class="clean-logo"></div>
@@ -360,6 +350,18 @@
           <div class="logo-item"><img src="Assets/Our_partner/HMRC-2.webp" alt="HMRC" class="clean-logo"></div>
           <div class="logo-item"><img src="Assets/Our_partner/PSC-2.webp" alt="PSC" class="clean-logo"></div>
           <div class="logo-item"><img src="Assets/Our_partner/QBE-2.webp" alt="QBE" class="clean-logo"></div>
+        </div>
+      </div>
+
+            <div class="standard-column">
+        <h3 class="partner-label">Our Partners</h3>
+        <div class="logo-flex-grid">
+          <div class="logo-item"><img src="Assets/Our_partner/SALFORD-1.webp" alt="Salford" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/REALYSE-1.webp" alt="Realyse" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/Ministry-of-Justice.webp" alt="MoJ" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/MANCHESTER-1.webp" alt="Manchester" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/LIVERPOOL-1.webp" alt="Liverpool" class="clean-logo"></div>
+          <div class="logo-item"><img src="Assets/Our_partner/DNA-1.webp" alt="DNA" class="clean-logo"></div>
         </div>
       </div>
 
