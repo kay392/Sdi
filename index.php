@@ -150,8 +150,8 @@
       <p class="section-label">WHO WE ARE</p>
       <h2 class="who-title">Our Approch</h2>
       <div class="accent-bar"></div>
-      <p class="who-text">Our approach is built around three clear principles: Strategic. Data-Led. Impactful.</p>
-      <p class="who-text">With 18 years’ experience and up to £24M deployed, we help investors access structured, resilient investment strategies across sectors connected to life’s essential needs.</p>
+      <p class="who-text">Our approach is built around three clear principles: <b>Strategic. Data-Led. Impactful.</b></p>
+      <p class="who-text">With <b>18 years’ experience</b> and up to <b>£24M deployed</b>, we help investors access structured, resilient investment strategies across sectors connected to life’s essential needs.</p>
       <p class="who-text">Through careful analysis, ethical acquisition, compliance-focused delivery, and active asset oversight, we create portfolios designed for stability, purpose, and long-term value.</p>
       <p class="who-text">Our objective is to help investors protect and grow wealth through informed decision-making, while supporting necessity-led sectors such as housing, healthcare, energy, food, and essential infrastructure — creating better outcomes for investors, providers, communities, and end users.</p>
     </div>

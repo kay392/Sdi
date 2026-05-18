@@ -174,7 +174,7 @@
       </p>
       <p class="who-text">We focus on the intrinsic value of investments connected to the necessities and staples of life — including housing, healthcare, energy, food, and essential infrastructure. These are sectors where demand is real, long-term, and socially meaningful. They are not driven by speculation alone, but by fundamental human need, making them powerful foundations for resilient investment and purposeful capital deployment.</p>
       <p class="who-text">Our belief is that ethical equity should do more than generate financial return. Capital should improve outcomes, strengthen communities, support essential providers, and create better access to the assets and services people rely on every day. Every investment should be structured around a genuine win-win outcome, where investors, providers, communities, and end users all benefit from sustainable long-term value.</p>
-      <p class="who-text">Our approach combines our service and brand promises with disciplined underwriting, ethical acquisition, strategic asset improvement, compliance-led delivery, and long-term value creation. With up to 18 years of experience across financial analysis, compliance, property strategy, and strategic capital deployment, we assess every opportunity through data, risk, demand, social use, and stakeholder benefit — ensuring capital is deployed with clarity, responsibility, and purpose.</p>
+      <p class="who-text">Our approach combines our service and brand promises with disciplined underwriting, ethical acquisition, strategic asset improvement, compliance-led delivery, and long-term value creation. With up to <b>18 years of experience</b> across financial analysis, compliance, property strategy, and strategic capital deployment, we assess every opportunity through data, risk, demand, social use, and stakeholder benefit — ensuring capital is deployed with clarity, responsibility, and purpose.</p>
       <p class="who-text">We provide more than investment opportunities. We provide the structure, clarity, and control required to deploy capital with confidence and purpose. Our end-to-end process is built to help individuals protect wealth, build financial independence, and participate in investments that improve outcomes for people, providers, communities, and every stakeholder involved. This is capital with discipline, strategy with purpose, and impact designed to last.
 </p>
       
@@ -315,7 +315,7 @@
       </div>
       <div class="cta-advisor-text">
         <h2 class="cta-advisor-title">Speak With Our Investment Advisors</h2>
-        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high performing property portfolio through ethical and data-driven investment opportunities.</p>
+        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high-performing investment portfolio through ethical, data-led opportunities across essential real assets and necessity-led sectors.</p>
       </div>
     </div>
     <a class="cta-advisor-btn" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Make an enquiry with SDI Group on WhatsApp">Make An Enquiry</a>
@@ -343,8 +343,7 @@
             <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
           </div>
         </button>
-        <p class="footer-desc">At SDI Group, we build and protect generational wealth through data-driven property investment, 
-            creating safe, compliant homes for supported housing.</p>
+        <p class="footer-desc">At SDI Group, we protect and grow wealth through ethical, data-led investment in essential assets that create lasting value and meaningful impact. </p>
         <!-- <div class="social-links">
           <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
           <a class="social-btn" href="#" aria-label="Instagram">ig</a>
