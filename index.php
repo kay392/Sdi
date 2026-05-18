@@ -77,7 +77,7 @@
           <span>DATA DRIVEN.</span>
         </h1>
         <p class="hero-sub">
-          At SDI Group, we deploy capital as a force for good—using data-driven strategy to regenerate unloved properties into safe, compliant homes for specialist supported housing and Ofsted/CQC-aligned welfare provision.
+          At SDI Group, we deploy capital with strategic discipline, data-led insight, and impactful purpose — directing private investment into essential assets that protect long-term value, support real-world needs, and create measurable impact for every stakeholder involved.
         </p>
         <div class="hero-btns">
           <button class="btn-primary" onclick="navigate('investments')">
@@ -105,9 +105,9 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
           <div>
-            <div class="stat-value">246+</div>
+            <div class="stat-value">246</div>
             <div class="stat-label">Projects Completed</div>
-            <div class="stat-sub">Across the UK</div>
+            
           </div>
         </div>
         <div class="stat-card">
@@ -115,9 +115,9 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
           </div>
           <div>
-            <div class="stat-value">£24M</div>
+            <div class="stat-value">£24.6M</div>
             <div class="stat-label">Capital Deployed</div>
-            <div class="stat-sub">To date</div>
+        
           </div>
         </div>
         <div class="stat-card">
@@ -125,9 +125,9 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
           </div>
           <div>
-            <div class="stat-value">584+</div>
+            <div class="stat-value">1384+</div>
             <div class="stat-label">Beds Created</div>
-            <div class="stat-sub">Transforming lives</div>
+            
           </div>
         </div>
         <div class="stat-card">
@@ -137,7 +137,7 @@
           <div>
             <div class="stat-value">18</div>
             <div class="stat-label">Years Experience</div>
-            <div class="stat-sub">Industry expertise</div>
+            
           </div>
         </div>
       </div>
@@ -400,7 +400,7 @@
       </div>
       <div class="cta-advisor-text">
         <h2 class="cta-advisor-title">Speak With Our Investment Advisors</h2>
-        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high performing property portfolio through ethical and data-driven investment opportunities.</p>
+        <p class="cta-advisor-desc">Discover how SDI Group can help you build a resilient, high-performing investment portfolio through ethical, data-led opportunities across essential real assets and necessity-led sectors.</p>
       </div>
     </div>
     <a class="cta-advisor-btn" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Make an enquiry with SDI Group on WhatsApp">Make An Enquiry</a>
@@ -420,8 +420,7 @@
             <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
           </div>
         </button>
-        <p class="footer-desc">At SDI Group, we build and protect generational wealth through data-driven property investment, 
-            creating safe, compliant homes for supported housing.</p>
+        <p class="footer-desc">At SDI Group, we protect and grow wealth through ethical, data-led investment in essential assets that create lasting value and meaningful impact. </p>
         <!-- <div class="social-links">
           <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
           <a class="social-btn" href="#" aria-label="Instagram">ig</a>
