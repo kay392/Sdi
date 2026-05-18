@@ -128,7 +128,7 @@
         <div>
           <div class="invest-block-num invest-block-num-navy">01</div>
           <h2 class="invest-block-title">Angel Investor: Fixed Return</h2>
-          <p class="invest-block-text">Our Fixed Return solution is designed for time conscious professionals seeking reliable, passive income without the demands of active portfolio management. Offering returns of up to 15%, this fully managed option allows you to allocate capital confidently, while we oversee every aspect from due diligence and structuring to compliance and performance monitoring. Whether your objective is long-term wealth creation or efficient capital deployment, we provide a low-effort, hands off, ethical data driven approach, backed by brand and service promises, that ultimately delivers predictable outcomes and complete peace of mind — so your capital works harder while you stay focused on what matters most.</p>
+          <p class="invest-block-text">Our Fixed Return solution is designed for time-conscious professionals seeking reliable, passive income without the demands of active portfolio management. Offering returns of up to 30%, this fully managed option allows you to allocate capital confidently while we oversee every aspect, from due diligence and structuring to compliance and performance monitoring. Whether your objective is long-term wealth creation or efficient capital deployment, we provide a low-effort, hands-off, ethical, data-driven approach backed by our brand and service promises — ultimately delivering predictable outcomes and complete peace of mind, so your capital works harder while you stay focused on what matters most.</p>
          
         </div>
         <div class="features-mini-grid">
