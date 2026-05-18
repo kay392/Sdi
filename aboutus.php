@@ -19,7 +19,7 @@
   <div class="nav-inner">
     <button class="nav-logo" onclick="navigate('home')">
       <div class="logo-icon-container">
-        <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
+        <img src="Assets/SDI LOGO WHITE.png" alt="SDI Group Logo" class="logo-svg">
       </div>
       <div class="logo-text-container">
         <div class="logo-text-sub">SYNERGY DATA INVESTMENTS</div>
@@ -77,12 +77,12 @@
     <div class="about-hero-content">
       <div>
         <h1 class="hero-title">
-          <span class="green-letter" style="color:green !important; margin-right:6px;">S</span>TRATEGIC<br>
+  <span class="green-letter" style="color:green !important; margin-right:6px; -webkit-text-stroke: 1px #1a2332; text-stroke: 1px #1a2332; text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">S</span>TRATEGIC<br>
 
-          <span class="green-letter" style="color:green !important; margin-right:6px;">D</span>ATA-LED<br>
+  <span class="green-letter" style="color:green !important; margin-right:6px; -webkit-text-stroke: 1px #1a2332; text-stroke: 1px #1a2332; text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">D</span>ATA-LED<br>
 
-          <span class="green-letter" style="color:green !important; margin-right:6px;">I</span>MPACTFUL
-        </h1>
+  <span class="green-letter" style="color:green !important; margin-right:6px; -webkit-text-stroke: 1px #1a2332; text-stroke: 1px #1a2332; text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">I</span>MPACTFUL
+</h1>
         <!-- <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
         <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p> -->
         <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">

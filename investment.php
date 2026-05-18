@@ -72,7 +72,7 @@
         <h1 class="invest-hero-title">Your wealth,<br/><span>your way.</span></h1>
         <p class="invest-hero-text">Regardless of your level of experience, location, or investment objectives, we tailor bespoke strategies designed to align with your goals and deliver consistent, risk-adjusted returns. Whether you’re seeking a passive, fixed-income solution or a more hands-on strategic partnership, SDI Group offers structured, fully managed pathways that empower you to grow and protect your capital. Our role is to provide the insight, compliance oversight, and end-to-end execution needed to help you build a secure and profitable financial future — with confidence from day one.</p>
        
-        <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
+        <div class="hero-btns" style="display:flex;flex-wrap:wrap;gap:0.75rem;">
           <button class="btn-primary" onclick="scrollToSection('investment-overview')">Explore Investment Options →</button>
           <button class="btn-outline-navy" onclick="navigate('home')">Book a Consultation</button>
         </div>
