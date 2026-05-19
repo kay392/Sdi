@@ -261,13 +261,13 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
         </ul>
       </div>
       <div>
-        <h4 class="footer-heading">Services</h4>
+        <h4 class="footer-heading"> Investment Services</h4>
         <ul class="footer-links">
           <li><button onclick="navigate('investments')">Strategy</button></li>
           <li><button onclick="navigate('investments')">Investments</button></li>
-          <li><button onclick="navigate('investments')">Earn & Learn</button></li>
-            <li><button onclick="navigate('investments')">Joint Venture Partnership</button></li>
-            <li><button onclick="navigate('investments')">Bespoke Investment Plan</button></li>
+          <li><button onclick="document.getElementById('investment-02').scrollIntoView({ behavior: 'smooth' })">Earn & Learn</button></li>
+            <li><button onclick="document.getElementById('investment-03').scrollIntoView({ behavior: 'smooth' })">Joint Venture Partnership</button></li>
+            <li><button onclick="document.getElementById('investment-01').scrollIntoView({ behavior: 'smooth' })">Bespoke Investment Plan</button></li>
         </ul>
       </div>
       
@@ -284,7 +284,7 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
           <li class="footer-contact-item">
             <span class="contact-icon">⊕</span>
             <a href="https://maps.app.goo.gl/p5NSSyDjDc6p8G9QA" target="_blank" rel="noopener noreferrer">
-              7-17 S Shelton Street, Covent Garden, London WC2H 9JQ, UK
+              1 Moorlane, Bolton, BL1 4TA
             </a>
           </li>
         </ul>

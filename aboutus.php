@@ -187,6 +187,7 @@
       </div>
     </div>
   </section>
+  
 
   <!-- Our Approach -->
   <section class="process-section">
@@ -277,7 +278,7 @@
             <div class="sp-text"><b>Investment Oversight -</b> We oversee every stage of each investment, providing seamless management from start to finish. From initial analysis and regulatory compliance to strategic execution and ongoing monitoring, we handle the detail with structure, discipline, and accountability. This gives you clarity, confidence, and peace of mind throughout the process.
             </div></div>
           <div class="service-promise-item"><div class="sp-num">8</div>
-          <div class="sp-text"><b>Full Disclosure & Learning —</b> Partnering with us is designed to be transparent, practical, and transformational. You learn at your own pace through a structured process covering key principles, safeguards, legal methods, and investment strategy. Most importantly, our experience is not hidden behind paywalls, coaching fees, or training academies. It is shared through a simple principle: learn by doing. 
+          <div class="sp-text"><b>Full Disclosure & Learning —</b> Partnering with us is designed to be transparent, practical, and transformational. You learn at your own pace through a structured process covering key principles, safeguards, legal methods, and investment strategy. Most importantly, our experience is not hidden behind paywalls, coaching fees, or training academies. It is shared through a simple principle: <strong>learn by doing</strong>.
             </div>
         </div>
           <!-- <button class="btn-primary mt-4" style="background:transparent;color:var(--green);border:2px solid var(--green);" onmouseover="this.style.background='var(--green)';this.style.color='white';" onmouseout="this.style.background='transparent';this.style.color='var(--green)';">View All Service Promises →</button> -->
@@ -298,8 +299,8 @@
       </div>
        <div class="team-grid">
         <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/bEN.jpg" alt="Ben"/></div><div class="team-name">Ben </div><div class="team-role">Managing Director</div></div>
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/jAKE.jpg" alt="Jake "/></div><div class="team-name">Jake </div><div class="team-role">head of architecture</div></div>
-        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/cLARA.jpg" alt="Clara "/></div><div class="team-name">Clara</div><div class="team-role"> head of operations</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/jAKE.jpg" alt="Jake "/></div><div class="team-name">Jake </div><div class="team-role">Head of Architecture</div></div>
+        <div class="team-card"><div class="team-photo"><img src="Assets/About_Page/cLARA.jpg" alt="Clara "/></div><div class="team-name">Clara</div><div class="team-role"> Head of Operations</div></div>
       
        
       
@@ -379,13 +380,13 @@
         </ul>
       </div>
       <div>
-        <h4 class="footer-heading">Services</h4>
+        <h4 class="footer-heading"> Investment Services</h4>
         <ul class="footer-links">
           <li><button onclick="navigate('investments')">Strategy</button></li>
           <li><button onclick="navigate('investments')">Investments</button></li>
-          <li><button onclick="navigate('investments')">Earn & Learn</button></li>
-            <li><button onclick="navigate('investments')">Joint Venture Partnership</button></li>
-            <li><button onclick="navigate('investments')">Bespoke Investment Plan</button></li>
+           <li><button onclick="window.location.href='investment.php#investment-02'">Earn & Learn</button></li>
+            <li><button onclick="window.location.href='investment.php#investment-03'">Joint Venture Partnership</button></li>
+            <li><button onclick="window.location.href='investment.php#investment-01'">Bespoke Investment Plan</button></li>
         </ul>
       </div>
       
@@ -402,7 +403,7 @@
           <li class="footer-contact-item">
             <span class="contact-icon">⊕</span>
             <a href="https://maps.app.goo.gl/p5NSSyDjDc6p8G9QA" target="_blank" rel="noopener noreferrer">
-              7-17 S Shelton Street, Covent Garden, London WC2H 9JQ, UK
+              1 Moorlane, Bolton, BL1 4TA
             </a>
           </li>
         </ul>

@@ -301,7 +301,7 @@
       <div>
         <div id="testimonial-container">
           <div class="testimonial-slider">
-            <p class="partner-label">WHAT OUR CLIENTS SAY</p>
+            <h3 class="partner-label">WHAT OUR CLIENTS SAY</h3>
               <div class="stars" id="stars"></div>
                 <blockquote id="testimonial-text"></blockquote>
                   <div class="reviewer">
@@ -458,13 +458,13 @@
         </ul>
       </div>
       <div>
-        <h4 class="footer-heading">Services</h4>
+        <h4 class="footer-heading">Investment Services</h4>
         <ul class="footer-links">
           <li><button onclick="navigate('investments')">Strategy</button></li>
           <li><button onclick="navigate('investments')">Investments</button></li>
-          <li><button onclick="navigate('investments')">Earn & Learn</button></li>
-            <li><button onclick="navigate('investments')">Joint Venture Partnership</button></li>
-            <li><button onclick="navigate('investments')">Bespoke Investment Plan</button></li>
+          <li><button onclick="window.location.href='investment.php#investment-02'">Earn & Learn</button></li>
+            <li><button onclick="window.location.href='investment.php#investment-03'">Joint Venture Partnership</button></li>
+            <li><button onclick="window.location.href='investment.php#investment-01'">Bespoke Investment Plan</button></li>
         </ul>
       </div>
       

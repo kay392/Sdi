@@ -286,13 +286,13 @@ In reality, nine out of ten clients we work with do not need to sell. They simpl
         </ul>
       </div>
       <div>
-        <h4 class="footer-heading">Services</h4>
+        <h4 class="footer-heading"> Investment Services</h4>
         <ul class="footer-links">
           <li><button onclick="navigate('investments')">Strategy</button></li>
           <li><button onclick="navigate('investments')">Investments</button></li>
-          <li><button onclick="navigate('investments')">Earn & Learn</button></li>
-            <li><button onclick="navigate('investments')">Joint Venture Partnership</button></li>
-            <li><button onclick="navigate('investments')">Bespoke Investment Plan</button></li>
+           <li><button onclick="window.location.href='investment.php#investment-02'">Earn & Learn</button></li>
+            <li><button onclick="window.location.href='investment.php#investment-03'">Joint Venture Partnership</button></li>
+            <li><button onclick="window.location.href='investment.php#investment-01'">Bespoke Investment Plan</button></li>
         </ul>
       </div>
       
@@ -309,7 +309,7 @@ In reality, nine out of ten clients we work with do not need to sell. They simpl
           <li class="footer-contact-item">
             <span class="contact-icon">⊕</span>
             <a href="https://maps.app.goo.gl/p5NSSyDjDc6p8G9QA" target="_blank" rel="noopener noreferrer">
-              7-17 S Shelton Street, Covent Garden, London WC2H 9JQ, UK
+              1 Moorlane, Bolton, BL1 4TA
             </a>
           </li>
         </ul>
