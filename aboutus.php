@@ -86,15 +86,15 @@
         <!-- <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">At SDI Group (Synergy Data Investments), we specialise in structured, data-led property investment across the UK—deploying capital as a force for good.</p>
         <p style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:0.75rem;">With up to 20 years' experience and £23M deployed, we help investors build resilient, high-performing portfolios through disciplined underwriting, ethical acquisition, and end-to-end delivery.</p> -->
         <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">
-          At <strong>SDI Group</strong> — Synergy Data Investments — we align capital, intelligence, and social impact through structured investment in essential real assets.
+          At <strong>SDI Group</strong> — Synergy Data Investments — we align capital, data, and social purpose through structured investment in essential real assets.
         </p>
 
         <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">
-          We focus on necessity-led sectors including housing, healthcare, energy, food, and social infrastructure — markets where long-term demand is driven by real-world need rather than speculation.
+          We focus on necessity-led sectors including housing, healthcare, energy, food, and social infrastructure — areas where long-term demand is driven by real-world need, not speculation.
         </p>
 
         <p class="hero-text" style="color:#d1d5db;font-size:0.875rem;line-height:1.7;margin-top:1rem;">
-          Through disciplined underwriting, ethical acquisition, and strategic execution, we help preserve investor wealth while directing private capital into assets that deliver meaningful outcomes for communities, providers, stakeholders, and future generations.
+          Through disciplined underwriting, ethical acquisition, and strategic delivery, we help protect investor wealth while directing private capital into assets that improve outcomes for people, providers, communities, and every stakeholder involved.
         </p>
       </div>
       <div class="about-founder-card">
@@ -336,7 +336,7 @@
       <div>
         <button class="nav-logo" onclick="navigate('home')">
           <div class="logo-icon-container">
-            <img src="Assets/SDI_Logo.svg" alt="SDI Group Logo" class="logo-svg">
+            <img src="Assets/SDI LOGO BLACK.png" alt="SDI Group Logo" class="logo-svg">
           </div>
           <div class="logo-text-container">
             <div class="logo-text-main">SDI GROUP</div>
@@ -394,10 +394,7 @@
       <div>
         <h4 class="footer-heading">Contact Us</h4>
         <ul class="footer-contact-items">
-          <li class="footer-contact-item">
-            <span class="contact-icon">☎</span>
-            <a href="tel:+447551935869">+447551935869</a>
-          </li>
+         
           <li class="footer-contact-item">
             <span class="contact-icon">✉</span>
             <a href="mailto:hello@sdigroup.co.uk">hello@sdigroup.co.uk</a>

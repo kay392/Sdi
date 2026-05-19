@@ -276,10 +276,7 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
       <div>
         <h4 class="footer-heading">Contact Us</h4>
         <ul class="footer-contact-items">
-          <li class="footer-contact-item">
-            <span class="contact-icon">☎</span>
-            <a href="tel:+447551935869">+447551935869</a>
-          </li>
+         
           <li class="footer-contact-item">
             <span class="contact-icon">✉</span>
             <a href="mailto:hello@sdigroup.co.uk">hello@sdigroup.co.uk</a>
