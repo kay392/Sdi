@@ -10,7 +10,19 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- CSS Link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
+    <style>
+      @media (max-width: 1024px) {
+        .features-mini-grid {
+          display: grid !important;
+          grid-template-columns: 1fr !important;
+        }
+
+        .feature-mini {
+          width: 100% !important;
+        }
+      }
+    </style>
 </head>
 <body>
  
