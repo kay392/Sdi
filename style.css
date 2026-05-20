@@ -4143,3 +4143,21 @@ nav .logo-text-sub {
     gap: 1rem;
   }
 }
+
+@media (max-width: 1024px) {
+  #page-investments .features-mini-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  #page-investments .feature-mini {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #page-about .process-grid,
+  #page-succession .challenges-grid,
+  #page-succession .exit-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
