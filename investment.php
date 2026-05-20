@@ -30,7 +30,7 @@
       <li><button onclick="navigate('home')" class="active" data-page="home">Home</button></li>
       <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
-      <li><button onclick="navigate('succession')" data-page="succession">Succession</button></li>
+      <li><button onclick="navigate('succession')" data-page="succession">Succession Planning</button></li>
     </ul>
  
     <div class="nav-actions">
@@ -48,7 +48,7 @@
     <button onclick="navigate('home'); closeMobile()">Home</button>
     <button onclick="navigate('about'); closeMobile()">About Us</button>
     <button onclick="navigate('investments'); closeMobile()">Investments</button>
-    <button onclick="navigate('succession'); closeMobile()">Succession</button>
+    <button onclick="navigate('succession'); closeMobile()">Succession Planning</button>
     <button class="nav-cta" onclick="closeMobile()">Book a Consultation →</button>
     <a class="nav-whatsapp mobile-whatsapp" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Chat with SDI Group on WhatsApp">
       <i class="fab fa-whatsapp" aria-hidden="true"></i>
@@ -212,7 +212,7 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
 </main>
  
 <!-- FOOTER -->
-<footer>
+<!-- <footer>
   <div class="footer-main">
     <div class="footer-grid">
       <div>
@@ -226,12 +226,7 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
           </div>
         </button>
         <p class="footer-desc">At SDI Group, we protect and grow wealth through ethical, data-led investment in essential assets that create lasting value and meaningful impact. </p>
-        <!-- <div class="social-links">
-          <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
-          <a class="social-btn" href="#" aria-label="Instagram">ig</a>
-          <a class="social-btn" href="#" aria-label="LinkedIn">in</a>
-          <a class="social-btn" href="#" aria-label="Instagram">ig</a>
-        </div> -->
+       
 
         <div class="social-links">
             <a class="social-btn" href="https://www.facebook.com/people/Synergy-Data-Investments/61574838262549/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
@@ -257,7 +252,7 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
           <li><button onclick="navigate('home')">&#8250; Home</button></li>
           <li><button onclick="navigate('about')">&#8250; About Us</button></li>
           <li><button onclick="navigate('investments')">&#8250; Investments</button></li>
-          <li><button onclick="navigate('succession')">&#8250; Succession</button></li>
+          <li><button onclick="navigate('succession')">&#8250; Succession Planning</button></li>
         </ul>
       </div>
       <div>
@@ -303,7 +298,12 @@ We act as your strategic partner, overseeing the full lifecycle of each investme
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
+
+<section>
+  <?php include 'includes/footer.php'; ?>
+</section>
+
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
    
  
