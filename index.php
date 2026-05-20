@@ -29,7 +29,36 @@
       <li><button onclick="navigate('home')" class="active" data-page="home">Home</button></li>
       <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
-      <li><button onclick="navigate('succession')" data-page="succession">Succession Planning</button></li>
+      <li class="dropdown">
+
+        <button onclick="navigate('succession')" data-page="succession">
+            Succession Planning
+        </button>
+
+        <ul class="submenu">
+
+            <li>
+                <button onclick="window.location.href='succession.php#market-landscape'">
+                    Market Landscape
+                </button>
+            </li>
+
+            <li>
+                <button onclick="window.location.href='succession.php#optimising-portfolio'">
+                    Optimising Investment Portfolio
+                </button>
+            </li>
+
+            <li>
+                <button onclick="window.location.href='succession.php#exit-strategy'">
+                    Exit Strategy
+                </button>
+            </li>
+
+        </ul>
+
+    </li>
+    </li>
     </ul>
     
 
