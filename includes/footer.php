@@ -75,7 +75,7 @@
             </button>
           </li>
 
-           <li><button onclick="navigate('investments')">&#8250; Strategy</button></li>
+           <!-- <li><button onclick="navigate('investments')">&#8250; Strategy</button></li> -->
 
           <li>
             <button onclick="navigate('succession')">&#8250; 
