@@ -303,6 +303,47 @@ let currentPage = 'home';
     setActivePage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  function closeSuccessionDropdowns() {
+    document.querySelectorAll('.nav-dropdown.open').forEach(dropdown => {
+      dropdown.classList.remove('open');
+      dropdown.querySelector('[aria-expanded]')?.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  function toggleSuccessionDropdown(event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const dropdown = event.currentTarget.closest('.nav-dropdown');
+    if (!dropdown) return;
+
+    const isOpen = dropdown.classList.toggle('open');
+    event.currentTarget.setAttribute('aria-expanded', String(isOpen));
+  }
+
+  function toggleMobileSuccessionDropdown(event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    document.getElementById('mobileSuccessionMenu')?.classList.toggle('open');
+  }
+
+  function navigateSuccessionSection(sectionId) {
+    closeSuccessionDropdowns();
+    document.getElementById('mobileSuccessionMenu')?.classList.remove('open');
+    closeMobile();
+
+    if (getCurrentPage() === 'succession' && document.getElementById(sectionId)) {
+      scrollToSection(sectionId);
+      history.replaceState(null, '', `#${sectionId}`);
+      return;
+    }
+
+    const targetUrl = new URL(routes.succession, window.location.href);
+    targetUrl.hash = sectionId;
+    window.location.href = targetUrl.href;
+  }
  
   function toggleMobile() {
     const menu = document.getElementById('mobileMenu');
@@ -412,8 +453,15 @@ let currentPage = 'home';
 
   window.openConsultationModal = openConsultationModal;
   window.closeConsultationModal = closeConsultationModal;
+  window.toggleSuccessionDropdown = toggleSuccessionDropdown;
+  window.toggleMobileSuccessionDropdown = toggleMobileSuccessionDropdown;
+  window.navigateSuccessionSection = navigateSuccessionSection;
 
   document.addEventListener('click', event => {
+    if (!event.target.closest('.nav-dropdown')) {
+      closeSuccessionDropdowns();
+    }
+
     const button = event.target.closest('button, a');
     if (!button) return;
 
@@ -484,6 +532,11 @@ let currentPage = 'home';
     }
     initScrollAnimations();
     initProjectsCarousel();
+
+    if (window.location.hash) {
+      const sectionId = window.location.hash.slice(1);
+      setTimeout(() => scrollToSection(sectionId), 100);
+    }
   });
 
 

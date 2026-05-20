@@ -30,7 +30,14 @@
       <li><button onclick="navigate('home')" class="active" data-page="home">Home</button></li>
       <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
-      <li><button onclick="navigate('succession')" data-page="succession">Succession Planning</button></li>
+      <li class="nav-dropdown">
+        <button type="button" onclick="toggleSuccessionDropdown(event)" data-page="succession" aria-expanded="false">Succession & Exit Planning <i class="fas fa-chevron-down nav-dropdown-icon" aria-hidden="true"></i></button>
+        <div class="nav-dropdown-menu" aria-label="Succession and exit planning sections">
+          <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
+          <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
+          <button type="button" onclick="navigateSuccessionSection('exit-strategy')">Exit Strategy</button>
+        </div>
+      </li>
     </ul>
 
     <div class="nav-actions">
@@ -48,7 +55,12 @@
     <button onclick="navigate('home'); closeMobile()">Home</button>
     <button onclick="navigate('about'); closeMobile()">About Us</button>
     <button onclick="navigate('investments'); closeMobile()">Investments</button>
-    <button onclick="navigate('succession'); closeMobile()">Succession Planning</button>
+    <button onclick="toggleMobileSuccessionDropdown(event)">Succession & Exit Planning</button>
+    <div class="mobile-submenu" id="mobileSuccessionMenu">
+      <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
+      <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
+      <button type="button" onclick="navigateSuccessionSection('exit-strategy')">Exit Strategy</button>
+    </div>
     <button class="nav-cta" onclick="closeMobile()">Book a Consultation →</button>
     <a class="nav-whatsapp mobile-whatsapp" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Chat with SDI Group on WhatsApp">
       <i class="fab fa-whatsapp" aria-hidden="true"></i>
