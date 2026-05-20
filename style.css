@@ -995,7 +995,7 @@ h3.partner-label {
   }
 
   .clean-logo {
-    height: 70px !important; /* Scale down for mobile tablets */
+    height: 88px !important;
   }
 }
 
@@ -1005,7 +1005,7 @@ h3.partner-label {
   }
   
   .clean-logo {
-    height: 60px !important;
+    height: 78px !important;
   }
 }
 /* End */
@@ -3948,6 +3948,14 @@ h3.partner-label {
 .testimonial-slider{
     position: relative;
     padding: 40px 80px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-slider blockquote {
+    min-height: 110px;
 }
 
 /* NAV WRAPPER */
@@ -3966,15 +3974,15 @@ h3.partner-label {
 .arrow-btn{
     pointer-events: all;
 
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
 
     border: none;
     border-radius: 50%;
 
     cursor: pointer;
 
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
 
     color: #fff;
@@ -3999,11 +4007,11 @@ h3.partner-label {
 
 /* LEFT & RIGHT spacing control */
 .left{
-    margin-left: -30px;
+    margin-left: -18px;
 }
 
 .right{
-    margin-right: -30px;
+    margin-right: -18px;
 }
 
 /* ===================== CTA ADVISOR SECTION ===================== */
@@ -4159,5 +4167,211 @@ nav .logo-text-sub {
   #page-succession .challenges-grid,
   #page-succession .exit-grid {
     grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+  }
+
+  body {
+    position: relative;
+  }
+
+  nav,
+  main,
+  footer,
+  .page,
+  section {
+    max-width: 100vw;
+  }
+
+  nav,
+  main,
+  footer,
+  section,
+  .testimonial-section,
+  .newsletter-section,
+  .cta-advisor-section {
+    overflow-x: hidden;
+  }
+
+  .nav-inner {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .nav-logo {
+    min-width: 0;
+    max-width: calc(100% - 44px);
+  }
+
+  nav .logo-text-container {
+    min-width: 0;
+  }
+
+  nav .logo-text-sub {
+    font-size: clamp(0.68rem, 3.35vw, 0.85rem);
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .logo-icon-container {
+    width: 42px;
+    height: 42px;
+  }
+
+  .testimonial-slider {
+    padding: 2rem 3rem;
+    min-height: 360px;
+  }
+
+  .arrow-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 1.25rem;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.14);
+  }
+
+  .testimonial-slider blockquote {
+    min-height: 150px;
+  }
+
+  .testimonial-nav .left {
+    margin-left: 0;
+  }
+
+  .testimonial-nav .right {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    overflow-x: clip;
+  }
+
+  body {
+    overflow-x: clip;
+    touch-action: pan-y;
+  }
+
+  body > * {
+    max-width: 100vw;
+  }
+
+  .container,
+  .hero-content,
+  .newsletter-container,
+  .cta-advisor-inner,
+  .footer-main,
+  .footer-bottom-inner {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .stats-section .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stats-grid {
+    width: min(100%, 520px);
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    justify-content: center;
+    justify-items: stretch;
+    gap: 0.85rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stat-card {
+    width: 100%;
+    min-width: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 1rem 0.65rem;
+    text-align: center;
+  }
+
+  .stat-card > div:last-child {
+    min-width: 0;
+  }
+
+  .stat-value,
+  .stat-label {
+    overflow-wrap: anywhere;
+  }
+
+  .stat-value {
+    font-size: clamp(1.15rem, 5vw, 1.45rem);
+  }
+
+  .stat-label {
+    font-size: clamp(0.68rem, 3.2vw, 0.78rem);
+    line-height: 1.35;
+  }
+}
+
+footer .footer-grid > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .footer-grid > div:first-child .nav-logo {
+  justify-content: center;
+}
+
+footer .footer-desc {
+  max-width: 360px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+footer .social-links {
+  justify-content: center;
+}
+
+footer .footer-bottom-inner {
+  justify-content: center;
+  text-align: center;
+}
+
+footer .footer-bottom-inner > span,
+footer .footer-bottom-links {
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  footer .footer-grid > div:first-child {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  footer .footer-grid > div:first-child .nav-logo {
+    justify-content: flex-start;
+  }
+
+  footer .footer-desc {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  footer .social-links {
+    justify-content: flex-start;
   }
 }
