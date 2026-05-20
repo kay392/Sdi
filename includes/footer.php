@@ -109,7 +109,6 @@
 
     </div>
   </div>
-
   <div class="footer-bottom">
     <div class="footer-bottom-inner">
       <span>
@@ -127,4 +126,5 @@
       </div>
     </div>
   </div>
+
 </footer>
