@@ -444,6 +444,33 @@ let currentPage = 'home';
     if (!btn) return;
     btn.classList.toggle('visible', window.scrollY > 300);
   });
+
+  function initProjectsCarousel() {
+    const projectsSlider = document.querySelector('.projects-grid');
+    const projectButtons = document.querySelectorAll('.projects-section .carousel-btn');
+
+    if (!projectsSlider || projectButtons.length < 2) return;
+
+    const getScrollAmount = () => {
+      const firstCard = projectsSlider.querySelector('.project-card');
+      const sliderStyles = window.getComputedStyle(projectsSlider);
+      const gap = parseFloat(sliderStyles.columnGap || sliderStyles.gap) || 0;
+
+      if (firstCard) {
+        return firstCard.getBoundingClientRect().width + gap;
+      }
+
+      return projectsSlider.clientWidth;
+    };
+
+    projectButtons[0].addEventListener('click', () => {
+      projectsSlider.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+    });
+
+    projectButtons[1].addEventListener('click', () => {
+      projectsSlider.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+    });
+  }
  
   document.addEventListener('DOMContentLoaded', () => {
     if (isLegacyHomePath()) {
@@ -453,41 +480,35 @@ let currentPage = 'home';
     }
 
     setActivePage(getCurrentPage());
-    initHeroYouTubeVideo();
-    initScrollAnimations();
-
-    const projectsSlider = document.querySelector('.projects-grid');
-    const projectButtons = document.querySelectorAll('.projects-section .carousel-btn');
-
-    if (projectsSlider && projectButtons.length === 2) {
-      projectButtons[0].addEventListener('click', () => {
-        projectsSlider.scrollBy({ left: -projectsSlider.clientWidth, behavior: 'smooth' });
-      });
-
-      projectButtons[1].addEventListener('click', () => {
-        projectsSlider.scrollBy({ left: projectsSlider.clientWidth, behavior: 'smooth' });
-      });
+    if (typeof initHeroYouTubeVideo === 'function') {
+      initHeroYouTubeVideo();
     }
+    initScrollAnimations();
+    initProjectsCarousel();
   });
 
 
 
-  document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
+const contactForm = document.getElementById("contactForm");
 
-  const formData = new FormData(this);
+if (contactForm) {
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
 
-  fetch("submit_form.php", {
-    method: "POST",
-    body: formData
-  })
-  .then(res => res.json())
-  .then(data => {
-    console.log("FORM DATA RECEIVED FROM PHP:");
-    console.log(data);
-  })
-  .catch(err => console.log("Error:", err));
-});
+    const formData = new FormData(this);
+
+    fetch("submit_form.php", {
+      method: "POST",
+      body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+      console.log("FORM DATA RECEIVED FROM PHP:");
+      console.log(data);
+    })
+    .catch(err => console.log("Error:", err));
+  });
+}
 
 
 
