@@ -55,29 +55,31 @@
         <h4 class="footer-heading">Investment Services</h4>
 
         <ul class="footer-links">
-          <li><button onclick="navigate('investments')">Strategy</button></li>
+         
           <!-- <li><button onclick="navigate('investments')">Investments</button></li> -->
 
            <li>
-            <button onclick="window.location.href='investment.php#investment-01'">
+            <button onclick="window.location.href='investment.php#investment-01'">&#8250; 
               Fixed Return
             </button>
           </li>
           <li>
-            <button onclick="window.location.href='investment.php#investment-02'">
+            <button onclick="window.location.href='investment.php#investment-02'">&#8250; 
               Earn & Learn
             </button>
           </li>
 
           <li>
-            <button onclick="window.location.href='investment.php#investment-03'">
+            <button onclick="window.location.href='investment.php#investment-03'">&#8250; 
               Joint Venture Partnership
             </button>
           </li>
 
+           <li><button onclick="navigate('investments')">&#8250; Strategy</button></li>
+
           <li>
-            <button onclick="navigate('succession')">
-              Succession Planning
+            <button onclick="navigate('succession')">&#8250; 
+              Succession & Exit Planning
             </button>
           </li>
         </ul>
@@ -107,7 +109,6 @@
 
     </div>
   </div>
-
   <div class="footer-bottom">
     <div class="footer-bottom-inner">
       <span>
@@ -125,4 +126,5 @@
       </div>
     </div>
   </div>
+
 </footer>
