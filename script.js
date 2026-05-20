@@ -100,8 +100,7 @@ let currentPage = 'home';
       '.form-card',
       '.contact-card',
       '.hero-btns',
-      '.footer-grid > *',
-      '.footer-bottom-inner > *'
+      '.footer-grid > *'
     ];
 
     const selectors = [

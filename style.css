@@ -4345,14 +4345,24 @@ footer .social-links {
 }
 
 footer .footer-bottom-inner {
+  display: flex;
   justify-content: center;
   text-align: center;
+  opacity: 1;
+  visibility: visible;
 }
 
 footer .footer-bottom-inner > span,
 footer .footer-bottom-links {
   width: 100%;
   justify-content: center;
+}
+
+footer .footer-bottom-inner > * {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  filter: none !important;
 }
 
 @media (min-width: 769px) {
