@@ -30,7 +30,12 @@
       <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
       <li class="nav-dropdown">
-        <button type="button" onclick="toggleSuccessionDropdown(event)" data-page="succession" aria-expanded="false">Succession & Exit Planning <i class="fas fa-chevron-down nav-dropdown-icon" aria-hidden="true"></i></button>
+        <div class="nav-dropdown-trigger">
+          <button type="button" onclick="navigate('succession')" data-page="succession">Succession & Exit Planning</button>
+          <button type="button" class="nav-dropdown-toggle" onclick="toggleSuccessionDropdown(event)" aria-expanded="false" aria-label="Open Succession & Exit Planning menu">
+            <i class="fas fa-chevron-down nav-dropdown-icon" aria-hidden="true"></i>
+          </button>
+        </div>
         <div class="nav-dropdown-menu" aria-label="Succession and exit planning sections">
           <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
           <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
