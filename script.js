@@ -339,6 +339,29 @@ let currentPage = 'home';
       history.replaceState(null, '', `#${sectionId}`);
       return;
     }
+  }
+
+// Ensure footer links show active state even when PHP isn't executed
+function setFooterActiveFromLocation() {
+  try {
+    const links = Array.from(document.querySelectorAll('.footer-bottom-links a'));
+    const currentToken = (window.location.pathname.split('/').pop() || '').toLowerCase();
+    links.forEach(a => {
+      const href = a.getAttribute('href') || '';
+      let hrefPath = '';
+      try { hrefPath = new URL(href, window.location.origin).pathname.split('/').pop().toLowerCase(); } catch(e) { hrefPath = href.split('/').pop().toLowerCase(); }
+      if (hrefPath && hrefPath === currentToken) {
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
+    });
+  } catch (e) {
+    // fail silently
+  }
+}
+
+document.addEventListener('DOMContentLoaded', setFooterActiveFromLocation);
 
     const targetUrl = new URL(routes.succession, window.location.href);
     targetUrl.hash = sectionId;

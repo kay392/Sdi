@@ -1830,6 +1830,7 @@ h3.partner-label {
   .footer-bottom-links { display: flex; gap: 1rem; align-items: center; }
   .footer-bottom-links a { color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.2s; cursor: pointer; }
   .footer-bottom-links a:hover { color: white; }
+  .footer-bottom-links a.active { text-decoration: underline; text-decoration-color: rgba(255,255,255,0.95); text-underline-offset: 4px; }
 
   /* Scroll to top */
   .scroll-top {
