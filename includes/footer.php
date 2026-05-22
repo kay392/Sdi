@@ -116,13 +116,13 @@
       </span>
 
       <div class="footer-bottom-links">
-        <a href="#">Complaint Procedure</a>
+        <a onclick="window.location.href='Complaint-Procedure.php'">Complaint Procedure</a>
         <span>|</span>
 
-        <a href="#">Data Protection Policy</a>
+        <a onclick="window.location.href='Data-Protection-Policy.php'" class="active" data-page="data-protection">Data Protection Policy</a>
         <span>|</span>
 
-        <a href="#">Cookies Policy</a>
+        <a onclick="window.location.href='Cookies-Policy.php'" class="active" data-page="cookies">Cookies Policy</a>
       </div>
     </div>
   </div>
