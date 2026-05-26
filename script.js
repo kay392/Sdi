@@ -339,6 +339,10 @@ let currentPage = 'home';
       history.replaceState(null, '', `#${sectionId}`);
       return;
     }
+
+    const targetUrl = new URL(routes.succession, window.location.href);
+    targetUrl.hash = sectionId;
+    window.location.href = targetUrl.href;
   }
 
 // Ensure footer links show active state even when PHP isn't executed
@@ -362,11 +366,6 @@ function setFooterActiveFromLocation() {
 }
 
 document.addEventListener('DOMContentLoaded', setFooterActiveFromLocation);
-
-    const targetUrl = new URL(routes.succession, window.location.href);
-    targetUrl.hash = sectionId;
-    window.location.href = targetUrl.href;
-  }
  
   function toggleMobile() {
     const menu = document.getElementById('mobileMenu');
