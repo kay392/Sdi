@@ -83,11 +83,13 @@
       color:#0f172a;
       position:relative;
 
+
       padding-left:0;
     }
 
     .cookie-card h2::before{
       display:none;
+
 
       padding-left:20px;
     }
@@ -101,6 +103,7 @@
       height:32px;
       background:#2563eb;
       border-radius:10px;
+
     }
 
     .cookie-card p{
@@ -182,9 +185,11 @@
 
       .cookie-banner{
 
+
         padding:60px 16px;
 
         padding:60px 20px;
+
 
       }
 
@@ -212,6 +217,7 @@
 
       .cookie-card{
         padding:25px;
+
       }
 
       .cookie-card h2{

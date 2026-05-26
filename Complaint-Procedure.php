@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>SDI Group - Complaint Procedure</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <style>
+
+</head>
+<body>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+     <style>
+
       *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
       body{background:#f4f7fb;color:#333;line-height:1.8;overflow-x:hidden;}
       .policy-hero{background:linear-gradient(135deg,#3a6230,#4a7c3f);color:#fff;padding:90px 20px;text-align:center;}
@@ -25,10 +35,234 @@
       .highlight-box{background:#edf6ea;border-left:5px solid #4a7c3f;padding:25px;border-radius:14px;margin-top:25px;}
       @media(max-width:768px){.policy-hero{padding:64px 16px;}.policy-hero h1{font-size:38px;}.policy-card{padding:32px;}}
       @media(max-width:420px){.policy-hero h1{font-size:32px;}}    
-    </style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f7fb;
+      color:#333;
+      line-height:1.8;
+    }
+
+    /* HERO SECTION */
+
+    .policy-hero{
+      background:linear-gradient(135deg,#0f172a,#1e3a8a);
+      color:#fff;
+      padding:90px 20px;
+      text-align:center;
+    }
+
+    .policy-hero h1{
+      font-size:52px;
+      margin-bottom:20px;
+      font-weight:700;
+    }
+
+    .policy-hero p{
+      max-width:850px;
+      margin:auto;
+      font-size:18px;
+      opacity:0.9;
+    }
+
+    /* MAIN CONTAINER */
+
+    .policy-container{
+      max-width:1200px;
+      margin:60px auto;
+      padding:0 20px;
+    }
+
+    /* CARD */
+
+    .policy-card{
+      background:#fff;
+      border-radius:22px;
+      padding:45px;
+      margin-bottom:35px;
+      box-shadow:0 10px 35px rgba(0,0,0,0.08);
+      transition:0.3s ease;
+    }
+
+    .policy-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .policy-card h2{
+      font-size:32px;
+      margin-bottom:25px;
+      color:#0f172a;
+      position:relative;
+      padding-left:22px;
+    }
+
+    .policy-card h2::before{
+      content:'';
+      position:absolute;
+      left:0;
+      top:6px;
+      width:6px;
+      height:36px;
+      background:#2563eb;
+      border-radius:10px;
+    }
+
+    .policy-card p{
+      margin-bottom:18px;
+      color:#555;
+      font-size:16px;
+    }
+
+    .policy-card ul{
+      margin-left:20px;
+      margin-top:10px;
+    }
+
+    .policy-card ul li{
+      margin-bottom:12px;
+      color:#555;
+    }
+
+    /* DEFINITIONS GRID */
+
+    .definitions-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+      margin-top:25px;
+    }
+
+    .definition-box{
+      background:#f8fafc;
+      border:1px solid #e2e8f0;
+      border-radius:18px;
+      padding:25px;
+      transition:0.3s ease;
+    }
+
+    .definition-box:hover{
+      background:#eff6ff;
+      transform:translateY(-4px);
+    }
+
+    .definition-box h3{
+      font-size:22px;
+      color:#0f172a;
+      margin-bottom:15px;
+    }
+
+    .definition-box p{
+      font-size:15px;
+      color:#555;
+      margin:0;
+    }
+
+    /* HIGHLIGHT BOX */
+
+    .highlight-box{
+      background:#eff6ff;
+      border-left:5px solid #2563eb;
+      padding:25px;
+      border-radius:14px;
+      margin-top:25px;
+    }
+
+    .highlight-box strong{
+      color:#0f172a;
+    }
+
+    /* STEPS */
+
+    .step-box{
+      background:#f8fafc;
+      border-radius:18px;
+      padding:30px;
+      margin-top:25px;
+      border:1px solid #e2e8f0;
+    }
+
+    .step-box h3{
+      color:#1e3a8a;
+      margin-bottom:15px;
+      font-size:24px;
+    }
+
+    .step-box p{
+      margin-bottom:15px;
+    }
+
+    /* CONTACT */
+
+    .contact-box{
+      text-align:center;
+      background:linear-gradient(135deg,#2563eb,#1d4ed8);
+      color:#fff;
+      padding:50px 30px;
+      border-radius:22px;
+    }
+
+    .contact-box h2{
+      color:#fff;
+      padding-left:0;
+    }
+
+    .contact-box h2::before{
+      display:none;
+    }
+
+    .contact-box p{
+      color:#e2e8f0;
+    }
+
+    .contact-box a{
+      display:inline-block;
+      margin-top:20px;
+      background:#fff;
+      color:#1d4ed8;
+      padding:14px 30px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:600;
+      transition:0.3s ease;
+    }
+
+    .contact-box a:hover{
+      background:#dbeafe;
+    }
+
+    /* MOBILE */
+
+    @media(max-width:768px){
+
+      .policy-hero{
+        padding:70px 20px;
+      }
+
+      .policy-hero h1{
+        font-size:38px;
+      }
+
+      .policy-card{
+        padding:28px;
+      }
+
+      .policy-card h2{
+        font-size:26px;
+      }
+
+    }
+
+  </style>
 </head>
 <body>
 
+    <!-- NAVBAR -->
 <nav id="navbar">
   <div class="nav-inner">
     <button class="nav-logo" onclick="navigate('home')">
@@ -45,7 +279,9 @@
       <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
       <li><button onclick="navigate('succession')" data-page="succession">Succession Planning</button></li>
+    </li>
     </ul>
+    
 
     <div class="nav-actions">
       <button class="nav-cta" onclick="navigate('home')">Book a Consultation</button>
@@ -72,159 +308,398 @@
 </nav>
 
 <main>
-  <section class="policy-hero">
-    <h1>COMPLAINTS POLICY</h1>
-    <p>At SDI Group, we welcome and encourage feedback of all kinds. If you have a Complaint about our services, our customer service, or our team, we aim to resolve it fairly and learn from it.</p>
+    <section class="policy-hero">
+    <h1>Complaints Policy</h1>
+
+    <p>
+      We value customer feedback and are committed to handling all complaints
+      fairly, professionally, and as quickly as possible.
+    </p>
   </section>
 
   <div class="policy-container">
+
+    <!-- DEFINITIONS -->
+
     <div class="policy-card">
+
       <h2>Definitions</h2>
-      <p>In this Complaints Policy the following expressions have the following meanings:</p>
-      <dl>
-        <dt>“Appeal”</dt>
-        <dd>means your request to escalate a Complaint from Level One to Level Two if you are not satisfied with the outcome at Level One;</dd>
 
-        <dt>“Appeal Handler”</dt>
-        <dd>means an employee of &lt;&lt;insert business name&gt;&gt; working at &lt;&lt;insert level&gt;&gt; who will handle Level Two Complaints;</dd>
+      <div class="definitions-grid">
 
-        <dt>“Business Day”</dt>
-        <dd>means, any day (other than Saturday or Sunday) on which ordinary banks are open for their full range of normal business in &lt;&lt;insert location&gt;&gt;;</dd>
+        <div class="definition-box">
+          <h3>Appeal</h3>
+          <p>
+            means your request to escalate a Complaint from Level One to Level Two 
+            if you are not satisfied with the outcome at Level One
+          </p>
+        </div>
 
-        <dt>“Complaint”</dt>
-        <dd>means a complaint about [goods] AND/OR [services] sold by &lt;&lt;insert business name&gt;&gt;, about our customer service, or about our employees [agents] [subcontractors];</dd>
+        <div class="definition-box">
+          <h3>Appeal Handler</h3>
+          <p>
+            means an employee of <<insert business name>> working at <<insert level>> who will handle Level Two Complaints
+          </p>
+        </div>
 
-        <dt>[“Complaints Form”]</dt>
-        <dd>[means our standard complaints form, available from &lt;&lt;insert location(s)&gt;&gt;;]</dd>
+        <div class="definition-box">
+          <h3>Business Day</h3>
+          <p>
+            means, any day (other than Saturday or Sunday) on which ordinary banks are open for their full range of normal business in <<insert location>>
+          </p>
+        </div>
 
-        <dt>“Complaint Handler”</dt>
-        <dd>means an employee of &lt;&lt;insert business name&gt;&gt; working at &lt;&lt;insert level&gt;&gt; who will handle Level One Complaints;</dd>
+        <div class="definition-box">
+          <h3>Complaint</h3>
+          <p>
+            means a complaint about [goods] AND/OR [services] sold by <<insert business name>>, about our customer service, or about our employees [agents] [subcontractors];
+          </p>
+        </div>
 
-        <dt>“Complaints Policy”</dt>
-        <dd>means this document;</dd>
+        <div class="definition-box">
+          <h3>Complaints Form</h3>
+          <p>
+            [means our standard complaints form, available from <<insert location(s)>>;]
+          </p>
+        </div>
 
-        <dt>“Complaints Procedure”</dt>
-        <dd>means the internal complaints handling procedure of &lt;&lt;insert business name&gt;&gt; which is followed when handling a Complaint and is available from &lt;&lt;insert location(s)&gt;&gt; for your reference;</dd>
+        <div class="definition-box">
+          <h3>Complaint Handler</h3>
+          <p>
+            means an employee of <<insert business name>> working at <<insert level>> who will handle Level One Complaints;
+          </p>
+        </div>
+        <div class="definition-box">
+          <h3>Complaints Policy</h3>
+          <p>
+            means this document;
+          </p>
+        </div>
+        <div class="definition-box">
+          <h3>Complaints Procedure</h3>
+          <p>
+            means the internal complaints handling procedure of <<insert business name>> which is followed when handling a Complaint and is available from <<insert location(s)>> for your reference;
+          </p>
+        </div>
+        <div class="definition-box">
+          <h3>Complaint Reference</h3>
+          <p>
+            means a unique code assigned to your Complaint that will be used to track your Complaint;
+          </p>
+        </div>
+        <div class="definition-box">
+          <h3>External Resolution</h3>
+          <p>
+            [means the referral of your Complaint to an external body or organisation for resolution if you are not satisfied with the outcome at Level Two;]
+          </p>
+        </div>
+        <div class="definition-box">
+          <h3>“Level One</h3>
+          <p>
+           means the first stage in our complaints handling procedure under which your Complaint will be handled by a Complaint Handler; and
+          </p>
+        </div>
+          <div class="definition-box">
+          <h3>“Level Two</h3>
+          <p>
+            means the second stage in our complaints handling procedure under which you may appeal the outcome of a Level One Complaint.  Your Complaint will be handled by an Appeal Handler.          </p>
+        </div>
 
-        <dt>“Complaint Reference”</dt>
-        <dd>means a unique code assigned to your Complaint that will be used to track your Complaint;</dd>
+      </div>
 
-        <dt>[“External Resolution”]</dt>
-        <dd>[means the referral of your Complaint to an external body or organisation for resolution if you are not satisfied with the outcome at Level Two;]</dd>
-
-        <dt>“Level One”</dt>
-        <dd>means the first stage in our complaints handling procedure under which your Complaint will be handled by a Complaint Handler; and</dd>
-
-        <dt>“Level Two”</dt>
-        <dd>means the second stage in our complaints handling procedure under which you may appeal the outcome of a Level One Complaint. Your Complaint will be handled by an Appeal Handler.</dd>
-      </dl>
     </div>
 
-    <div class="policy-card">
-      <h2>Purpose of this Complaints Policy</h2>
-      <p>&lt;&lt;Insert business name&gt;&gt; welcomes and encourages feedback of all kinds from our customers. If you have a Complaint about our [goods] AND/OR [services], our customer service, or about our employees [agents] [subcontractors], not only do we want to resolve it to your satisfaction but we also want to learn from it in order to improve our business and customer experience in the future.</p>
-      <p>It is our policy to resolve Complaints quickly and fairly, where possible without recourse to formal investigations or external bodies. In particular, the aims of this Complaints Policy are:</p>
-      <ul>
-        <li>To provide a clear and fair procedure for any customers who wish to make a Complaint about &lt;&lt;insert business name&gt;&gt;, our [goods] AND/OR [services], our customer service, or about our employees [agents] [subcontractors];</li>
-        <li>To ensure that everyone working for or with &lt;&lt;insert business name&gt;&gt; knows how to handle Complaints made by our customers;</li>
-        <li>To ensure that all Complaints are handled equally and in a fair and timely fashion;</li>
-        <li>To ensure that important information is gathered from Complaints and used in the future to avoid such a situation arising again.</li>
-      </ul>
-    </div>
+    <!-- PURPOSE -->
 
     <div class="policy-card">
-      <h2>What this Complaints Policy Covers</h2>
-      <p>This Complaints Policy applies to [the sale of goods] AND/OR [the provision of services] by &lt;&lt;insert business name&gt;&gt;, to our customer service and to our employees [agents] [subcontractors].</p>
-      <p>For the purposes of this Complaints Policy, any reference to &lt;&lt;insert business name&gt;&gt; also includes our employees [agents] [subcontractors].</p>
-      <p>Complaints may relate to any of our activities and may include (but not be limited to):</p>
-      <ul>
-        <li>The quality of customer service you have received from &lt;&lt;insert business name&gt;&gt;;</li>
-        <li>The behaviour and/or professional competence of our employees [agents] [subcontractors];</li>
-        <li>[Delays, defects or other problems associated with the sale of goods by &lt;&lt;insert business name&gt;&gt;;]</li>
-        <li>[Delays, defects, poor workmanship or other problems associated with the provision of services by &lt;&lt;insert business name&gt;&gt;;]</li>
-        <li>&lt;&lt;Insert additional examples or remove as appropriate&gt;&gt;.</li>
-      </ul>
-      <p>The following are not considered to be Complaints and should therefore be directed to the appropriate [person] OR [department]:</p>
-      <ul>
-        <li>General questions about our [goods] AND/OR [services];</li>
-        <li>[Returns of damaged, faulty, incorrect or unwanted goods for exchange or refund in accordance with [my] OR [our] &lt;&lt;insert document e.g. Sale of Goods Terms and Conditions&gt;&gt; where there is no further complaint];</li>
-        <li>Matters concerning contractual or other legal disputes;</li>
-        <li>Formal requests for the disclosure of information, for example, under the Data Protection Act;</li>
-        <li>&lt;&lt;Insert additional examples or remove as appropriate&gt;&gt;.</li>
-      </ul>
+
+      <h2>Purpose of This Policy</h2>
+
+      
+
+      <div class="highlight-box">
+
+
+
+        <ul>
+          <li><<Insert business name>> welcomes and encourages feedback of all kinds from our customers.  If you have a Complaint about our [goods] AND/OR [services], our customer service, or about our employees [agents] [subcontractors], not only do we want to resolve it to your satisfaction but we also want to learn from it in order to improve our business and customer experience in the future.
+            </li>
+          <li>It is our policy to resolve Complaints quickly and fairly, where possible without recourse to formal investigations or external bodies.  In particular, the aims of this Complaints Policy are</li>
+            <ul>
+                <li>To provide a clear and fair procedure for any customers who wish to make a Complaint about <<insert business name>>, our [goods] AND/OR [services], our customer service, or about our employees [agents] [subcontractors];</li>
+                <li>To ensure that everyone working for or with <<insert business name>> knows how to handle Complaints made by our customers;</li>
+                <li>To ensure that all Complaints are handled equally and in a fair and timely fashion;</li>
+                <li>To ensure that important information is gathered from Complaints and used in the future to avoid such a situation arising again.</li>
+                
+            </ul>  
+          
+        </ul>
+
+      </div>
+
     </div>
 
+    <!-- WHAT THIS POLICY COVERS -->
+
     <div class="policy-card">
+
+      <h2>What This Policy Covers</h2>
+
+      <ul>
+        <li>This Complaints Policy applies to [the sale of goods] AND/OR [the provision of services] by <<insert business name>>, to our customer service and to our employees [agents] [subcontractors].</li>
+        <li>For the purposes of this Complaints Policy, any reference to <<insert business name>> also includes our employees [agents] [subcontractors]</li>
+        <li>Complaints may relate to any of our activities and may include (but not be limited to):</li>
+        <ul>
+          <li>The quality of customer service you have received from <<insert business name>>;</li>
+          <li>The behaviour and/or professional competence of our employees [agents] [subcontractors];</li>
+          <li>[Delays, defects or other problems associated with the sale of goods by <<insert business name>>;]</li>
+          <li>[Delays, defects, poor workmanship or other problems associated with the provision of services by <<insert business name>>;]</li>
+          <li><<Insert additional examples or remove as appropriate>>.</li>
+        </ul>
+        <li>The following are not considered to be Complaints and should therefore be directed to the appropriate [person] OR [department]:</li>
+        <ul>
+          <li>General questions about our [goods] AND/OR [services];</li>
+          <li>[Returns of damaged, faulty, incorrect or unwanted goods for exchange or refund in accordance with [my] OR [our] <<insert document e.g. Sale of Goods Terms and Conditions>> where there is no further complaint];</li>
+          <li>Matters concerning contractual or other legal disputes;</li>
+          <li>Formal requests for the disclosure of information, for example, under the Data Protection Act;</li>
+          <li><<Insert additional examples or remove as appropriate>>.</li>
+      </ul>
+
+    </div>
+
+    <!-- MAKING A COMPLAINT -->
+
+    <div class="policy-card">
+
       <h2>Making a Complaint</h2>
-      <p>All Complaints, whether they concern our [goods] AND/OR [services], our customer service, or our employees [agents] [subcontractors], should be made in one of the following ways:</p>
+
+     
+
       <ul>
-        <li>[In writing, addressed to &lt;&lt;insert name and/or position&gt;&gt;, &lt;&lt;insert address&gt;&gt;;]</li>
-        <li>[By email, addressed to &lt;&lt;insert name and/or position&gt;&gt; at &lt;&lt;insert email address&gt;&gt;;]</li>
-        <li>[Using our Complaints Form, following the instructions included with the form;]</li>
-        <li>[By contacting us by telephone on &lt;&lt;insert telephone number&gt;&gt; [and choosing option &lt;&lt;insert number&gt;&gt; when prompted.]]</li>
+        <li>All Complaints, whether they concern our [goods] AND/OR [services], our customer service, or our employees [agents] [subcontractors], should be made in one of the following ways:</li>
+            <ul>
+                <li>[In writing, addressed to <<insert name and/or position>>, <<insert address>>;]</li>
+                <li>[By email, addressed to <<insert name and/or position>> at <<insert email address>>;]</li>
+                <li>[Using our Complaints Form, following the instructions included with the form;]</li>
+                <li>[By contacting us by telephone on <<insert telephone number>> [and choosing option <<insert number>> when prompted.]]</li>
+            </ul>
+        <li>When making a Complaint, you will be required to provide the following information in as much detail as is reasonably possible:</li>
+        
       </ul>
-      <p>When making a Complaint, you will be required to provide the following information in as much detail as is reasonably possible:</p>
+
+      <div class="highlight-box">
+
+        <strong>Please include:</strong>
+
+        <ul>
+          <li>Your name, address, telephone number and email address (We will contact you using your preferred contact method as your Complaint is handled)</li>
+          <li>If you are making a Complaint on behalf of someone else, that person’s name and contact details as well as your own;</li>
+          <li>If you are making a Complaint about a particular transaction, the <<insert reference number, e.g. order number, invoice number etc.>>;</li>
+          <li>If you are making a Complaint about a particular employee [agent] [subcontractor] of ours, the name and, where appropriate, position of that employee [agent] [subcontractor];</li>
+          <li>Further details of your Complaint including, as appropriate, all times, dates, events, and people involved;</li>
+          <li>Details of any documents or other evidence you wish to rely on in support of your Complaint;</li>
+          <li>Details of what you would like <<insert business name>> to do to resolve your Complaint and to put things right.  (Please note that whilst we will make every reasonable effort to accommodate such requests, we are not bound to take any action beyond that which we may be contractually or otherwise legally obliged to take.)</li>
+          <li><<Insert additional examples or remove as appropriate>>.</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- LEVEL ONE -->
+
+    <div class="policy-card">
+
+      <h2>How We Handle Complaints</h2>
+
+      <div class="step-box">
+
+        
+
+        <p>
+          <<Insert business name>> operates a two-stage complaints handling procedure.  
+            Following our Complaints Procedure, our aim is to always resolve Complaints to your satisfaction at Level One without
+             further recourse to Level Two.  If you are not satisfied at the end of Level One, you may escalate your Complaint
+              to Level Two.  [If you are still not satisfied at the end of Level Two, 
+              Complaints may progress to External Resolution as detailed below.]
+
+        </p>
+
+
+
+      </div>
+
+      <div class="step-box">
+
+
+        
+        <li>Level One:
+            <ul>
+                <li>
+                    Upon receipt of your Complaint, the <<insert position>> identified above in Section 4.1 will log the Complaint in our <<insert location, e.g. complaints log, complaints system etc.>> and will acknowledge receipt of it in writing within <<insert period>>, giving you a Complaint Reference
+                </li>
+                <li>
+                    When we acknowledge receipt of your Complaint we will also provide details of your Complaint Handler.  This may be the <<insert position>> to whom your original Complaint was directed (as above) or your Complaint may be assigned to another appropriate member of our team.
+                </li>
+                <li>
+                    If your Complaint relates to a specific employee [agent] [subcontractor], that person will be informed of your Complaint and given a fair and reasonable opportunity to respond.  Any communication between you and the employee [agent] [subcontractor] in question should take place only via the Complaint Handler and we respectfully ask that you do not contact the employee [agent] [subcontractor] in question directly concerning the Complaint while we are working to resolve it
+                </li>
+                <li>
+                    If we require any further information or evidence from you, the Complaint Handler will contact you as quickly as is reasonably possible to ask for it.  We ask that you use reasonable efforts to supply any such information or evidence quickly in order to avoid delaying the complaints handling process.  If you are for any reason unable to provide such information or evidence we will use all reasonable efforts to proceed without it, however please be aware that we will not ask for further information or evidence unless we consider it important to the successful resolution of your Complaint.
+                </li>
+                <li>
+                    We aim to resolve Level One Complaints within <<insert period>>, however in some cases, particularly if your Complaint is of a complex nature, this may not be possible.  If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.
+                </li>
+                <li>
+                    At the conclusion of the Level One complaints procedure, regardless of the outcome, we will provide you with full details of our investigation, our conclusions from that investigation, and any action taken as a result.  You will also be reminded of your right to appeal our decision and escalate the complaint to Level Two in the form of an Appeal.
+                </li>
+
+
+            </ul>
+        </li>
+        <li>
+            Level Two:
+            <ul>
+                <li>
+                    If you are not satisfied with the resolution of your complaint at Level One, you may appeal the decision within <<insert period>>, and have the complaint escalated to Level Two.  Appeals are handled by <<insert staff level, e.g. management>> level members of our team.
+
+                </li>
+                <li>
+                    Appeals, quoting your original Complaint Reference, should be directed to your original Complaint Handler who will forward the request to an appropriate Appeal Handler.  Receipt of Appeals will be acknowledged in writing within <<insert period>>.  When we acknowledge receipt of your Appeal we will also provide details of your Appeal Handler.                </li>
+                <li>
+                    If your Complaint relates to a specific employee [agent] [subcontractor], that person will be informed of your Appeal and given a further opportunity to respond.  Any communication between you and the employee [agent] [subcontractor] in question should take place only via the Appeal Handler and we respectfully ask that you do not contact the employee [agent] [subcontractor] in question directly concerning the Complaint while we are working to resolve it.</li>
+                <li>
+                    If we require any further information or evidence from you, the Appeal Handler will contact you as quickly as is reasonably possible to ask for it.  We ask that you use reasonable efforts to supply any such information or evidence to us quickly in order to avoid delaying the complaints handling process.  If you are for any reason unable to provide such information or evidence we will use all reasonable efforts to proceed without it, however please be aware that we will not ask for further information or evidence unless we consider it important to the successful resolution of your Complaint.                </li>
+                <li>
+                    We aim to resolve Level Two Complaints within <<insert period>>, however in some cases, particularly if your Complaint is of a complex nature, this may not be possible.  If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.                </li>
+                <li>
+                    At the conclusion of the Level Two procedure, regardless of the outcome, we will provide you with full details of our investigation, our conclusions from that investigation, and any action taken as a result.  Our decision at this stage is final [, subject to your right to seek External Resolution of your Complaint].                </li>
+                <li>
+                    [[As we are a member of] OR [As we are regulated by] OR [<<insert appropriate association or connection>>] <<insert name of organisation>> you, as our customer, have the right to seek External Resolution of your Complaint from that organisation if you are not satisfied with the outcome of your Level Two Complaint.]]
+                </li>
+            </ul>
+        </li>
+        <li>
+            External Resolution:
+            <ul>
+                <li>
+                    If you are not satisfied with the resolution of your Complaint at Level Two you may seek External Resolution of your Complaint from <<insert name of organisation>>.  For details of complaint and conflict resolution mechanisms available from <<insert name of organisation>>, please contact them by post at <<insert address>>, by telephone on <<insert telephone number>>, by email at <<insert email address>>, or via their website at <<insert URL>>.]
+
+                </li>
+            </ul>
+        </li>
+
+        </li>
+            Confidentiality and Data Protection
+            <ul>
+                <li>
+                    All Complaints and information relating thereto are treated with the utmost confidence.  Such information will only be shared with those employees [agents] [subcontractors] of <<insert business name>> who need to know in order to handle your Complaint.
+                </li>
+                <li>
+                    We may ask for your permission to use details of your Complaint (with your personal details removed) for internal training and quality improvement purposes.  If you have given such permission, you may revoke it at any time by contacting <<insert name and/or position>>, whose details are provided above in Section 4.1.
+                </li>
+                <li>
+                    All personal information that we may collect (including, but not limited to, your name and address) will be collected, used and held in accordance with the provisions of the Data Protection Act 1998 and your rights under that Act.
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            Questions and Further Information:
+            <ul>
+                <li>
+                    If you have any questions or require further information about any aspect of this Complaints Policy or about our Complaints Procedure, please contact <<insert name and position / department etc.>> by post at <<insert address>>, by telephone on <<insert telephone number>>, or by email at <<insert email address>>.</li>
+            </ul>
+        </li>
+
+        <li>
+            Policy Responsibility and Review:
+            <ul>
+                <li>
+                    Overall responsibility for this Complaints Policy within <<insert business name>> and the implementation thereof lies with <<insert name and position / department etc.>>.                
+                </li>
+                <li>
+                    This Complaints Policy is regularly reviewed and updated as required.
+                </li>
+                <li>
+                    This Complaints Policy was adopted on <<insert date>>.
+                </li>
+                <li>
+                    This Complaints Policy was last reviewed on <<insert date>>.
+
+                </li>
+            </ul>
+        </li>
+      </div>
+
+    </div>
+
+    <!-- DATA PROTECTION -->
+<!-- 
+    <div class="policy-card">
+
+      <h2>Confidentiality & Data Protection</h2>
+
+      <p>
+        All complaints and related information are treated confidentially
+        and handled in accordance with applicable data protection laws.
+      </p>
+
+      <p>
+        Information will only be shared with authorised personnel who
+        require access in order to resolve your complaint.
+      </p>
+
+    </div>
+
+    <!-- REVIEW -->
+
+    <!-- <div class="policy-card">
+
+      <h2>Policy Review</h2>
+
+      <p>
+        This Complaints Policy is regularly reviewed and updated where necessary
+        to ensure it remains effective and compliant.
+      </p>
+
       <ul>
-        <li>Your name, address, telephone number and email address (We will contact you using your preferred contact method as your Complaint is handled);</li>
-        <li>If you are making a Complaint on behalf of someone else, that person’s name and contact details as well as your own;</li>
-        <li>If you are making a Complaint about a particular transaction, the &lt;&lt;insert reference number, e.g. order number, invoice number etc.&gt;&gt;;</li>
-        <li>If you are making a Complaint about a particular employee [agent] [subcontractor] of ours, the name and, where appropriate, position of that employee [agent] [subcontractor];</li>
-        <li>Further details of your Complaint including, as appropriate, all times, dates, events, and people involved;</li>
-        <li>Details of any documents or other evidence you wish to rely on in support of your Complaint;</li>
-        <li>Details of what you would like &lt;&lt;insert business name&gt;&gt; to do to resolve your Complaint and to put things right. (Please note that whilst we will make every reasonable effort to accommodate such requests, we are not bound to take any action beyond that which we may be contractually or otherwise legally obliged to take.)</li>
-        <li>&lt;&lt;Insert additional information or remove as appropriate&gt;&gt;.</li>
+        <li>Policy Adoption Date: DD/MM/YYYY</li>
+        <li>Last Reviewed Date: DD/MM/YYYY</li>
       </ul>
-    </div>
 
-    <div class="policy-card">
-      <h2>How We Handle Your Complaint</h2>
-      <p>&lt;&lt;Insert business name&gt;&gt; operates a two-stage complaints handling procedure. Following our Complaints Procedure, our aim is to always resolve Complaints to your satisfaction at Level One without further recourse to Level Two. If you are not satisfied at the end of Level One, you may escalate your Complaint to Level Two. [If you are still not satisfied at the end of Level Two, Complaints may progress to External Resolution as detailed below.]</p>
-      <h3>Level One</h3>
-      <p>Upon receipt of your Complaint, the &lt;&lt;insert position&gt;&gt; identified above in Section 4.1 will log the Complaint in our &lt;&lt;insert location, e.g. complaints log, complaints system etc.&gt;&gt; and will acknowledge receipt of it in writing within &lt;&lt;insert period&gt;&gt;, giving you a Complaint Reference.</p>
-      <p>When we acknowledge receipt of your Complaint we will also provide details of your Complaint Handler. This may be the &lt;&lt;insert position&gt;&gt; to whom your original Complaint was directed (as above) or your Complaint may be assigned to another appropriate member of our team.</p>
-      <p>If your Complaint relates to a specific employee [agent] [subcontractor], that person will be informed of your Complaint and given a fair and reasonable opportunity to respond. Any communication between you and the employee [agent] [subcontractor] in question should take place only via the Complaint Handler and we respectfully ask that you do not contact the employee [agent] [subcontractor] in question directly concerning the Complaint while we are working to resolve it.</p>
-      <p>If we require any further information or evidence from you, the Complaint Handler will contact you as quickly as is reasonably possible to ask for it. We ask that you use reasonable efforts to supply any such information or evidence quickly in order to avoid delaying the complaints handling process. If you are for any reason unable to provide such information or evidence we will use all reasonable efforts to proceed without it, however please be aware that we will not ask for further information or evidence unless we consider it important to the successful resolution of your Complaint.</p>
-      <p>We aim to resolve Level One Complaints within &lt;&lt;insert period&gt;&gt;, however in some cases, particularly if your Complaint is of a complex nature, this may not be possible. If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.</p>
-      <p>At the conclusion of the Level One complaints procedure, regardless of the outcome, we will provide you with full details of our investigation, our conclusions from that investigation, and any action taken as a result. You will also be reminded of your right to appeal our decision and escalate the complaint to Level Two in the form of an Appeal.</p>
-      <h3>Level Two</h3>
-      <p>If you are not satisfied with the resolution of your complaint at Level One, you may appeal the decision within &lt;&lt;insert period&gt;&gt;, and have the complaint escalated to Level Two. Appeals are handled by &lt;&lt;insert staff level, e.g. management&gt;&gt; level members of our team.</p>
-      <p>Appeals, quoting your original Complaint Reference, should be directed to your original Complaint Handler who will forward the request to an appropriate Appeal Handler. Receipt of Appeals will be acknowledged in writing within &lt;&lt;insert period&gt;&gt;. When we acknowledge receipt of your Appeal we will also provide details of your Appeal Handler.</p>
-      <p>If your Complaint relates to a specific employee [agent] [subcontractor], that person will be informed of your Appeal and given a further opportunity to respond. Any communication between you and the employee [agent] [subcontractor] in question should take place only via the Appeal Handler and we respectfully ask that you do not contact the employee [agent] [subcontractor] in question directly concerning the Complaint while we are working to resolve it.</p>
-      <p>If we require any further information or evidence from you, the Appeal Handler will contact you as quickly as is reasonably possible to ask for it. We ask that you use reasonable efforts to supply any such information or evidence to us quickly in order to avoid delaying the complaints handling process. If you are for any reason unable to provide such information or evidence we will use all reasonable efforts to proceed without it, however please be aware that we will not ask for further information or evidence unless we consider it important to the successful resolution of your Complaint.</p>
-      <p>We aim to resolve Level Two Complaints within &lt;&lt;insert period&gt;&gt;, however in some cases, particularly if your Complaint is of a complex nature, this may not be possible. If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.</p>
-      <p>At the conclusion of the Level Two procedure, regardless of the outcome, we will provide you with full details of our investigation, our conclusions from that investigation, and any action taken as a result. Our decision at this stage is final [, subject to your right to seek External Resolution of your Complaint].</p>
-      <p>[[As we are a member of] OR [As we are regulated by] OR [&lt;&lt;insert appropriate association or connection&gt;&gt;] &lt;&lt;insert name of organisation&gt;&gt; you, as our customer, have the right to seek External Resolution of your Complaint from that organisation if you are not satisfied with the outcome of your Level Two Complaint.]]</p>
-      <p>[External Resolution: If you are not satisfied with the resolution of your Complaint at Level Two you may seek External Resolution of your Complaint from &lt;&lt;insert name of organisation&gt;&gt;. For details of complaint and conflict resolution mechanisms available from &lt;&lt;insert name of organisation&gt;&gt;, please contact them by post at &lt;&lt;insert address&gt;&gt;, by telephone on &lt;&lt;insert telephone number&gt;&gt;, by email at &lt;&lt;insert email address&gt;&gt;, or via their website at &lt;&lt;insert URL&gt;&gt;.]</p>
-    </div>
+    </div> -->
 
-    <div class="policy-card">
-      <h2>Confidentiality and Data Protection</h2>
-      <p>All Complaints and information relating thereto are treated with the utmost confidence. Such information will only be shared with those employees [agents] [subcontractors] of &lt;&lt;insert business name&gt;&gt; who need to know in order to handle your Complaint.</p>
-      <p>We may ask for your permission to use details of your Complaint (with your personal details removed) for internal training and quality improvement purposes. If you have given such permission, you may revoke it at any time by contacting &lt;&lt;insert name and/or position&gt;&gt;, whose details are provided above in Section 4.1.</p>
-      <p>All personal information that we may collect (including, but not limited to, your name and address) will be collected, used and held in accordance with the provisions of the Data Protection Act 1998 and your rights under that Act.</p>
-    </div>
+    <!-- CONTACT -->
 
-    <div class="policy-card">
-      <h2>Questions and Further Information</h2>
-      <p>If you have any questions or require further information about any aspect of this Complaints Policy or about our Complaints Procedure, please contact &lt;&lt;insert name and position / department etc.&gt;&gt; by post at &lt;&lt;insert address&gt;&gt;, by telephone on &lt;&lt;insert telephone number&gt;&gt;, or by email at &lt;&lt;insert email address&gt;&gt;.</p>
-    </div>
+    <!-- <div class="contact-box">
 
-    <div class="policy-card">
-      <h2>Policy Responsibility and Review</h2>
-      <p>Overall responsibility for this Complaints Policy within &lt;&lt;insert business name&gt;&gt; and the implementation thereof lies with &lt;&lt;insert name and position / department etc.&gt;&gt;.</p>
-      <p>This Complaints Policy is regularly reviewed and updated as required.</p>
-      <p>This Complaints Policy was adopted on &lt;&lt;insert date&gt;&gt;.</p>
-      <p>This Complaints Policy was last reviewed on &lt;&lt;insert date&gt;&gt;.</p>
-    </div>
+      <h2>Need Further Assistance?</h2>
+
+      <p>
+        If you have any questions regarding this Complaints Policy,
+        please contact our support team.
+      </p>
+
+      <a href="contact.php">Contact Us</a>
+
+    </div> -->
+
   </div>
 </main>
+
 
 <section>
   <?php include 'includes/footer.php'; ?>
 </section>
 
+
+
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
-<script src="script.js"></script>
+    <!-- JS Link -->
+    <script src="script.js"></script>
+
+    <!-- WhatsApp Floating Button -->
 
 <a href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." 
 target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp" 
