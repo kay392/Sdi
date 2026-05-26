@@ -30,7 +30,19 @@
       <li><button onclick="navigate('home')" class="active" data-page="home">Home</button></li>
       <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
-      <li><button onclick="navigate('succession')" data-page="succession">Succession Planning</button></li>
+      <li class="nav-dropdown">
+        <div class="nav-dropdown-trigger">
+          <button type="button" onclick="navigate('succession')" data-page="succession">Succession & Exit Planning</button>
+          <button type="button" class="nav-dropdown-toggle" onclick="toggleSuccessionDropdown(event)" aria-expanded="false" aria-label="Open Succession & Exit Planning menu">
+            <i class="fas fa-chevron-down nav-dropdown-icon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="nav-dropdown-menu" aria-label="Succession and exit planning sections">
+          <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
+          <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
+          <button type="button" onclick="navigateSuccessionSection('exit-strategy')">Exit Strategy</button>
+        </div>
+      </li>
     </ul>
  
     <div class="nav-actions">
@@ -48,7 +60,12 @@
     <button onclick="navigate('home'); closeMobile()">Home</button>
     <button onclick="navigate('about'); closeMobile()">About Us</button>
     <button onclick="navigate('investments'); closeMobile()">Investments</button>
-    <button onclick="navigate('succession'); closeMobile()">Succession Planning</button>
+    <button onclick="toggleMobileSuccessionDropdown(event)">Succession & Exit Planning</button>
+    <div class="mobile-submenu" id="mobileSuccessionMenu">
+      <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
+      <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
+      <button type="button" onclick="navigateSuccessionSection('exit-strategy')">Exit Strategy</button>
+    </div>
     <button class="nav-cta" onclick="closeMobile()">Book a Consultation →</button>
     <a class="nav-whatsapp mobile-whatsapp" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Chat with SDI Group on WhatsApp">
       <i class="fab fa-whatsapp" aria-hidden="true"></i>
@@ -105,7 +122,7 @@
   </section>
  
   <!-- Challenges -->
-  <section class="challenges-section">
+  <section class="challenges-section" id="market-landscape">
     <div class="container">
  
       <h2 class="text-center mb-10" style="font-family:'Poppins',sans-serif;font-size:clamp(1.5rem,3vw,2rem);color:var(--navy);">TODAY'S MARKET</h2>
@@ -125,7 +142,7 @@
   </section>
  
   <!-- Stay in Market -->
-  <section class="stay-section">
+  <section class="stay-section" id="optimising-investment-portfolio">
     <div class="container">
       <div class="stay-grid">
         <div>
@@ -149,7 +166,7 @@ In reality, nine out of ten clients we work with do not need to sell. They simpl
   </section>
  
   <!-- Exit Features -->
-  <section class="exit-section">
+  <section class="exit-section" id="exit-strategy">
     <div class="container">
  
       <h2 style="font-family:'Poppins',sans-serif;font-size:clamp(1.5rem,3vw,2rem);color:var(--navy);margin-bottom:1rem;line-height:1.2;">A BETTER WAY TO EXIT</h2>

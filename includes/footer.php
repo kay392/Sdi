@@ -75,11 +75,11 @@
             </button>
           </li>
 
-           <!-- <li><button onclick="navigate('investments')">&#8250; Strategy</button></li> -->
+
 
           <li>
             <button onclick="navigate('succession')">&#8250; 
-              Succession Planning
+              Succession & Exit Planning
             </button>
           </li>
         </ul>
@@ -116,13 +116,18 @@
       </span>
 
       <div class="footer-bottom-links">
-        <a onclick="window.location.href='Complaint-Procedure.php'">Complaint Procedure</a>
-        <span>|</span>
+          <?php $current = basename($_SERVER['PHP_SELF']); ?>
+          <a href="Complaint-Procedure.php" class="<?php echo ($current === 'Complaint-Procedure.php') ? 'active' : ''; ?>">Complaint Procedure</a>
+          <span>|</span>
 
-        <a onclick="window.location.href='Data-Protection-Policy.php'" class="active" data-page="data-protection">Data Protection Policy</a>
-        <span>|</span>
+          <a href="Data-Protection-Policy.php" class="<?php echo ($current === 'Data-Protection-Policy.php') ? 'active' : ''; ?>" data-page="data-protection">Data Protection Policy</a>
+          <span>|</span>
 
-        <a onclick="window.location.href='Cookies-Policy.php'" class="active" data-page="cookies">Cookies Policy</a>
+          <a href="Cookies-Policy.php" class="<?php echo ($current === 'Cookies-Policy.php') ? 'active' : ''; ?>" data-page="cookies">Cookies Policy</a>
+
+      
+
+
       </div>
     </div>
   </div>

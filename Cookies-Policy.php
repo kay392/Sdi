@@ -23,10 +23,17 @@
       background:#f5f7fa;
       color:#333;
       line-height:1.8;
+
+      overflow-x:hidden;
     }
 
     .cookie-banner{
-      background: linear-gradient(135deg, #0f172a, #1e293b);
+      background: linear-gradient(135deg, #3a6230, #4a7c3f);
+
+    }
+
+    .cookie-banner{
+
       color:#fff;
       padding:80px 20px;
       text-align:center;
@@ -58,6 +65,12 @@
       border-radius:20px;
       box-shadow:0 10px 30px rgba(0,0,0,0.08);
       transition:0.3s ease;
+
+      max-width:100%;
+      overflow-wrap:anywhere;
+      word-break:normal;
+
+
     }
 
     .cookie-card:hover{
@@ -69,6 +82,15 @@
       margin-bottom:20px;
       color:#0f172a;
       position:relative;
+
+
+      padding-left:0;
+    }
+
+    .cookie-card h2::before{
+      display:none;
+
+
       padding-left:20px;
     }
 
@@ -81,6 +103,7 @@
       height:32px;
       background:#2563eb;
       border-radius:10px;
+
     }
 
     .cookie-card p{
@@ -110,14 +133,23 @@
 
     .info-grid{
       display:grid;
+
+      grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));
+
       grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
       gap:25px;
       margin-top:20px;
     }
 
     .info-box{
+
+      background:#f6fbf4;
+      border:1px solid #d9ead4;
+
       background:#f8fafc;
       border:1px solid #e2e8f0;
+
       padding:25px;
       border-radius:16px;
     }
@@ -133,8 +165,13 @@
     }
 
     .highlight{
+
+      background:#edf6ea;
+      border-left:5px solid #4a7c3f;
+
       background:#eff6ff;
       border-left:5px solid #2563eb;
+
       padding:20px;
       border-radius:12px;
       margin-top:20px;
@@ -147,19 +184,80 @@
     @media(max-width:768px){
 
       .cookie-banner{
+
+
+        padding:60px 16px;
+
         padding:60px 20px;
+
+
       }
 
       .cookie-banner h1{
         font-size:34px;
+
+        line-height:1.2;
+      }
+
+      .cookie-banner p{
+        font-size:16px;
+      }
+
+      .cookie-container{
+        margin:36px auto;
+        padding:0 14px;
+      }
+
+      .cookie-card{
+        padding:22px;
+        border-radius:16px;
+        margin-bottom:24px;
+
       }
 
       .cookie-card{
         padding:25px;
+
       }
 
       .cookie-card h2{
         font-size:24px;
+
+        line-height:1.25;
+      }
+
+      .info-grid{
+        grid-template-columns:1fr;
+        gap:16px;
+      }
+
+      .info-box,
+      .highlight{
+        padding:18px;
+        border-radius:14px;
+      }
+
+      .info-box h3{
+        font-size:20px;
+        line-height:1.25;
+      }
+
+    }
+
+    @media(max-width:420px){
+
+      .cookie-card{
+        padding:18px;
+      }
+
+      .cookie-card ul{
+        margin-left:16px;
+      }
+
+      .cookie-card p,
+      .cookie-card ul li{
+        font-size:15px;
+
       }
 
     }

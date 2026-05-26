@@ -49,7 +49,12 @@
     <button onclick="navigate('home'); closeMobile()">Home</button>
     <button onclick="navigate('about'); closeMobile()">About Us</button>
     <button onclick="navigate('investments'); closeMobile()">Investments</button>
-    <button onclick="navigate('succession'); closeMobile()">Succession Planning</button>
+    <button onclick="toggleMobileSuccessionDropdown(event)">Succession & Exit Planning</button>
+    <div class="mobile-submenu" id="mobileSuccessionMenu">
+      <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
+      <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
+      <button type="button" onclick="navigateSuccessionSection('exit-strategy')">Exit Strategy</button>
+    </div>
     <button class="nav-cta" onclick="closeMobile()">Book a Consultation →</button>
     <a class="nav-whatsapp mobile-whatsapp" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Chat with SDI Group on WhatsApp">
       <i class="fab fa-whatsapp" aria-hidden="true"></i>
