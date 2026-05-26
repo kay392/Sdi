@@ -101,7 +101,6 @@
       height:32px;
       background:#2563eb;
       border-radius:10px;
-
     }
 
     .cookie-card p{
@@ -213,7 +212,6 @@
 
       .cookie-card{
         padding:25px;
-
       }
 
       .cookie-card h2{
