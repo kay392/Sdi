@@ -20,21 +20,7 @@
 
      <style>
 
-      *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
-      body{background:#f4f7fb;color:#333;line-height:1.8;overflow-x:hidden;}
-      .policy-hero{background:linear-gradient(135deg,#3a6230,#4a7c3f);color:#fff;padding:90px 20px;text-align:center;}
-      .policy-hero h1{font-size:52px;margin-bottom:20px;font-weight:700;}
-      .policy-hero p{max-width:860px;margin:auto;font-size:18px;opacity:0.92;}
-      .policy-container{max-width:1200px;margin:60px auto;padding:0 20px;}
-      .policy-card{background:#fff;border-radius:22px;padding:45px;margin-bottom:35px;box-shadow:0 10px 35px rgba(0,0,0,0.08);transition:0.3s ease;max-width:100%;overflow-wrap:anywhere;word-break:normal;}
-      .policy-card h2{font-size:32px;margin-bottom:25px;color:#0f172a;}
-      .policy-card p{margin-bottom:18px;color:#555;font-size:16px;}
-      .policy-card ul{margin-left:20px;margin-top:10px;}
-      .policy-card ul li{margin-bottom:12px;color:#555;}
-      .policy-card strong{color:#0f172a;}
-      .highlight-box{background:#edf6ea;border-left:5px solid #4a7c3f;padding:25px;border-radius:14px;margin-top:25px;}
-      @media(max-width:768px){.policy-hero{padding:64px 16px;}.policy-hero h1{font-size:38px;}.policy-card{padding:32px;}}
-      @media(max-width:420px){.policy-hero h1{font-size:32px;}}    
+      
 
     *{
       margin:0;
@@ -51,25 +37,26 @@
 
     /* HERO SECTION */
 
-    .policy-hero{
-      background:linear-gradient(135deg,#0f172a,#1e3a8a);
-      color:#fff;
-      padding:90px 20px;
-      text-align:center;
-    }
+       .policy-hero{
+        background:linear-gradient(135deg,#3a6230,#4a7c3f);
+        color:#fff;
+        padding:90px 20px;
+        text-align:center;
+      }
 
-    .policy-hero h1{
-      font-size:52px;
-      margin-bottom:20px;
-      font-weight:700;
-    }
+   .policy-hero h1{
+        font-size:52px;
+        margin-bottom:20px;
+        font-weight:700;
+      }
 
-    .policy-hero p{
-      max-width:850px;
-      margin:auto;
-      font-size:18px;
-      opacity:0.9;
-    }
+      .policy-hero p{
+        max-width:860px;
+        margin:auto;
+        font-size:18px;
+        opacity:0.92;
+      }
+
 
     /* MAIN CONTAINER */
 
