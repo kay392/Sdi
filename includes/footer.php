@@ -125,10 +125,7 @@
 
           <a href="Cookies-Policy.php" class="<?php echo ($current === 'Cookies-Policy.php') ? 'active' : ''; ?>" data-page="cookies">Cookies Policy</a>
 
-        <a onclick="window.location.href='Complaint-Procedure.php'">Complaint Procedure</a>
-        <span>|</span>
-
-        <span>|</span>
+      
 
 
       </div>
