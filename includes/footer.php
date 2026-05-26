@@ -116,6 +116,7 @@
       </span>
 
       <div class="footer-bottom-links">
+<<<<<<< HEAD
           <?php $current = basename($_SERVER['PHP_SELF']); ?>
           <a href="Complaint-Procedure.php" class="<?php echo ($current === 'Complaint-Procedure.php') ? 'active' : ''; ?>">Complaint Procedure</a>
           <span>|</span>
@@ -124,6 +125,15 @@
           <span>|</span>
 
           <a href="Cookies-Policy.php" class="<?php echo ($current === 'Cookies-Policy.php') ? 'active' : ''; ?>" data-page="cookies">Cookies Policy</a>
+=======
+        <a onclick="window.location.href='Complaint-Procedure.php'">Complaint Procedure</a>
+        <span>|</span>
+
+        <a onclick="window.location.href='Data-Protection-Policy.php'" class="active" data-page="data-protection">Data Protection Policy</a>
+        <span>|</span>
+
+        <a onclick="window.location.href='Cookies-Policy.php'" class="active" data-page="cookies">Cookies Policy</a>
+>>>>>>> 96ae41ae086b25fda9813c87f31192c1d84b4255
       </div>
     </div>
   </div>
