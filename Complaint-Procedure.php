@@ -325,35 +325,35 @@
         <div class="definition-box">
           <h3>Appeal Handler</h3>
           <p>
-            means an employee of <<insert business name>> working at <<insert level>> who will handle Level Two Complaints
+            means an employee of (insert business name) working at (insert level) who will handle Level Two Complaints
           </p>
         </div>
 
         <div class="definition-box">
           <h3>Business Day</h3>
           <p>
-            means, any day (other than Saturday or Sunday) on which ordinary banks are open for their full range of normal business in <<insert location>>
+            means, any day (other than Saturday or Sunday) on which ordinary banks are open for their full range of normal business in (insert location)
           </p>
         </div>
 
         <div class="definition-box">
           <h3>Complaint</h3>
           <p>
-            means a complaint about [goods] AND/OR [services] sold by <<insert business name>>, about our customer service, or about our employees [agents] [subcontractors];
+            means a complaint about (insert goods) AND/OR (insert services) sold by (insert business name)), about our customer service, or about our employees [agents] [subcontractors];
           </p>
         </div>
 
         <div class="definition-box">
           <h3>Complaints Form</h3>
           <p>
-            [means our standard complaints form, available from <<insert location(s)>>;]
+            [means our standard complaints form, available from (insert location(s))];]
           </p>
         </div>
 
         <div class="definition-box">
           <h3>Complaint Handler</h3>
           <p>
-            means an employee of <<insert business name>> working at <<insert level>> who will handle Level One Complaints;
+            means an employee of (insert business name) working at (insert level) who will handle Level One Complaints;
           </p>
         </div>
         <div class="definition-box">
@@ -365,7 +365,7 @@
         <div class="definition-box">
           <h3>Complaints Procedure</h3>
           <p>
-            means the internal complaints handling procedure of <<insert business name>> which is followed when handling a Complaint and is available from <<insert location(s)>> for your reference;
+            means the internal complaints handling procedure of (insert business name) which is followed when handling a Complaint and is available from (insert location(s)) for your reference;
           </p>
         </div>
         <div class="definition-box">
@@ -409,12 +409,12 @@
 
 
         <ul>
-          <li><<Insert business name>> welcomes and encourages feedback of all kinds from our customers.  If you have a Complaint about our [goods] AND/OR [services], our customer service, or about our employees [agents] [subcontractors], not only do we want to resolve it to your satisfaction but we also want to learn from it in order to improve our business and customer experience in the future.
+          <li>(Insert business name) welcomes and encourages feedback of all kinds from our customers.  If you have a Complaint about our (goods) AND/OR (services), our customer service, or about our employees [agents] [subcontractors], not only do we want to resolve it to your satisfaction but we also want to learn from it in order to improve our business and customer experience in the future.
             </li>
           <li>It is our policy to resolve Complaints quickly and fairly, where possible without recourse to formal investigations or external bodies.  In particular, the aims of this Complaints Policy are</li>
             <ul>
-                <li>To provide a clear and fair procedure for any customers who wish to make a Complaint about <<insert business name>>, our [goods] AND/OR [services], our customer service, or about our employees [agents] [subcontractors];</li>
-                <li>To ensure that everyone working for or with <<insert business name>> knows how to handle Complaints made by our customers;</li>
+                <li>To provide a clear and fair procedure for any customers who wish to make a Complaint about (insert business name), our (goods) AND/OR (services), our customer service, or about our employees [agents] [subcontractors];</li>
+                <li>To ensure that everyone working for or with (insert business name) knows how to handle Complaints made by our customers;</li>
                 <li>To ensure that all Complaints are handled equally and in a fair and timely fashion;</li>
                 <li>To ensure that important information is gathered from Complaints and used in the future to avoid such a situation arising again.</li>
                 
@@ -433,23 +433,23 @@
       <h2>What This Policy Covers</h2>
 
       <ul>
-        <li>This Complaints Policy applies to [the sale of goods] AND/OR [the provision of services] by <<insert business name>>, to our customer service and to our employees [agents] [subcontractors].</li>
-        <li>For the purposes of this Complaints Policy, any reference to <<insert business name>> also includes our employees [agents] [subcontractors]</li>
+        <li>This Complaints Policy applies to [the sale of goods] AND/OR [the provision of services] by (insert business name)), to our customer service and to our employees [agents] [subcontractors].</li>
+        <li>For the purposes of this Complaints Policy, any reference to (insert business name) also includes our employees [agents] [subcontractors]</li>
         <li>Complaints may relate to any of our activities and may include (but not be limited to):</li>
         <ul>
-          <li>The quality of customer service you have received from <<insert business name>>;</li>
+          <li>The quality of customer service you have received from (insert business name);</li>
           <li>The behaviour and/or professional competence of our employees [agents] [subcontractors];</li>
-          <li>[Delays, defects or other problems associated with the sale of goods by <<insert business name>>;]</li>
-          <li>[Delays, defects, poor workmanship or other problems associated with the provision of services by <<insert business name>>;]</li>
-          <li><<Insert additional examples or remove as appropriate>>.</li>
+          <li>[Delays, defects or other problems associated with the sale of goods by (insert business name);]</li>
+          <li>[Delays, defects, poor workmanship or other problems associated with the provision of services by (insert business name);]</li>
+          <li>(Insert additional examples or remove as appropriate).</li>
         </ul>
         <li>The following are not considered to be Complaints and should therefore be directed to the appropriate [person] OR [department]:</li>
         <ul>
           <li>General questions about our [goods] AND/OR [services];</li>
-          <li>[Returns of damaged, faulty, incorrect or unwanted goods for exchange or refund in accordance with [my] OR [our] <<insert document e.g. Sale of Goods Terms and Conditions>> where there is no further complaint];</li>
+          <li>[Returns of damaged, faulty, incorrect or unwanted goods for exchange or refund in accordance with [my] OR [our] (insert document e.g. Sale of Goods Terms and Conditions) where there is no further complaint];</li>
           <li>Matters concerning contractual or other legal disputes;</li>
           <li>Formal requests for the disclosure of information, for example, under the Data Protection Act;</li>
-          <li><<Insert additional examples or remove as appropriate>>.</li>
+          <li>(Insert additional examples or remove as appropriate).</li>
       </ul>
 
     </div>
@@ -465,10 +465,10 @@
       <ul>
         <li>All Complaints, whether they concern our [goods] AND/OR [services], our customer service, or our employees [agents] [subcontractors], should be made in one of the following ways:</li>
             <ul>
-                <li>[In writing, addressed to <<insert name and/or position>>, <<insert address>>;]</li>
-                <li>[By email, addressed to <<insert name and/or position>> at <<insert email address>>;]</li>
+                <li>[In writing, addressed to (insert name and/or position)), (insert address));]</li>
+                <li>[By email, addressed to (insert name and/or position)) at (insert email address));]</li>
                 <li>[Using our Complaints Form, following the instructions included with the form;]</li>
-                <li>[By contacting us by telephone on <<insert telephone number>> [and choosing option <<insert number>> when prompted.]]</li>
+                <li>[By contacting us by telephone on (insert telephone number)) [and choosing option (insert number)) when prompted.]]</li>
             </ul>
         <li>When making a Complaint, you will be required to provide the following information in as much detail as is reasonably possible:</li>
         
@@ -481,12 +481,12 @@
         <ul>
           <li>Your name, address, telephone number and email address (We will contact you using your preferred contact method as your Complaint is handled)</li>
           <li>If you are making a Complaint on behalf of someone else, that person’s name and contact details as well as your own;</li>
-          <li>If you are making a Complaint about a particular transaction, the <<insert reference number, e.g. order number, invoice number etc.>>;</li>
+          <li>If you are making a Complaint about a particular transaction, the (insert reference number, e.g. order number, invoice number etc.</li>
           <li>If you are making a Complaint about a particular employee [agent] [subcontractor] of ours, the name and, where appropriate, position of that employee [agent] [subcontractor];</li>
           <li>Further details of your Complaint including, as appropriate, all times, dates, events, and people involved;</li>
           <li>Details of any documents or other evidence you wish to rely on in support of your Complaint;</li>
-          <li>Details of what you would like <<insert business name>> to do to resolve your Complaint and to put things right.  (Please note that whilst we will make every reasonable effort to accommodate such requests, we are not bound to take any action beyond that which we may be contractually or otherwise legally obliged to take.)</li>
-          <li><<Insert additional examples or remove as appropriate>>.</li>
+          <li>Details of what you would like (insert business name) to do to resolve your Complaint and to put things right.  (Please note that whilst we will make every reasonable effort to accommodate such requests, we are not bound to take any action beyond that which we may be contractually or otherwise legally obliged to take.)</li>
+          <li>(Insert additional examples or remove as appropriate).</li>
         </ul>
 
       </div>
@@ -523,10 +523,10 @@
         <li>Level One:
             <ul>
                 <li>
-                    Upon receipt of your Complaint, the <<insert position>> identified above in Section 4.1 will log the Complaint in our <<insert location, e.g. complaints log, complaints system etc.>> and will acknowledge receipt of it in writing within <<insert period>>, giving you a Complaint Reference
+                    Upon receipt of your Complaint, the (insert position) identified above in Section 4.1 will log the Complaint in our (insert location, e.g. complaints log, complaints system etc.) and will acknowledge receipt of it in writing within (insert period), giving you a Complaint Reference
                 </li>
                 <li>
-                    When we acknowledge receipt of your Complaint we will also provide details of your Complaint Handler.  This may be the <<insert position>> to whom your original Complaint was directed (as above) or your Complaint may be assigned to another appropriate member of our team.
+                    When we acknowledge receipt of your Complaint we will also provide details of your Complaint Handler.  This may be the (insert position) to whom your original Complaint was directed (as above) or your Complaint may be assigned to another appropriate member of our team.
                 </li>
                 <li>
                     If your Complaint relates to a specific employee [agent] [subcontractor], that person will be informed of your Complaint and given a fair and reasonable opportunity to respond.  Any communication between you and the employee [agent] [subcontractor] in question should take place only via the Complaint Handler and we respectfully ask that you do not contact the employee [agent] [subcontractor] in question directly concerning the Complaint while we are working to resolve it
@@ -535,7 +535,7 @@
                     If we require any further information or evidence from you, the Complaint Handler will contact you as quickly as is reasonably possible to ask for it.  We ask that you use reasonable efforts to supply any such information or evidence quickly in order to avoid delaying the complaints handling process.  If you are for any reason unable to provide such information or evidence we will use all reasonable efforts to proceed without it, however please be aware that we will not ask for further information or evidence unless we consider it important to the successful resolution of your Complaint.
                 </li>
                 <li>
-                    We aim to resolve Level One Complaints within <<insert period>>, however in some cases, particularly if your Complaint is of a complex nature, this may not be possible.  If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.
+                    We aim to resolve Level One Complaints within (insert period), however in some cases, particularly if your Complaint is of a complex nature, this may not be possible.  If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.
                 </li>
                 <li>
                     At the conclusion of the Level One complaints procedure, regardless of the outcome, we will provide you with full details of our investigation, our conclusions from that investigation, and any action taken as a result.  You will also be reminded of your right to appeal our decision and escalate the complaint to Level Two in the form of an Appeal.
@@ -548,21 +548,21 @@
             Level Two:
             <ul>
                 <li>
-                    If you are not satisfied with the resolution of your complaint at Level One, you may appeal the decision within <<insert period>>, and have the complaint escalated to Level Two.  Appeals are handled by <<insert staff level, e.g. management>> level members of our team.
+                    If you are not satisfied with the resolution of your complaint at Level One, you may appeal the decision within (insert period)), and have the complaint escalated to Level Two.  Appeals are handled by (insert staff level, e.g. management)) level members of our team.
 
                 </li>
                 <li>
-                    Appeals, quoting your original Complaint Reference, should be directed to your original Complaint Handler who will forward the request to an appropriate Appeal Handler.  Receipt of Appeals will be acknowledged in writing within <<insert period>>.  When we acknowledge receipt of your Appeal we will also provide details of your Appeal Handler.                </li>
+                    Appeals, quoting your original Complaint Reference, should be directed to your original Complaint Handler who will forward the request to an appropriate Appeal Handler.  Receipt of Appeals will be acknowledged in writing within (insert period)).  When we acknowledge receipt of your Appeal we will also provide details of your Appeal Handler.                </li>
                 <li>
                     If your Complaint relates to a specific employee [agent] [subcontractor], that person will be informed of your Appeal and given a further opportunity to respond.  Any communication between you and the employee [agent] [subcontractor] in question should take place only via the Appeal Handler and we respectfully ask that you do not contact the employee [agent] [subcontractor] in question directly concerning the Complaint while we are working to resolve it.</li>
                 <li>
                     If we require any further information or evidence from you, the Appeal Handler will contact you as quickly as is reasonably possible to ask for it.  We ask that you use reasonable efforts to supply any such information or evidence to us quickly in order to avoid delaying the complaints handling process.  If you are for any reason unable to provide such information or evidence we will use all reasonable efforts to proceed without it, however please be aware that we will not ask for further information or evidence unless we consider it important to the successful resolution of your Complaint.                </li>
                 <li>
-                    We aim to resolve Level Two Complaints within <<insert period>>, however in some cases, particularly if your Complaint is of a complex nature, this may not be possible.  If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.                </li>
+                    We aim to resolve Level Two Complaints within (insert period), however in some cases, particularly if your Complaint is of a complex nature, this may not be possible.  If this is not possible for any reason you will be informed of the delay, the likely length of the delay and the reasons for it.                </li>
                 <li>
                     At the conclusion of the Level Two procedure, regardless of the outcome, we will provide you with full details of our investigation, our conclusions from that investigation, and any action taken as a result.  Our decision at this stage is final [, subject to your right to seek External Resolution of your Complaint].                </li>
                 <li>
-                    [[As we are a member of] OR [As we are regulated by] OR [<<insert appropriate association or connection>>] <<insert name of organisation>> you, as our customer, have the right to seek External Resolution of your Complaint from that organisation if you are not satisfied with the outcome of your Level Two Complaint.]]
+                    [[As we are a member of] OR [As we are regulated by] OR [(insert appropriate association or connection)] (insert name of organisation)) you, as our customer, have the right to seek External Resolution of your Complaint from that organisation if you are not satisfied with the outcome of your Level Two Complaint.]]
                 </li>
             </ul>
         </li>
@@ -570,7 +570,7 @@
             External Resolution:
             <ul>
                 <li>
-                    If you are not satisfied with the resolution of your Complaint at Level Two you may seek External Resolution of your Complaint from <<insert name of organisation>>.  For details of complaint and conflict resolution mechanisms available from <<insert name of organisation>>, please contact them by post at <<insert address>>, by telephone on <<insert telephone number>>, by email at <<insert email address>>, or via their website at <<insert URL>>.]
+                    If you are not satisfied with the resolution of your Complaint at Level Two you may seek External Resolution of your Complaint from (insert name of organisation).  For details of complaint and conflict resolution mechanisms available from (insert name of organisation)), please contact them by post at (insert address)), by telephone on (insert telephone number)), by email at (insert email address)), or via their website at (insert URL)).
 
                 </li>
             </ul>
@@ -580,10 +580,10 @@
             Confidentiality and Data Protection
             <ul>
                 <li>
-                    All Complaints and information relating thereto are treated with the utmost confidence.  Such information will only be shared with those employees [agents] [subcontractors] of <<insert business name>> who need to know in order to handle your Complaint.
+                    All Complaints and information relating thereto are treated with the utmost confidence.  Such information will only be shared with those employees [agents] [subcontractors] of (insert business name)) who need to know in order to handle your Complaint.
                 </li>
                 <li>
-                    We may ask for your permission to use details of your Complaint (with your personal details removed) for internal training and quality improvement purposes.  If you have given such permission, you may revoke it at any time by contacting <<insert name and/or position>>, whose details are provided above in Section 4.1.
+                    We may ask for your permission to use details of your Complaint (with your personal details removed) for internal training and quality improvement purposes.  If you have given such permission, you may revoke it at any time by contacting (insert name and/or position)), whose details are provided above in Section 4.1.
                 </li>
                 <li>
                     All personal information that we may collect (including, but not limited to, your name and address) will be collected, used and held in accordance with the provisions of the Data Protection Act 1998 and your rights under that Act.
@@ -595,7 +595,8 @@
             Questions and Further Information:
             <ul>
                 <li>
-                    If you have any questions or require further information about any aspect of this Complaints Policy or about our Complaints Procedure, please contact <<insert name and position / department etc.>> by post at <<insert address>>, by telephone on <<insert telephone number>>, or by email at <<insert email address>>.</li>
+                    If you have any questions or require further information about any aspect of this Complaints Policy or about our Complaints Procedure, please contact (insert name and position / department etc.)) by post at (insert address)), by telephone on (insert telephone number)), or by email at (insert email address)).
+                </li>
             </ul>
         </li>
 
@@ -603,16 +604,16 @@
             Policy Responsibility and Review:
             <ul>
                 <li>
-                    Overall responsibility for this Complaints Policy within <<insert business name>> and the implementation thereof lies with <<insert name and position / department etc.>>.                
+                    Overall responsibility for this Complaints Policy within (insert business name)) and the implementation thereof lies with (insert name and position / department etc.)).                
                 </li>
                 <li>
                     This Complaints Policy is regularly reviewed and updated as required.
                 </li>
                 <li>
-                    This Complaints Policy was adopted on <<insert date>>.
+                    This Complaints Policy was adopted on (insert date)).
                 </li>
                 <li>
-                    This Complaints Policy was last reviewed on <<insert date>>.
+                    This Complaints Policy was last reviewed on (insert date)).
 
                 </li>
             </ul>
@@ -697,3 +698,4 @@ onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transfor
 
 </body>
 </html>
+ 

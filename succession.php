@@ -192,47 +192,50 @@ In reality, nine out of ten clients we work with do not need to sell. They simpl
  
  
   <section class="valuation-section"  id="valuationSection">
-  <div class="container">
-    <div class="valuation-grid">
-      <div>
-        <p class="section-label">Ready to explore your options?</p>
-        <h2 style="font-family:'Poppins',sans-serif;font-size:clamp(1.5rem,3vw,2rem);color:var(--navy);margin-bottom:1rem;">Take the next step today.</h2>
-        <p class="who-text">Complete the form below to tell us more about your property or portfolio. We will prepare a free, no-obligation assessment within 24 hours, followed by a strategic meeting to develop a tailored plan aligned with your immediate priorities and future goals.</p>
-        <ul class="check-list mt-4">
-          <li><span style="color:var(--green);font-size:1rem;">✓</span> Free Assessment within 24 Hours</li>
-          <li><span style="color:var(--green);font-size:1rem;">✓</span> No Obligation — No Pressure</li>
-          <li><span style="color:var(--green);font-size:1rem;">✓</span> Tailored Strategy Just for You</li>
-        </ul>
-      </div>
-      <div class="form-box">
-        <form id="valuationForm"">
-          <div class="form-grid">
-            <input class="form-input" name="full_name" placeholder="Full Name" placeholder="Your name *"
-                minlength="3"
-                maxlength="100"
-                required/>
-            <input class="form-input" name="email" placeholder="Email Address" type="email" required/>
-            <input class="form-input" name="phone" placeholder="Phone Number" placeholder="UK phone number"
-              pattern="^(?:\+44|0)7\d{9}$"
-              title="Enter a valid UK mobile number (e.g. +447123456789)" required/>
-            <select class="form-select" name="property_type" required>
-              <option value="">Property Type</option>
-              <option>Residential</option>
-              <option>Commercial</option>
-              <option>HMO</option>
-              <option>Portfolio</option>
-            </select>
-            <input class="form-input form-full" name="location" placeholder="Property Location" type="text" required/>
-            <textarea class="form-textarea form-full" name="details" placeholder="Brief Details" required  minlength="10"
-              maxlength="1000"></textarea>
-          </div>
-          <button class="form-submit" type="submit">Get My Free Valuation →</button>
-          <div id="formMessage"></div>
-        </form>
+    <div class="container">
+      <div class="valuation-grid">
+        <div>
+          <p class="section-label">Ready to explore your options?</p>
+          <h2 style="font-family:'Poppins',sans-serif;font-size:clamp(1.5rem,3vw,2rem);color:var(--navy);margin-bottom:1rem;">Take the next step today.</h2>
+          <p class="who-text">Complete the form below to tell us more about your property or portfolio. We will prepare a free, no-obligation assessment within 24 hours, followed by a strategic meeting to develop a tailored plan aligned with your immediate priorities and future goals.</p>
+          <ul class="check-list mt-4">
+            <li><span style="color:var(--green);font-size:1rem;">✓</span> Free Assessment within 24 Hours</li>
+            <li><span style="color:var(--green);font-size:1rem;">✓</span> No Obligation — No Pressure</li>
+            <li><span style="color:var(--green);font-size:1rem;">✓</span> Tailored Strategy Just for You</li>
+          </ul>
+        </div>
+        <div class="form-box">
+          <form id="valuationForm"">
+            <div class="form-grid">
+              <input class="form-input" name="full_name" placeholder="Full Name" placeholder="Your name *"
+                  minlength="3"
+                  maxlength="100"
+                  required/>
+              <input class="form-input" name="email" placeholder="Email Address" type="email" required/>
+              <input class="form-input" name="phone" placeholder="Phone Number" placeholder="UK phone number"
+                pattern="^(?:\+44|0)7\d{9}$"
+                title="Enter a valid UK mobile number (e.g. +447123456789)" required/>
+              <select class="form-select" name="property_type" required>
+                <option value="">Property Type</option>
+                <option>Residential</option>
+                <option>Commercial</option>
+                <option>HMO</option>
+                <option>Portfolio</option>
+              </select>
+              <input class="form-input form-full" name="location" placeholder="Property Location" type="text" required/>
+              <textarea class="form-textarea form-full" name="details" placeholder="Brief Details" required  minlength="10"
+                maxlength="1000"></textarea>
+            </div>
+
+             <div class="g-recaptcha mt-3" data-sitekey="6Ld3Yf0sAAAAADlD0O3tLi4d8hGEgmlOLCvJ-HcZ"></div>
+
+            <button class="form-submit" type="submit">Get My Free Valuation →</button>
+            <div id="formMessage"></div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </div>
 
 <!-- CTA Section -->
@@ -272,7 +275,7 @@ onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transfor
   <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="fill:#ffffff;display:block;">
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
 
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
      
     //   document.getElementById("valuationForm").addEventListener("submit", function(e) {
@@ -346,6 +349,29 @@ onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transfor
     e.preventDefault();
 
     let form = this;
+    let messageBox = document.getElementById("formMessage");
+
+    // reCAPTCHA validation
+    let recaptcha = grecaptcha.getResponse();
+
+    if(recaptcha.length === 0) {
+
+        messageBox.innerHTML = `
+            <div style="
+                margin-top:20px;
+                padding:15px;
+                background:#f8d7da;
+                color:#721c24;
+                border-radius:8px;
+                font-weight:600;
+            ">
+                Please complete the reCAPTCHA.
+            </div>
+        `;
+
+        return;
+    }
+
     let formData = new FormData(form);
 
     fetch("submit_form", {
@@ -356,8 +382,6 @@ onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transfor
     .then(response => response.json())
 
     .then(data => {
-
-        let messageBox = document.getElementById("formMessage");
 
         if(data.status === "success") {
 
@@ -377,6 +401,9 @@ onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transfor
             `;
 
             form.reset();
+
+            // Reset reCAPTCHA
+            grecaptcha.reset();
 
         } else {
 

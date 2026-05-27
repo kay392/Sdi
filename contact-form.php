@@ -79,6 +79,8 @@
           maxlength="1000"
         ></textarea>
 
+        <div class="g-recaptcha mt-3" data-sitekey="6Ld3Yf0sAAAAADlD0O3tLi4d8hGEgmlOLCvJ-HcZ"></div>
+
         <button class="consultation-submit" type="submit">
           Request consultation
         </button>
@@ -90,8 +92,8 @@
       
     </div>
   </div>
-
-  <script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <!-- <script>
       document.getElementById("consultationForm").addEventListener("submit", function(e) {
 
           e.preventDefault();
@@ -168,6 +170,110 @@
           });
 
       });
-  </script>
+  </script> -->
+
+  <script>
+document.getElementById("consultationForm").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    const form = this;
+    let messageBox = document.getElementById("formMessage");
+
+    // reCAPTCHA validation
+    let recaptcha = grecaptcha.getResponse();
+
+    if(recaptcha.length === 0) {
+
+        messageBox.innerHTML = `
+            <div style="
+                margin-top:20px;
+                padding:15px;
+                background:#f8d7da;
+                color:#721c24;
+                border-radius:8px;
+                font-weight:600;
+            ">
+                Please complete the reCAPTCHA.
+            </div>
+        `;
+
+        return;
+    }
+
+    let formData = new FormData(form);
+
+    fetch("submit_form", {
+        method: "POST",
+        body: formData
+    })
+
+    .then(async response => {
+
+        let text = await response.text();
+
+        try {
+            return JSON.parse(text);
+        } catch (e) {
+            console.log("Invalid JSON response:", text);
+            throw new Error("Server error");
+        }
+
+    })
+
+    .then(data => {
+
+        if(data.status === "success") {
+
+            console.log("Form submitted successfully:", data.status);
+
+            messageBox.innerHTML = `
+                <div style="
+                    margin-top:20px;
+                    padding:15px;
+                    background:#d4edda;
+                    color:#155724;
+                    border-radius:8px;
+                    font-weight:600;
+                ">
+                    ${data.message}
+                </div>
+            `;
+
+            // RESET FORM
+            form.reset();
+
+            // RESET reCAPTCHA
+            grecaptcha.reset();
+
+        } else {
+
+            messageBox.innerHTML = `
+                <div style="
+                    margin-top:20px;
+                    padding:15px;
+                    background:#f8d7da;
+                    color:#721c24;
+                    border-radius:8px;
+                    font-weight:600;
+                ">
+                    ${data.message}
+                </div>
+            `;
+        }
+
+        // AUTO REMOVE MESSAGE
+        setTimeout(() => {
+            messageBox.innerHTML = "";
+        }, 4000);
+
+    })
+
+    .catch(error => {
+        console.log(error);
+    });
+
+});
+</script>
 </body>
 </html>
