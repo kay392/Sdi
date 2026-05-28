@@ -325,7 +325,7 @@
         <div class="definition-box">
           <h3>Appeal Handler</h3>
           <p>
-            means an employee of (insert business name) working at (insert level) who will handle Level Two Complaints
+            means an employee of Synergy Data Investments working at (insert level) who will handle Level Two Complaints
           </p>
         </div>
 
@@ -339,7 +339,7 @@
         <div class="definition-box">
           <h3>Complaint</h3>
           <p>
-            means a complaint about (insert goods) AND/OR (insert services) sold by (insert business name)), about our customer service, or about our employees [agents] [subcontractors];
+            means a complaint about (insert goods) AND/OR (insert services) sold by Synergy Data Investments, about our customer service, or about our employees [agents] [subcontractors];
           </p>
         </div>
 
@@ -353,7 +353,7 @@
         <div class="definition-box">
           <h3>Complaint Handler</h3>
           <p>
-            means an employee of (insert business name) working at (insert level) who will handle Level One Complaints;
+            means an employee of Synergy Data Investments working at (insert level) who will handle Level One Complaints;
           </p>
         </div>
         <div class="definition-box">
@@ -365,7 +365,7 @@
         <div class="definition-box">
           <h3>Complaints Procedure</h3>
           <p>
-            means the internal complaints handling procedure of (insert business name) which is followed when handling a Complaint and is available from (insert location(s)) for your reference;
+            means the internal complaints handling procedure of Synergy Data Investments which is followed when handling a Complaint and is available from (insert location(s)) for your reference;
           </p>
         </div>
         <div class="definition-box">
@@ -409,12 +409,12 @@
 
 
         <ul>
-          <li>(Insert business name) welcomes and encourages feedback of all kinds from our customers.  If you have a Complaint about our (goods) AND/OR (services), our customer service, or about our employees [agents] [subcontractors], not only do we want to resolve it to your satisfaction but we also want to learn from it in order to improve our business and customer experience in the future.
+          <li>Synergy Data Investments welcomes and encourages feedback of all kinds from our customers.  If you have a Complaint about our (goods) AND/OR (services), our customer service, or about our employees [agents] [subcontractors], not only do we want to resolve it to your satisfaction but we also want to learn from it in order to improve our business and customer experience in the future.
             </li>
           <li>It is our policy to resolve Complaints quickly and fairly, where possible without recourse to formal investigations or external bodies.  In particular, the aims of this Complaints Policy are</li>
             <ul>
-                <li>To provide a clear and fair procedure for any customers who wish to make a Complaint about (insert business name), our (goods) AND/OR (services), our customer service, or about our employees [agents] [subcontractors];</li>
-                <li>To ensure that everyone working for or with (insert business name) knows how to handle Complaints made by our customers;</li>
+                <li>To provide a clear and fair procedure for any customers who wish to make a Complaint about Synergy Data Investments, our (goods) AND/OR (services), our customer service, or about our employees [agents] [subcontractors];</li>
+                <li>To ensure that everyone working for or with Synergy Data Investments knows how to handle Complaints made by our customers;</li>
                 <li>To ensure that all Complaints are handled equally and in a fair and timely fashion;</li>
                 <li>To ensure that important information is gathered from Complaints and used in the future to avoid such a situation arising again.</li>
                 
@@ -433,14 +433,14 @@
       <h2>What This Policy Covers</h2>
 
       <ul>
-        <li>This Complaints Policy applies to [the sale of goods] AND/OR [the provision of services] by (insert business name)), to our customer service and to our employees [agents] [subcontractors].</li>
-        <li>For the purposes of this Complaints Policy, any reference to (insert business name) also includes our employees [agents] [subcontractors]</li>
+        <li>This Complaints Policy applies to [the sale of goods] AND/OR [the provision of services] by Synergy Data Investments), to our customer service and to our employees [agents] [subcontractors].</li>
+        <li>For the purposes of this Complaints Policy, any reference to Synergy Data Investments also includes our employees [agents] [subcontractors]</li>
         <li>Complaints may relate to any of our activities and may include (but not be limited to):</li>
         <ul>
-          <li>The quality of customer service you have received from (insert business name);</li>
+          <li>The quality of customer service you have received from Synergy Data Investments;</li>
           <li>The behaviour and/or professional competence of our employees [agents] [subcontractors];</li>
-          <li>[Delays, defects or other problems associated with the sale of goods by (insert business name);]</li>
-          <li>[Delays, defects, poor workmanship or other problems associated with the provision of services by (insert business name);]</li>
+          <li>[Delays, defects or other problems associated with the sale of goods by Synergy Data Investments;]</li>
+          <li>[Delays, defects, poor workmanship or other problems associated with the provision of services by Synergy Data Investments;]</li>
           <li>(Insert additional examples or remove as appropriate).</li>
         </ul>
         <li>The following are not considered to be Complaints and should therefore be directed to the appropriate [person] OR [department]:</li>
@@ -485,7 +485,7 @@
           <li>If you are making a Complaint about a particular employee [agent] [subcontractor] of ours, the name and, where appropriate, position of that employee [agent] [subcontractor];</li>
           <li>Further details of your Complaint including, as appropriate, all times, dates, events, and people involved;</li>
           <li>Details of any documents or other evidence you wish to rely on in support of your Complaint;</li>
-          <li>Details of what you would like (insert business name) to do to resolve your Complaint and to put things right.  (Please note that whilst we will make every reasonable effort to accommodate such requests, we are not bound to take any action beyond that which we may be contractually or otherwise legally obliged to take.)</li>
+          <li>Details of what you would like Synergy Data Investments to do to resolve your Complaint and to put things right.  (Please note that whilst we will make every reasonable effort to accommodate such requests, we are not bound to take any action beyond that which we may be contractually or otherwise legally obliged to take.)</li>
           <li>(Insert additional examples or remove as appropriate).</li>
         </ul>
 
@@ -580,7 +580,7 @@
             Confidentiality and Data Protection
             <ul>
                 <li>
-                    All Complaints and information relating thereto are treated with the utmost confidence.  Such information will only be shared with those employees [agents] [subcontractors] of (insert business name)) who need to know in order to handle your Complaint.
+                    All Complaints and information relating thereto are treated with the utmost confidence.  Such information will only be shared with those employees [agents] [subcontractors] of Synergy Data Investments) who need to know in order to handle your Complaint.
                 </li>
                 <li>
                     We may ask for your permission to use details of your Complaint (with your personal details removed) for internal training and quality improvement purposes.  If you have given such permission, you may revoke it at any time by contacting (insert name and/or position)), whose details are provided above in Section 4.1.
@@ -604,7 +604,7 @@
             Policy Responsibility and Review:
             <ul>
                 <li>
-                    Overall responsibility for this Complaints Policy within (insert business name)) and the implementation thereof lies with (insert name and position / department etc.)).                
+                    Overall responsibility for this Complaints Policy within Synergy Data Investments) and the implementation thereof lies with (insert name and position / department etc.)).                
                 </li>
                 <li>
                     This Complaints Policy is regularly reviewed and updated as required.
