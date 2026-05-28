@@ -27,6 +27,7 @@
         <li><span>&check;</span><span>Investment and succession guidance</span></li>
         <li><span>&check;</span><span>No pressure. Clear next steps.</span></li>
       </ul>
+      <div id="formMessage" class="consultation-message" aria-live="polite"></div>
     </div>
     <div class="consultation-form-wrap">
       <button class="consultation-close" type="button" aria-label="Close consultation form" data-close-consultation>&times;</button>
@@ -84,8 +85,6 @@
         <button class="consultation-submit" type="submit">
           Request consultation
         </button>
-
-        <div id="formMessage"></div>
 
       </form>
       <p class="consultation-note">By submitting this form, you agree that SDI Group may contact you about your enquiry.</p>
@@ -187,7 +186,7 @@ document.getElementById("consultationForm").addEventListener("submit", function(
 
         messageBox.innerHTML = `
             <div style="
-                margin-top:20px;
+                margin-top:8px;
                 padding:15px;
                 background:#f8d7da;
                 color:#721c24;
@@ -229,7 +228,7 @@ document.getElementById("consultationForm").addEventListener("submit", function(
 
             messageBox.innerHTML = `
                 <div style="
-                    margin-top:20px;
+                    margin-top:8px;
                     padding:15px;
                     background:#d4edda;
                     color:#155724;
@@ -250,7 +249,7 @@ document.getElementById("consultationForm").addEventListener("submit", function(
 
             messageBox.innerHTML = `
                 <div style="
-                    margin-top:20px;
+                        margin-top:8px;
                     padding:15px;
                     background:#f8d7da;
                     color:#721c24;

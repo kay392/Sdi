@@ -117,13 +117,13 @@
 
       <div class="footer-bottom-links">
           <?php $current = basename($_SERVER['PHP_SELF']); ?>
-          <a href="Complaint-Procedure.php" class="<?php echo ($current === 'Complaint-Procedure.php') ? 'active' : ''; ?>">Complaint Procedure</a>
+          <a href="Complaint-Procedure.php" class="<?php echo ($current === 'Complaint-Procedure.php') ? 'active' : ''; ?>" <?php echo ($current === 'Complaint-Procedure.php') ? 'aria-current="page"' : ''; ?>>Complaint Procedure</a>
           <span>|</span>
 
-          <a href="Data-Protection-Policy.php" class="<?php echo ($current === 'Data-Protection-Policy.php') ? 'active' : ''; ?>" data-page="data-protection">Data Protection Policy</a>
+          <a href="Data-Protection-Policy.php" class="<?php echo ($current === 'Data-Protection-Policy.php') ? 'active' : ''; ?>" <?php echo ($current === 'Data-Protection-Policy.php') ? 'aria-current="page"' : ''; ?> data-page="data-protection">Data Protection Policy</a>
           <span>|</span>
 
-          <a href="Cookies-Policy.php" class="<?php echo ($current === 'Cookies-Policy.php') ? 'active' : ''; ?>" data-page="cookies">Cookies Policy</a>
+          <a href="Cookies-Policy.php" class="<?php echo ($current === 'Cookies-Policy.php') ? 'active' : ''; ?>" <?php echo ($current === 'Cookies-Policy.php') ? 'aria-current="page"' : ''; ?> data-page="cookies">Cookies Policy</a>
 
       
 
