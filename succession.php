@@ -227,7 +227,7 @@ In reality, nine out of ten clients we work with do not need to sell. They simpl
                 maxlength="1000"></textarea>
             </div>
 
-             <div class="g-recaptcha mt-3" data-sitekey="6Ld3Yf0sAAAAADlD0O3tLi4d8hGEgmlOLCvJ-HcZ"></div>
+             <div class="g-recaptcha mt-3" data-sitekey="6LfiC_8sAAAAAMAMejo__05cNMmS1UnYZuwKA-Ft"></div>
 
             <button class="form-submit" type="submit">Get My Free Valuation →</button>
             <div id="formMessage"></div>

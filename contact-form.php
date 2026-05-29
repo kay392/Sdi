@@ -80,7 +80,7 @@
           maxlength="1000"
         ></textarea>
 
-        <div class="g-recaptcha mt-3" data-sitekey="6Ld3Yf0sAAAAADlD0O3tLi4d8hGEgmlOLCvJ-HcZ"></div>
+        <div class="g-recaptcha mt-3" data-sitekey="6LfiC_8sAAAAAMAMejo__05cNMmS1UnYZuwKA-Ft"></div>
 
         <button class="consultation-submit" type="submit">
           Request consultation
