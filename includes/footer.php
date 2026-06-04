@@ -59,18 +59,18 @@
           <!-- <li><button onclick="navigate('investments')">Investments</button></li> -->
 
            <li>
-            <button onclick="window.location.href='investment.php#investment-01'">&#8250; 
+            <button onclick="window.location.href='buy-to-let-property-investment.php#investment-01'">&#8250; 
               Fixed Return
             </button>
           </li>
           <li>
-            <button onclick="window.location.href='investment.php#investment-02'">&#8250; 
+            <button onclick="window.location.href='buy-to-let-property-investment.php#investment-02'">&#8250; 
               Earn & Learn
             </button>
           </li>
 
           <li>
-            <button onclick="window.location.href='investment.php#investment-03'">&#8250; 
+            <button onclick="window.location.href='buy-to-let-property-investment.php#investment-03'">&#8250; 
               Joint Venture Partnership
             </button>
           </li>

@@ -39,17 +39,30 @@ let currentPage = 'home';
  
   const routes = {
     home: 'index.php',
-    about: 'aboutus.php',
-    investments: 'investment.php',
-    succession: 'succession.php'
+    about: 'about-us.php',
+    investments: 'buy-to-let-property-investment.php',
+    succession: 'exit-strategy-property-investment.php'
   };
 
   const pageAliases = {
     home: ['index', 'index.php', 'index.html', 'home', 'home.php', 'home.html', ''],
-    about: ['aboutus', 'aboutus.php', 'aboutus.html'],
-    investments: ['investment', 'investment.php', 'investment.html'],
-    succession: ['succession', 'succession.php', 'succession.html']
+    about: ['about-us', 'about-us.php', 'about-us.html', 'about-us', 'about-us.php', 'about-us.html'],
+    investments: ['investment', 'investment.php', 'investment.html', 'investments', 'investments.php', 'investments.html', 'buy-to-let-property-investment', 'buy-to-let-property-investment.php', 'buy-to-let-property-investment.html'],
+    succession: ['succession', 'succession.php', 'succession.html', 'exit-strategy-property-investment', 'exit-strategy-property-investment.php', 'exit-strategy-property-investment.html']
   };
+
+  function normalizePage(page) {
+    if (typeof page !== 'string') return page;
+    const token = page.replace(/^\//, '').toLowerCase();
+
+    for (const [key, aliases] of Object.entries(pageAliases)) {
+      if (aliases.includes(token)) {
+        return key;
+      }
+    }
+
+    return token;
+  }
 
   function getPathToken() {
     const path = window.location.pathname.replace(/\\/g, '/').toLowerCase();
@@ -290,17 +303,19 @@ let currentPage = 'home';
   }
  
   function navigate(page) {
-    if (routes[page]) {
+    const normalizedPage = normalizePage(page);
+
+    if (routes[normalizedPage]) {
       const currentPageName = getCurrentPage();
 
-      if (currentPageName !== page || (page === 'home' && isLegacyHomePath())) {
-        const targetUrl = new URL(routes[page], window.location.href);
+      if (currentPageName !== normalizedPage || (normalizedPage === 'home' && isLegacyHomePath())) {
+        const targetUrl = new URL(routes[normalizedPage], window.location.href);
         window.location.href = targetUrl.href;
         return;
       }
     }
  
-    setActivePage(page);
+    setActivePage(normalizedPage);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 

@@ -3,7 +3,22 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>SDI Group - Synergy Data Investments</title>
+    <!-- SEO -->
+    <title>Exit Strategy Property Investment | Synergy Data Investments</title>
+
+    <meta name="description" content="Execute a seamless property portfolio exit with Synergy Data Investments. Expert exit strategy property investment and succession planning for investors.">
+
+    <meta name="keywords" content="exit strategy property investment, succession planning for property, property portfolio exit">
+
+    <meta name="robots" content="exit-strategy-property-investment, follow">
+
+    <link rel="canonical" href="https://synergydatainvestments.co.uk/exit-strategy-property-investment">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Exit Strategy Property Investment | Synergy Data Investments">
+    <meta property="og:description" content="Execute a seamless property portfolio exit with Synergy Data Investments. Expert exit strategy property investment and succession planning for investors.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://synergydatainvestments.co.uk/exit-strategy-property-investment">
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>

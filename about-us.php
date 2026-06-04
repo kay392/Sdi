@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>SDI Group - Synergy Data Investments</title>
+    
+    <!-- SEO -->
+    <title>Property Investment Advisors UK | Synergy Data Investments</title>
+
+    <meta name="description" content="Partner with leading property investment advisors UK from Synergy Data Investments. Trusted ethical advisors scaling your property investment portfolio.">
+
+    <meta name="keywords" content="pproperty investment advisors uk, property investment portfolio, ethical property advisors">
+
+    <meta name="robots" content="about-us, follow">
+
+    <link rel="canonical" href="https://synergydatainvestments.co.uk/about-us">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Property Investment Advisors UK | Synergy Data Investments">
+    <meta property="og:description" content="Partner with leading property investment advisors UK from Synergy Data Investments. Trusted ethical advisors scaling your property investment portfolio.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://synergydatainvestments.co.uk/about-us">
+
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="style.css?v=2">

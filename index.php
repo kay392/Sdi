@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>SDI Group - Synergy Data Investments</title>
+    <!-- SEO -->
+    <title>Property Investment UK | Synergy Data Investments</title>
+
+    <meta name="description" content="Secure your future with premier property investment UK solutions from Synergy Data Investments. Discover sustainable, data-driven investment strategies today.">
+
+    <meta name="keywords" content="property investment uk, sustainable investment, data-driven investment">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://synergydatainvestments.co.uk/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Property Investment UK | Synergy Data Investments">
+    <meta property="og:description" content="Secure your future with premier property investment UK solutions from Synergy Data Investments. Discover sustainable, data-driven investment strategies today.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://synergydatainvestments.co.uk/">
+
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
@@ -27,7 +43,7 @@
 
     <ul class="nav-links" id="navLinks">
       <li><button onclick="navigate('home')" class="active" data-page="home">Home</button></li>
-      <li><button onclick="navigate('about')" data-page="about">About Us</button></li>
+      <li><button onclick="navigate('about-us')" data-page="about">About Us</button></li>
       <li><button onclick="navigate('investments')" data-page="investments">Investments</button></li>
       <li><button onclick="navigate('succession')" data-page="succession">Succession Planning</button></li>
     </li>
@@ -49,7 +65,7 @@
     <button onclick="navigate('home'); closeMobile()">Home</button>
     <button onclick="navigate('about'); closeMobile()">About Us</button>
     <button onclick="navigate('investments'); closeMobile()">Investments</button>
-    <button onclick="toggleMobileSuccessionDropdown(event)">Succession & Exit Planning</button>
+    <button onclick="navigate('succession'); closeMobile()">Succession & Exit Planning</button>
     <div class="mobile-submenu" id="mobileSuccessionMenu">
       <button type="button" onclick="navigateSuccessionSection('market-landscape')">Market landscape</button>
       <button type="button" onclick="navigateSuccessionSection('optimising-investment-portfolio')">Optimising Investment Portfolio</button>
@@ -86,7 +102,7 @@
           At SDI Group, we deploy capital with strategic discipline, data-led insight, and impactful purpose — directing private investment into essential assets that protect long-term value, support real-world needs, and create measurable impact for every stakeholder involved.
         </p>
         <div class="hero-btns">
-          <button class="btn-primary" onclick="navigate('investments')">
+          <button class="btn-primary" onclick="navigate('buy-to-let-property-investment')">
             Explore Investments
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </button>
