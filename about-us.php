@@ -15,6 +15,11 @@
 
     <link rel="canonical" href="https://synergydatainvestments.co.uk/about-us">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="Assets/SDI_Logo.svg">
+    <link rel="icon" type="image/png" href="Assets/SDI%20LOGO%20BLACK.png">
+    <link rel="apple-touch-icon" href="Assets/SDI%20LOGO%20BLACK.png">
+
     <!-- Open Graph -->
     <meta property="og:title" content="Property Investment Advisors UK | Synergy Data Investments">
     <meta property="og:description" content="Partner with leading property investment advisors UK from Synergy Data Investments. Trusted ethical advisors scaling your property investment portfolio.">

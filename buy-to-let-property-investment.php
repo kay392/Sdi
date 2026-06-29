@@ -15,6 +15,11 @@
 
     <link rel="canonical" href="https://synergydatainvestments.co.uk/buy-to-let-property-investment">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="Assets/SDI_Logo.svg">
+    <link rel="icon" type="image/png" href="Assets/SDI%20LOGO%20BLACK.png">
+    <link rel="apple-touch-icon" href="Assets/SDI%20LOGO%20BLACK.png">
+
     <!-- Open Graph -->
     <meta property="og:title" content="Buy to Let Property Investment UK |Synergy Data Investments">
     <meta property="og:description" content="Maximize property investment returns with premier buy to let property investment UK. Synergy Data Investments delivers proven joint venture property solutions.">

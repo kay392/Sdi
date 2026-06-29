@@ -1619,7 +1619,7 @@ h3.partner-label {
 
   .succ-hero-bg {
     position: absolute; inset: 0; z-index: 0;
-    background-image: url('Assets/sucess_hero.png');
+    background-image: url('https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1400');
     background-size: cover; background-position: center;
   }
 
@@ -3606,7 +3606,7 @@ h3.partner-label {
 
   .succ-hero-bg {
     position: absolute; inset: 0; z-index: 0;
-    background-image: url('Assets/sucess_hero.png');;
+    background-image: url('https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1400');
     background-size: cover; background-position: center;
   }
 

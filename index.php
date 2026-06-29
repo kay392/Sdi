@@ -14,6 +14,11 @@
 
     <link rel="canonical" href="https://synergydatainvestments.co.uk/">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="Assets/SDI_Logo.svg">
+    <link rel="icon" type="image/png" href="Assets/SDI%20LOGO%20BLACK.png">
+    <link rel="apple-touch-icon" href="Assets/SDI%20LOGO%20BLACK.png">
+
     <!-- Open Graph -->
     <meta property="og:title" content="Property Investment UK | Synergy Data Investments">
     <meta property="og:description" content="Secure your future with premier property investment UK solutions from Synergy Data Investments. Discover sustainable, data-driven investment strategies today.">
@@ -173,7 +178,7 @@
       <h2 class="who-title">Our Approch</h2>
       <div class="accent-bar"></div>
       <p class="who-text">Our approach is built around three clear principles: <b>Strategic. Data-Led. Impactful.</b></p>
-      <p class="who-text">With <b>18 years’ experience</b> and up to <b>£24.6M deployed</b>, we help investors access structured, resilient investment strategies across sectors connected to life’s essential needs.</p>
+      <p class="who-text">With <b>18 years’ experience</b> and up to <b>£25M deployed</b>, we help investors access structured, resilient investment strategies across sectors connected to life’s essential needs.</p>
       <p class="who-text">Through careful analysis, ethical acquisition, compliance-focused delivery, and active asset oversight, we create portfolios designed for stability, purpose, and long-term value.</p>
       <p class="who-text">Our objective is to help investors protect and grow wealth through informed decision-making, while supporting necessity-led sectors such as housing, healthcare, energy, food, and essential infrastructure — creating better outcomes for investors, providers, communities, and end users.</p>
     </div>
@@ -318,16 +323,36 @@
 
   <!-- Testimonials & Partners -->
  <section class="testimonial-section">
-    <div class="container">
+    <!-- <div class="container">
       <div id="testimonial-container">
         <h3 class="partner-label">WHAT OUR CLIENTS SAY</h3>
         <div class="trustindex-widget" data-widget-id="28be3da73644347d02467ec19d7"></div>
         <noscript>Please enable JavaScript to view the reviews.</noscript>
       </div>
+    </div> -->
+
+    
+    <div class="container">
+      <h3 class="partner-label">WHAT OUR CLIENTS SAY</h3>
+      <p class="review-status" id="googleReviewsStatus">Loading Google reviews…</p>
+
+      <div class="testimonial-slider" aria-label="Testimonials slider">
+        <div class="slider-track" id="testimonialTrack" role="list"></div>
+      </div>
+
+      <div style="text-align:center;margin-top:0.75rem;">
+        <a href="https://www.google.com/search?sca_esv=e56c24e2dda41652&rlz=1C1FKPE_en-GBLK1178LK1178&sxsrf=APpeQns0bJDac6K3kcgB_C3M_zARm0S_cA:1782276109274&si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_8H1iodmCxgOCMdRfBI-kOYN4aqy3f-hr9X0QzWLqo4Ql6udsKqMugYsFokWMEdGShD8aTla5-Z1OZnxy2440c5pR3oQ1sR-edXN7QCyJXWubo2oHNptYmu7_nI2QuWyf2TbP8E%3D&q=Synergy+Data+Investments+%28SDI+Group%29+Reviews&sa=X&ved=2ahUKEwjX5onzh5-VAxVzjGMGHcf_NT0Q0bkNegQIIBAF"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="openGoogleReviews"
+          class="google-reviews-btn">
+            Read all reviews on Google
+        </a>      
+      </div>
     </div>
   </section>
  
-<script defer async src='https://cdn.trustindex.io/loader.js?28be3da73644347d02467ec19d7'></script>
+
 
 <section class="testimonial-section">
   <div class="container">
@@ -386,7 +411,7 @@
   </div>
 </section>
 
-</main>
+
 <!-- CTA Section -->
 <section class="cta-advisor-section">
   <div class="cta-advisor-inner">
@@ -401,13 +426,183 @@
     </div>
     <a class="cta-advisor-btn" href="https://wa.me/447551935869?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Make an enquiry with SDI Group on WhatsApp">Make An Enquiry</a>
   </div>
-</section>
+
+  
+</main>
 
 <section>
   <?php include 'includes/footer.php'; ?>
 </section>
 
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
 
+
+  <!-- Testimonials & Partners - Sample slider (replace values with API data) -->
+  
+
+    <style>
+    .review-status{color:#374151;font-size:0.95rem;margin-bottom:1rem;}
+    .testimonial-slider{position:relative;margin-top:1rem;}
+    .slider-track{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:0 8px;}
+    .slider-track::-webkit-scrollbar{display:none}
+    .slide{scroll-snap-align:center;flex:0 0 100%;box-sizing:border-box;padding:1.5rem;border-radius:10px;background:#f9fafb;display:grid;grid-template-columns:1fr;gap:1rem;margin:8px 0}
+    .review-card{display:flex;gap:0.75rem;align-items:flex-start;padding:0.75rem;background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(15,23,42,0.06);}
+    .avatar{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:0 0 64px;box-shadow:0 4px 12px rgba(0,0,0,.15);background:#e5e7eb;} 
+    .review-content{flex:1;}
+    .stars{color:#f6b93b;margin-bottom:.25rem;font-size:1rem}
+    .review-name{font-weight:600;margin-bottom:.25rem;font-size:0.95rem}
+    .review-text{color:#333;line-height:1.5;font-size:0.9rem}
+    .review-text.collapsed{max-height:160px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical}
+    .review-text.expanded{max-height:none;display:block;-webkit-line-clamp:unset}
+    .read-more{background:none;border:none;color:#111827;font-weight:600;cursor:pointer;padding:0;margin-top:8px}
+    .slider-btn{position:absolute;top:50%;transform:translateY(-50%);background:#fff;border:1px solid rgba(0,0,0,0.08);border-radius:999px;padding:.5rem .65rem;cursor:pointer;font-size:1.2rem;box-shadow:0 6px 18px rgba(17,24,39,0.06)}
+    .slider-btn.prev{left:6px}
+    .slider-btn.next{right:6px}
+    .slider-dots{display:flex;gap:.5rem;justify-content:center;margin-top:.75rem}
+    .slider-dot{width:8px;height:8px;border-radius:50%;background:#d1d5db;cursor:pointer;border:none}
+    .slider-dot.active{background:#111827}
+    .google-reviews-btn{display:inline-block;padding:.5rem .9rem;border-radius:999px;background:#111827;color:#fff;text-decoration:none;font-weight:600}
+
+    @media(min-width:768px){ .slide{grid-template-columns:repeat(2,minmax(0,1fr));} }
+    @media(min-width:992px){ .slide{grid-template-columns:repeat(3,minmax(0,1fr));} }
+    @media(min-width:1200px){ .slide{grid-template-columns:repeat(4,minmax(0,1fr));} }
+    </style>
+
+    <script>
+    (function(){
+      const sampleData=[
+        {avatar:'https://via.placeholder.com/128',name:'Jane Doe',rating:5,text:'Excellent service and clear communication throughout. Highly recommended.'},
+        {avatar:'https://via.placeholder.com/128',name:'John Smith',rating:5,text:'Professional team, delivered on time and exceeded expectations.'},
+        {avatar:'https://via.placeholder.com/128',name:'Sarah Lee',rating:4,text:'Great experience — would work with them again.'},
+        {avatar:'https://via.placeholder.com/128',name:'Mark Taylor',rating:5,text:'Transparent process and strong results.'}
+      ];
+
+      const track=document.getElementById('testimonialTrack');
+      let slides = [];
+      const googlePlaceId = 'ChIJ6ybKWcqne0gR6LHjwkSJToE';
+      const googleReviewsUrl = `https://www.google.com/maps/search/?api=1&query_place_id=${encodeURIComponent(googlePlaceId)}`;
+
+      function createStarHtml(n){let s='';for(let i=0;i<5;i++){s+= i<n ? '★' : '☆';} return '<span class="stars">'+s+'</span>'; }
+
+      function chunkArray(array, size){ const chunks=[]; for(let i=0;i<array.length;i+=size){ chunks.push(array.slice(i,i+size)); } return chunks; }
+
+      function createReviewCard(d){
+        const needsReadMore = (d.text || '').length > 240;
+        return `
+          <div class="review-card">
+            <img src="${d.avatar}" alt="${d.name}" class="avatar" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(d.name)}&background=random&color=fff&bold=true'">
+            <div class="review-content">
+              ${createStarHtml(d.rating)}
+              <div class="review-name">${d.name}</div>
+              <div class="review-text collapsed">${d.text}</div>
+              ${needsReadMore ? `<button class="read-more" aria-expanded="false">Read more</button>` : ''}
+            </div>
+          </div>
+        `; }
+
+      function render(){
+        track.innerHTML='';
+        // group reviews into slides of 4 (show all available reviews in groups of 4)
+        const groups = chunkArray(sampleData, 4);
+
+        groups.forEach((group) => {
+          const slide=document.createElement('div'); slide.className='slide'; slide.setAttribute('role','listitem');
+          slide.innerHTML = group.map(d => createReviewCard(d)).join('');
+          track.appendChild(slide);
+        });
+
+        slides = Array.from(track.children);
+        // set Google reviews button href and maps link
+        // const btn = document.getElementById('openGoogleReviews');
+        // if(btn) btn.href = googleReviewsUrl;
+        // const mapLink = document.getElementById('mapsLink');
+        // if(mapLink) mapLink.href = googleReviewsUrl;
+      }
+
+      function slideWidthAt(i){ return slides[i] ? slides[i].offsetWidth + parseInt(getComputedStyle(track).gap || 0) : 0; }
+
+      function scrollToIndex(i){ if(!slides[i]) return; track.scrollTo({left: slides[i].offsetLeft - 8, behavior:'smooth'}); }
+
+      function updateActiveDot(){ /* dots removed — no-op */ }
+
+      function nearestIndex(){ if(!slides.length) return 0; const left = track.scrollLeft + 16; let nearest=0; let min=Infinity; slides.forEach((s, i)=>{ const dist = Math.abs(s.offsetLeft - left); if(dist<min){ min=dist; nearest=i; } }); return nearest; }
+
+      // Prev / Next buttons removed — navigation occurs via swipe/scroll
+
+      // Sync dots on scroll (debounced)
+      let scrollTimer; track.addEventListener('scroll', ()=>{ clearTimeout(scrollTimer); scrollTimer=setTimeout(updateActiveDot, 80); });
+
+      // Autoplay using snapping behavior
+      let autoplay = setInterval(()=>{ const idx = nearestIndex(); const nxt = (idx+1) % slides.length; scrollToIndex(nxt); }, 5000);
+      track.addEventListener('mouseenter', ()=> clearInterval(autoplay)); track.addEventListener('mouseleave', ()=> autoplay = setInterval(()=>{ const idx = nearestIndex(); const nxt = (idx+1) % slides.length; scrollToIndex(nxt); }, 5000));
+
+      // expose replaceTestimonials for API integration
+      window.replaceTestimonials = function(arr){ if(!Array.isArray(arr)) return; sampleData.length=0; arr.forEach(it=> sampleData.push({ avatar: it.avatar||'https://via.placeholder.com/128', name: it.name||'Anonymous', rating: Number(it.rating)||5, text: it.text||'' })); render(); }
+
+      // Toggle full review text when 'Read more' is clicked
+      track.addEventListener('click', function(e){
+        const btn = e.target.closest('.read-more');
+        if(!btn) return;
+        const card = btn.closest('.review-card');
+        if(!card) return;
+        const textEl = card.querySelector('.review-text');
+        if(!textEl) return;
+        const expanded = textEl.classList.toggle('expanded');
+        textEl.classList.toggle('collapsed', !expanded);
+        btn.textContent = expanded ? 'Read less' : 'Read more';
+        btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      });
+
+      function formatReviewData(reviews) {
+        return reviews.map(review => ({
+          avatar: review.profile_photo_url || 'https://via.placeholder.com/128',
+          name: review.author_name || 'Anonymous',
+          rating: review.rating || 5,
+          text: review.text || review.relative_time_description || ''
+        }));
+      }
+
+      function updateReviewStatus(message, isError = false) {
+        const statusEl = document.getElementById('googleReviewsStatus');
+        if (!statusEl) return;
+        statusEl.textContent = message;
+        statusEl.style.color = isError ? '#b91c1c' : '#374151';
+      }
+
+      function loadGoogleReviews() {
+        const placeId = 'ChIJ6ybKWcqne0gR6LHjwkSJToE';
+        const url = `google-reviews.php?place_id=${encodeURIComponent(placeId)}`;
+
+        fetch(url)
+          .then(response => response.json())
+          .then(data => {
+            if (data.status !== 'success' || !Array.isArray(data.reviews)) {
+              updateReviewStatus('Google reviews are unavailable right now.');
+              return;
+            }
+
+            if (data.reviews.length === 0) {
+              updateReviewStatus('No Google reviews found yet.');
+              return;
+            }
+
+            const reviewItems = formatReviewData(data.reviews);
+            window.replaceTestimonials(reviewItems);
+            updateReviewStatus(`Google ★ ${data.rating || 'N/A'} · ${data.user_ratings_total || 0} reviews`);
+          })
+          .catch(() => {
+            updateReviewStatus('Unable to load Google reviews at this time.', true);
+          });
+      }
+
+      // initial render
+      render();
+      window.addEventListener('resize', ()=> { slides = Array.from(track.children); updateActiveDot(); });
+      loadGoogleReviews();
+    })();
+    </script>
+
+<!-- Newsletter Section -->
 
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">↑</button>
     <!-- JS Link -->

@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book a Consultation | SDI Group</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="Assets/SDI_Logo.svg">
+  <link rel="icon" type="image/png" href="Assets/SDI%20LOGO%20BLACK.png">
+  <link rel="apple-touch-icon" href="Assets/SDI%20LOGO%20BLACK.png">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -39,7 +45,7 @@
         <input 
           name="full_name"
           type="text"
-          placeholder="Your name *"
+          placeholder="Full name *"
           minlength="3"
           maxlength="100"
           required
@@ -65,11 +71,11 @@
         <!-- PROPERTY TYPE -->
         <select name="property_type" aria-label="Area of interest" required>
           <option value="">What would you like to discuss?</option>
-          <option>Property investment</option>
-          <option>Earn & Learn programme</option>
-          <option>Joint venture partnership</option>
-          <option>Succession & exit planning</option>
-          <option>Others</option>
+          <option value="property_investment">Property investment</option>
+          <option value="earn_learn">Earn & Learn programme</option>
+          <option value="joint_venture">Joint venture partnership</option>
+          <option value="succession_exit">Succession & exit planning</option>
+          <option value="others">Others</option>
         </select>
 
         <!-- DETAILS -->
@@ -79,6 +85,15 @@
           minlength="10"
           maxlength="1000"
         ></textarea>
+
+        <!-- Date and Time -->
+
+        <input
+        class="form-input"
+        name="preferred_datetime"
+        type="datetime-local"
+        min="<?php echo date('Y-m-d\TH:i'); ?>"
+        required>
 
         <div class="g-recaptcha mt-3" data-sitekey="6LfiC_8sAAAAAMAMejo__05cNMmS1UnYZuwKA-Ft"></div>
 
